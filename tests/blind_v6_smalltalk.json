@@ -1,0 +1,122 @@
+[
+ {
+  "u": "gud mrng",
+  "intent": "greeting_time"
+ },
+ {
+  "u": "Good Evening!!",
+  "intent": "greeting_time"
+ },
+ {
+  "u": "helloooo there",
+  "intent": "greeting"
+ },
+ {
+  "u": "yo",
+  "intent": "greeting"
+ },
+ {
+  "u": "how r u doin",
+  "intent": "how_are_you"
+ },
+ {
+  "u": "wassup",
+  "intent": "whats_up"
+ },
+ {
+  "u": "who made u",
+  "intent": "creator"
+ },
+ {
+  "u": "r u a robot?",
+  "intent": "is_bot"
+ },
+ {
+  "u": "ur name?",
+  "intent": "identity"
+ },
+ {
+  "u": "tnx a lot",
+  "intent": "thanks"
+ },
+ {
+  "u": "thank u so much machan",
+  "intent": "thanks"
+ },
+ {
+  "u": "c u later",
+  "intent": "bye"
+ },
+ {
+  "u": "gn",
+  "intent": "good_night"
+ },
+ {
+  "u": "awesome bot",
+  "intent": "praise"
+ },
+ {
+  "u": "okk",
+  "intent": "ack"
+ },
+ {
+  "u": "my bad",
+  "intent": "apology"
+ },
+ {
+  "u": "lol",
+  "intent": "laughter"
+ },
+ {
+  "u": "ur useless",
+  "intent": "insult"
+ },
+ {
+  "u": "im so stressed about exams",
+  "intent": "emotion_negative"
+ },
+ {
+  "u": "i passed!!",
+  "intent": "emotion_positive"
+ },
+ {
+  "u": "nice to meet u",
+  "intent": "nice_to_meet"
+ },
+ {
+  "u": "i dont understand",
+  "intent": "confused"
+ },
+ {
+  "u": "testing 123",
+  "intent": "test"
+ },
+ {
+  "u": "im bored",
+  "intent": "bored"
+ },
+ {
+  "u": "tell me something funny",
+  "intent": "joke"
+ },
+ {
+  "u": "what can u do",
+  "intent": "capability"
+ },
+ {
+  "u": "whats the date today",
+  "intent": "out_of_domain_time"
+ },
+ {
+  "u": "😀",
+  "intent": "laughter|emotion_positive|greeting|praise"
+ },
+ {
+  "u": "👍",
+  "intent": "ack|praise"
+ },
+ {
+  "u": "kohomada",
+  "intent": "how_are_you|greeting"
+ }
+]

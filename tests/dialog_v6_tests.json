@@ -1,0 +1,484 @@
+[
+ {
+  "name": "v6_they_people",
+  "turns": [
+   {
+    "user": "who researches internet of things?",
+    "expect": [
+     "Staff"
+    ]
+   },
+   {
+    "user": "what are their emails?",
+    "expect": [
+     "re:(?s)@kdu\\.ac\\.lk.*@kdu\\.ac\\.lk.*@kdu\\.ac\\.lk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_nth_module",
+  "turns": [
+   {
+    "user": "what are the electives in semester 5 for computer science?",
+    "expect": [
+     "CS3082"
+    ]
+   },
+   {
+    "user": "how many credits is the first one?",
+    "expect": [
+     "re:CS3\\d{3}",
+     "credits"
+    ]
+   },
+   {
+    "user": "what is the second one about?",
+    "expect": [
+     "re:CS3\\d{3}"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_semester_it",
+  "turns": [
+   {
+    "user": "how many modules are there in semester 5 for SE?",
+    "expect": [
+     "12"
+    ]
+   },
+   {
+    "user": "how many credits does it have?",
+    "expect": [
+     "Semester 5",
+     "17"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_she_her",
+  "turns": [
+   {
+    "user": "who is the head of the computer science department?",
+    "expect": [
+     "Sirisuriya"
+    ]
+   },
+   {
+    "user": "what are her research areas?",
+    "expect": [
+     "Sirisuriya"
+    ]
+   },
+   {
+    "user": "and her email?",
+    "expect": [
+     "@kdu.ac.lk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_programme_switch",
+  "turns": [
+   {
+    "user": "how many GPA credits in semester 6 for software engineering?",
+    "expect": [
+     "SE"
+    ]
+   },
+   {
+    "user": "what about CS?",
+    "expect": [
+     "CS"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_two_questions",
+  "turns": [
+   {
+    "user": "who is the dean and what is his email?",
+    "expect": [
+     "Gunasekara",
+     "asela@kdu.ac.lk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_two_questions_2",
+  "turns": [
+   {
+    "user": "what is the pass mark? also what is the attendance requirement?",
+    "expect": [
+     "45%",
+     "80%"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_repeat",
+  "turns": [
+   {
+    "user": "what is the minimum attendance?",
+    "expect": [
+     "80%"
+    ]
+   },
+   {
+    "user": "can you repeat that?",
+    "expect": [
+     "80%"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_more_detail",
+  "turns": [
+   {
+    "user": "what is CS4042?",
+    "expect": [
+     "Machine Learning"
+    ]
+   },
+   {
+    "user": "tell me more",
+    "expect": [
+     "Machine Learning",
+     "re:.{150,}"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_source",
+  "turns": [
+   {
+    "user": "what is the pass mark for a course?",
+    "expect": [
+     "45%"
+    ]
+   },
+   {
+    "user": "where did you get that?",
+    "expect": [
+     "page|section|Section"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_why",
+  "turns": [
+   {
+    "user": "can I get first class with an FGPA of 3.5?",
+    "expect": [
+     "No"
+    ]
+   },
+   {
+    "user": "why?",
+    "expect": [
+     "3.70"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_invalid_marks",
+  "turns": [
+   {
+    "user": "what grade do I get for 150 marks?",
+    "expect": [
+     "0",
+     "100"
+    ],
+    "not": [
+     "grade A+"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_invalid_fgpa",
+  "turns": [
+   {
+    "user": "what class is an FGPA of 5.2?",
+    "expect": [
+     "4.2|4.20"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_invalid_semester",
+  "turns": [
+   {
+    "user": "what modules are in semester 10?",
+    "expect": [
+     "1",
+     "8"
+    ],
+    "not": [
+     "CS1012"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_unknown_person",
+  "turns": [
+   {
+    "user": "what is the email of Dr. Perera?",
+    "expect": [
+     "couldn't find|no staff|not find"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_unknown_module_code",
+  "turns": [
+   {
+    "user": "how many credits is CS9999?",
+    "expect": [
+     "CS9999"
+    ],
+    "not": [
+     "CS2082"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_sinhala_script",
+  "turns": [
+   {
+    "user": "ඩීන් කවුද?",
+    "expect": [
+     "English|Singlish"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_vague_single_word",
+  "turns": [
+   {
+    "user": "credits",
+    "expect": [
+     "module|semester|degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "Credits in a semester",
+    "expect": [
+     "semester|Semester"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_greeting_question_combo",
+  "turns": [
+   {
+    "user": "good morning! what is the faculty email?",
+    "expect": [
+     "Good morning",
+     "hoditm@kdu.ac.lk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_thanks_followup",
+  "turns": [
+   {
+    "user": "who is the registrar?",
+    "expect": [
+     "Kithsiri"
+    ]
+   },
+   {
+    "user": "thanks, and the deputy registrar?",
+    "expect": [
+     "Dissanayke"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_emotion_then_question",
+  "turns": [
+   {
+    "user": "i failed my exam",
+    "expect": [
+     "re-sit|repeat|supplementary"
+    ],
+    "options": true
+   },
+   {
+    "user": "can i resit it?",
+    "expect": [
+     "re-sit|resit|re-sitting"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_both_option",
+  "turns": [
+   {
+    "user": "credits for industrial training",
+    "expect": [
+     "Which"
+    ],
+    "options": true
+   },
+   {
+    "user": "both",
+    "expect": [
+     "CS4986",
+     "SE4996"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_context_marks",
+  "turns": [
+   {
+    "user": "I got 68 marks for databases",
+    "expect": [
+     "B+"
+    ]
+   },
+   {
+    "user": "did I pass?",
+    "expect": [
+     "re:^Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_programme_memory_change",
+  "turns": [
+   {
+    "user": "I'm an SE student",
+    "expect": [
+     "Software Engineering"
+    ]
+   },
+   {
+    "user": "actually I'm in CS",
+    "expect": [
+     "Computer Science"
+    ]
+   },
+   {
+    "user": "electives in semester 7?",
+    "expect": [
+     "CS ("
+    ],
+    "not": [
+     "SE ("
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_department_they",
+  "turns": [
+   {
+    "user": "what degrees does the IT department offer?",
+    "expect": [
+     "Information Systems"
+    ]
+   },
+   {
+    "user": "how long are they?",
+    "expect": [
+     "4 years"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_compare_followup",
+  "turns": [
+   {
+    "user": "compare CS and SE degrees",
+    "expect": [
+     "128",
+     "127"
+    ]
+   },
+   {
+    "user": "which one has more credits?",
+    "expect": [
+     "Computer Science|CS",
+     "128"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_long_rambling",
+  "turns": [
+   {
+    "user": "hey so i was wondering because my friend told me something and i am confused, how many credits is the machine learning module actually?",
+    "expect": [
+     "re:\\b2 GPA credits"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_profanity",
+  "turns": [
+   {
+    "user": "wtf is this",
+    "expect": [
+     "sorry|Sorry|help"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_number_only",
+  "turns": [
+   {
+    "user": "what grade do i get for 72 marks?",
+    "expect": [
+     "A-"
+    ]
+   },
+   {
+    "user": "58",
+    "expect": [
+     "B-"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v6_code_only",
+  "turns": [
+   {
+    "user": "CS1043",
+    "expect": [
+     "Fundamentals of Databases"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart>=0.0.9
+pdfplumber>=0.11
+# optional: OCR for image-only pages (also needs the Tesseract program installed)
+# pytesseract>=0.3

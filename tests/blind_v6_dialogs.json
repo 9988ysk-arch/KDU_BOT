@@ -1,0 +1,271 @@
+[
+ {
+  "name": "bv6_morning_dean",
+  "turns": [
+   {
+    "user": "good morning, who is the dean?",
+    "expect": [
+     "Good morning",
+     "Gunasekara"
+    ]
+   },
+   {
+    "user": "what's his email?",
+    "expect": [
+     "asela@kdu.ac.lk"
+    ]
+   },
+   {
+    "user": "and his research areas?",
+    "expect": [
+     "Human Computer Interaction"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_module_more",
+  "turns": [
+   {
+    "user": "what is CS2082",
+    "expect": [
+     "Artificial Intelligence"
+    ]
+   },
+   {
+    "user": "which semester is it in?",
+    "expect": [
+     "4"
+    ]
+   },
+   {
+    "user": "tell me more about it",
+    "expect": [
+     "Artificial Intelligence",
+     "re:.{150,}"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_grade_numbers",
+  "turns": [
+   {
+    "user": "what grade for 81 marks",
+    "expect": [
+     "A"
+    ],
+    "not": [
+     "A+"
+    ]
+   },
+   {
+    "user": "what about 90?",
+    "expect": [
+     "A+"
+    ]
+   },
+   {
+    "user": "and 44",
+    "expect": [
+     "C-"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_invalid",
+  "turns": [
+   {
+    "user": "what grade is 105 marks?",
+    "expect": [
+     "0",
+     "100"
+    ]
+   },
+   {
+    "user": "electives in semester 9",
+    "expect": [
+     "8"
+    ],
+    "not": [
+     "CS3"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_fgpa_why",
+  "turns": [
+   {
+    "user": "is 3.75 a first class?",
+    "expect": [
+     "Yes"
+    ]
+   },
+   {
+    "user": "why?",
+    "expect": [
+     "3.70"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_source_repeat",
+  "turns": [
+   {
+    "user": "what is the minimum attendance to sit exams?",
+    "expect": [
+     "80%"
+    ]
+   },
+   {
+    "user": "which page is that on?",
+    "expect": [
+     "page"
+    ]
+   },
+   {
+    "user": "say that again",
+    "expect": [
+     "80%"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_two_q",
+  "turns": [
+   {
+    "user": "who is the registrar? also who is the vice chancellor?",
+    "expect": [
+     "Kithsiri",
+     "Peiris"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_vague",
+  "turns": [
+   {
+    "user": "grades",
+    "expect": [
+     "grade"
+    ],
+    "options": true
+   },
+   {
+    "user": "Pass mark",
+    "expect": [
+     "45%"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_dept_list",
+  "turns": [
+   {
+    "user": "which degrees are offered by the department of computer science",
+    "expect": [
+     "Computer Science",
+     "Software Engineering"
+    ]
+   },
+   {
+    "user": "how long are they",
+    "expect": [
+     "4 years"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_marks_memory",
+  "turns": [
+   {
+    "user": "my marks for AI was 52",
+    "expect": [
+     "C+"
+    ]
+   },
+   {
+    "user": "did i pass",
+    "expect": [
+     "re:^Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_sick",
+  "turns": [
+   {
+    "user": "i was sick and missed my final exam what should i do",
+    "expect": [
+     "Excuse|medical"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_unknown_person",
+  "turns": [
+   {
+    "user": "who is Prof. Silva?",
+    "expect": [
+     "couldn't find|not find"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_tamil",
+  "turns": [
+   {
+    "user": "டீன் யார்?",
+    "expect": [
+     "English|Singlish"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_emotion",
+  "turns": [
+   {
+    "user": "i'm worried i'll fail",
+    "expect": [
+     "re-sit|repeat|supplementary|help"
+    ]
+   },
+   {
+    "user": "what is the pass mark?",
+    "expect": [
+     "45%"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bv6_compare_more",
+  "turns": [
+   {
+    "user": "compare computer science and software engineering",
+    "expect": [
+     "128",
+     "127"
+    ]
+   },
+   {
+    "user": "which has fewer credits?",
+    "expect": [
+     "Software Engineering",
+     "127"
+    ]
+   }
+  ]
+ }
+]

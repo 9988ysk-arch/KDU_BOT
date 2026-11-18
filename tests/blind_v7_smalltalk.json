@@ -1,0 +1,162 @@
+[
+ {
+  "u": "hey whats good",
+  "intent": "greeting|whats_up"
+ },
+ {
+  "u": "good morning everyone",
+  "intent": "greeting_time"
+ },
+ {
+  "u": "morning machan",
+  "intent": "greeting_time"
+ },
+ {
+  "u": "thank u very much",
+  "intent": "thanks"
+ },
+ {
+  "u": "thanks a bunch",
+  "intent": "thanks"
+ },
+ {
+  "u": "bohoma sthuthi",
+  "intent": "thanks"
+ },
+ {
+  "u": "u r the best",
+  "intent": "praise"
+ },
+ {
+  "u": "that was really useful",
+  "intent": "praise|thanks"
+ },
+ {
+  "u": "bye for now",
+  "intent": "bye"
+ },
+ {
+  "u": "see u tomorrow",
+  "intent": "bye"
+ },
+ {
+  "u": "gn all",
+  "intent": "good_night"
+ },
+ {
+  "u": "can u help",
+  "intent": "capability"
+ },
+ {
+  "u": "what do u do",
+  "intent": "capability|identity"
+ },
+ {
+  "u": "are you an ai",
+  "intent": "is_bot"
+ },
+ {
+  "u": "who built this bot",
+  "intent": "creator"
+ },
+ {
+  "u": "im feeling stressed about my results",
+  "intent": "emotion_negative"
+ },
+ {
+  "u": "i cleared all my modules",
+  "intent": "emotion_positive"
+ },
+ {
+  "u": "happy new year",
+  "intent": "celebration"
+ },
+ {
+  "u": "all the best for me",
+  "intent": "good_luck"
+ },
+ {
+  "u": "i am doing great",
+  "intent": "user_fine"
+ },
+ {
+  "u": "can you understand sinhala",
+  "intent": "language"
+ },
+ {
+  "u": "you are so dumb",
+  "intent": "insult"
+ },
+ {
+  "u": "sorry my fault",
+  "intent": "apology"
+ },
+ {
+  "u": "hahaha",
+  "intent": "laughter"
+ },
+ {
+  "u": "ok got it",
+  "intent": "ack"
+ },
+ {
+  "u": "hmm ok",
+  "intent": "ack"
+ },
+ {
+  "u": "anybody there?",
+  "intent": "test"
+ },
+ {
+  "u": "tell me a funny joke",
+  "intent": "joke"
+ },
+ {
+  "u": "whats the weather like",
+  "intent": "out_of_domain_general"
+ },
+ {
+  "u": "what time is it now",
+  "intent": "out_of_domain_time"
+ },
+ {
+  "u": "im bored af",
+  "intent": "bored"
+ },
+ {
+  "u": "nice to meet you too",
+  "intent": "nice_to_meet"
+ },
+ {
+  "u": "ammo",
+  "intent": "confused|ack|laughter"
+ },
+ {
+  "u": "kohomada oyata",
+  "intent": "how_are_you"
+ },
+ {
+  "u": "ayubowan",
+  "intent": "greeting"
+ },
+ {
+  "u": "i love this bot",
+  "intent": "affection|praise"
+ },
+ {
+  "u": "thank you so much for your help",
+  "intent": "thanks"
+ },
+ {
+  "u": "great job bot",
+  "intent": "praise"
+ },
+ {
+  "u": "good evening sir",
+  "intent": "greeting_time"
+ },
+ {
+  "u": "cya",
+  "intent": "bye"
+ }
+]

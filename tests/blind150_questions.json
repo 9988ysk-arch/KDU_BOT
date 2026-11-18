@@ -1,0 +1,1234 @@
+[
+ {
+  "cat": "semester_count",
+  "q": "How many modules are in semester 3?",
+  "expect": [
+   "11 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "mail address of Dr. W Gunathilake",
+  "expect": [
+   "wijendrapg@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "height",
+  "q": "What is the height requirement for a male applicant to the army?",
+  "expect": [
+   "165.1 cm (5’5”)"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of SE3052",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "do I have to take Calculus and Numerical Methods or is it elective?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "CS1082 is worth how many credits?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many NGPA credits in semseter 8 for software engineering?",
+  "expect": [
+   "6 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "got 67 in the exam, which grade?",
+  "expect": [
+   "grade B+",
+   "3.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "with an FGPA of 4.00 what is my result",
+  "expect": [
+   "First"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Ms. JJRS Fernando is a lecturer or instructor?",
+  "expect": [
+   "Instructor Gr.II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "find the code for Automata Theory",
+  "expect": [
+   "CS3122"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "give the modlue title for CS1012",
+  "expect": [
+   "Fundamentals",
+   "Programming"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "GPA credits for semester 7 for computer science",
+  "expect": [
+   "14 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of CS4986",
+  "expect": [
+   "6 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "what code is used for Theory of Programing Languages?",
+  "expect": [
+   "CS4022"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "what code is used for Microcontrollers and Embedded Systems?",
+  "expect": [
+   "COE3052"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "give the module title for CS3992",
+  "expect": [
+   "Independent",
+   "Study"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "tell me the creidts of Fundamentals of Programming",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "give me Mr. RPS Kathriarachchi's e-mail",
+  "expect": [
+   "pathum@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "what code is used for Foundation of Computer Science?",
+  "expect": [
+   "CS1022"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "do I have to take Computer Networks I or is it elective?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "do I have to take Computer and Network Security or is it elective?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "what post does Mrs. PRD Wijesinghe hold?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "semester 5 subjects for CS",
+  "expect": [
+   "CS3023",
+   "CS3202",
+   "CS3042"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Requirements Engineering is worth how many credits?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Emerging Trends in Computing has which module code?",
+  "expect": [
+   "CS4012"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Foundation of Computer Science elective or compulsory",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade B?",
+  "expect": [
+   "60"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "marks range for grade D+",
+  "expect": [
+   "35"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many courses do students take in semester 1?",
+  "expect": [
+   "11 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Programming Laboratory* elective or compulsory",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "SE2013 means what module?",
+  "expect": [
+   "Software",
+   "Project"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how much credit for CS1092",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "semester of Strategic Defence Studies?",
+  "expect": [
+   "Semester 3"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "what credit does SE3072 have",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "What is the GPV of C+?",
+  "expect": [
+   "2.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "List the modules in semseter 1",
+  "expect": [
+   "CS1101",
+   "DL1132",
+   "MS1014"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "FGPA=3.45 which class honours",
+  "expect": [
+   "Upper"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "mail address of Dr. GA Chandima N. Priyadarshani",
+  "expect": [
+   "priyadarshanigacn@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "semester of Foundation of Computer Science?",
+  "expect": [
+   "Semester 1"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "CS2072 is which subject?",
+  "expect": [
+   "Advanced",
+   "Computer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Software Project Management comes in what semester?",
+  "expect": [
+   "Semester 4"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "give the mdoule title for CS3122",
+  "expect": [
+   "Automata",
+   "Theory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "tell me the credits of Nature Inspired Computing",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "do I have to take Microcontrollers and Embedded Systems or is it elective?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "is Nature Inspired Computing mandatory?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "what code is used for Calculus and Numerical Methods?",
+  "expect": [
+   "CM2013"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "semester of Programming Laboratory*?",
+  "expect": [
+   "Semester 1"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "e-mail for Ms. JJRS Fernando",
+  "expect": [
+   "fernandojjrs@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Data Structures and Algorithms I elective or compulsory",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "semester of Concurrent Programming?",
+  "expect": [
+   "Semester 5"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "do I have to take Mobile Computing or is it elective?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of Software Quality",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "e-mail for Ms. K Anuradha",
+  "expect": [
+   "kanuradha@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "full name of CS1101",
+  "expect": [
+   "Programming",
+   "Laboratory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "what credit does DL1132 have",
+  "expect": [
+   "2 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Computer Music is worth how many credits?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "give the mdoule title for CS1022",
+  "expect": [
+   "Foundation",
+   "Computer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total GPA credits in semester 1",
+  "expect": [
+   "17 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "job title of Ms. D Gunasekera",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "semesetr of Automata Theory?",
+  "expect": [
+   "Semester 6"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "what credit does CS3042 have",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of CS3192",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "with an FGPA of 2.15 what is my result",
+  "expect": [
+   "Pass"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of CS2072",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "give me Mr. GIF de Silva's e-mail",
+  "expect": [
+   "indika@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "What modules are in semester 2?",
+  "expect": [
+   "CS1062",
+   "ET1102",
+   "EE1102"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "what cerdit does CS3023 have",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how much credit for COE3052",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "CS3172 is which subject?",
+  "expect": [
+   "Digital",
+   "Forensics"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "give the module title for CS4042",
+  "expect": [
+   "Machine",
+   "Learning"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how much credit for Machine Learning",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "what credit does MS2024 have",
+  "expect": [
+   "4 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "with an FGPA of 3.30 what is my result",
+  "expect": [
+   "Upper"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of CS4022",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "what post does Mr. RPS Kathriarachchi hold?",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "what post does Eng. MWP Maduranga hold?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "List the modules in semester 4",
+  "expect": [
+   "EE2222",
+   "CS2082",
+   "SE2022"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how much creidt for COE4042",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "what credit does CM4012 have",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "what post does Eng. DB Wijesinghe hold?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Software Project Management has which module code?",
+  "expect": [
+   "SE2013"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade A?",
+  "expect": [
+   "75"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Dr. Asela Gunasekara is a lecturer or instructor?",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Concurrent Programming is worth how many credits?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Web Development is worth how many credits?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "mail address of Dr. N Wedasinghe",
+  "expect": [
+   "nirosha@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "with an FGPA of 3.95 what is my result",
+  "expect": [
+   "First"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "MGPA credits for semester 1",
+  "expect": [
+   "4 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "SE4999 is worth how many credits?",
+  "expect": [
+   "9 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Ms. MVT Kawya is a lecturer or instructor?",
+  "expect": [
+   "Instructor"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "crdeit count of CS1012",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "give the modlue title for CS2052",
+  "expect": [
+   "Requirements",
+   "Engineering"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total NGPA credits in semetser 7 for computer science",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of SE3062",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "number of modules in semester 4",
+  "expect": [
+   "10 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "CS4022 is which subject?",
+  "expect": [
+   "Theory",
+   "Programing"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "give the module title for CS4102",
+  "expect": [
+   "Computer",
+   "Music"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "give the modlue title for CM2013",
+  "expect": [
+   "Calculus",
+   "Numerical"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "GPA credits for semseter 8 for computer science",
+  "expect": [
+   "9 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "what credit does CS4082 have",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "marks range for grade C-",
+  "expect": [
+   "40"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "what post does Ms. GAI Uwanthika hold?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "CS2032 is worth how many credits?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "MS3032 means what module?",
+  "expect": [
+   "Strategic",
+   "Defence"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "give me Ms. I Udayangi's e-mail",
+  "expect": [
+   "nduniguruge@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "what post does Maj. RMM Pradeep hold?",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "tell me the credits of Human Computer Interaction",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "give me Dr. K Kottegoda's e-mail",
+  "expect": [
+   "kapilak@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "grade for a final mark of 63",
+  "expect": [
+   "grade B",
+   "3.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Software Verification and Validation is worth how many credits?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "what post does Ms. Kalani Sriya Ilmini hold?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how much crdeit for COE1993",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of SE2013",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how much credit for Group Project in Hardware",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "during which semester can I take Computer Music?",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "final result for FGPA 3.1",
+  "expect": [
+   "Lower"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "GPA credits for semester 6 for computer science",
+  "expect": [
+   "17 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "height",
+  "q": "What is the height requirement for a male applicant to the air force?",
+  "expect": [
+   "167.6 cm (5’.6”)"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "during which semester can I take Machine Learning?",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "give me Dr. Thushara Weerawardane's e-mail",
+  "expect": [
+   "tlw@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "mail address of Miss NT Jayatilake",
+  "expect": [
+   "jayatilakan@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "full name of CS1082",
+  "expect": [
+   "Development"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of Theory of Programing Languages",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of SE4022",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "semester 7 subjects for SE",
+  "expect": [
+   "CS4012",
+   "SE4032",
+   "CS4022"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many NGPA credits in semester 5 for CS?",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "is Concurrent Programming mandatory?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "mail address of Mrs. SCM De Silva Sirisuriya",
+  "expect": [
+   "mihiri@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "is Software Project Management mandatory?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "got 80 in the exam, which grade?",
+  "expect": [
+   "grade A",
+   "4.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "CS3112 means what module?",
+  "expect": [
+   "Computer",
+   "Graphics"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "grade for a final mark of 56",
+  "expect": [
+   "grade B-",
+   "2.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Miss GAD Ganepola is a lecturer or instructor?",
+  "expect": [
+   "Instructor Grade II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how much credit for CS3122",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "CS1022 is worth how many credits?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "do I have to take Machine Learning or is it elecitve?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Dr. K Kottegoda is a lecturer or instructor?",
+  "expect": [
+   "Senior Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "find the code for Semantic Web and Ontology",
+  "expect": [
+   "CS4082"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "e-mail for Miss MAST Goonatilleke",
+  "expect": [
+   "goonatillekemast@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "final result for FGPA 2.0",
+  "expect": [
+   "Pass"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "full name of CS1092",
+  "expect": [
+   "Computer",
+   "Networks"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "do I have to take Discrete Mathematics or is it elective?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how much credit for Software Evolution",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "which letter grade is 99",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "e-mail for Mrs. PRD Wijesinghe",
+  "expect": [
+   "deepikaw@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "tell me the credits of CS3162",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit count of Discrete Mathematics",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "semester 8 subjects for software engineering",
+  "expect": [
+   "SE4999",
+   "SE4996"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "give me Mr. WMSRB Wijayarathna's e-mail",
+  "expect": [
+   "shashikab@kdu.ac.lk"
+  ],
+  "src": "template"
+ }
+]

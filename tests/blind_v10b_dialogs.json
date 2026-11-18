@@ -1,0 +1,221 @@
+[
+ {
+  "name": "c_grade_ab",
+  "turns": [
+   {
+    "user": "what does it mean if my result says Ab?",
+    "expect": [
+     "absent"
+    ]
+   },
+   {
+    "user": "can I resit it?",
+    "expect": [
+     "repeated|must|re-sit"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_grade_bplus_then_weak",
+  "turns": [
+   {
+    "user": "is B- a pass?",
+    "expect": [
+     "pass",
+     "2.70"
+    ]
+   },
+   {
+    "user": "and C-?",
+    "expect": [
+     "weak pass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_class_chain2",
+  "turns": [
+   {
+    "user": "what do I need for a first class?",
+    "expect": [
+     "3.70"
+    ]
+   },
+   {
+    "user": "how about second lower?",
+    "expect": [
+     "3.00"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_female_pronoun",
+  "turns": [
+   {
+    "user": "who is the head of the department of computer science?",
+    "expect": [
+     "Sirisuriya"
+    ]
+   },
+   {
+    "user": "who is the head of the computer engineering department?",
+    "expect": [
+     "Hettige"
+    ]
+   },
+   {
+    "user": "what are her research areas?",
+    "options": true,
+    "expect": [
+     "Hettige",
+     "Sirisuriya"
+    ]
+   },
+   {
+    "user": "the second one",
+    "expect": [
+     "E-Learning"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_head_se_short",
+  "turns": [
+   {
+    "user": "SE department head?",
+    "expect": [
+     "Computer Science",
+     "Sirisuriya"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_canteen",
+  "turns": [
+   {
+    "user": "what food is available at the canteen",
+    "expect": [
+     "couldn't find|doesn't cover"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_results_date",
+  "turns": [
+   {
+    "user": "when will the results be released?",
+    "expect": [
+     "couldn't find|doesn't cover"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_passing_marks",
+  "turns": [
+   {
+    "user": "how much marks is needed to pass a subject?",
+    "expect": [
+     "45"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_fake_dept",
+  "turns": [
+   {
+    "user": "who are the lecturers in the physics department?",
+    "expect": [
+     "couldn't find|four departments"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_name_bye",
+  "turns": [
+   {
+    "user": "call me Nimesha",
+    "expect": [
+     "Nimesha"
+    ]
+   },
+   {
+    "user": "thanks",
+    "expect": [
+     "Nimesha"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_section_fb",
+  "turns": [
+   {
+    "user": "tell me the supplementary exam policy",
+    "expect": [
+     "7th and 8th|7 and 8|Semesters 7"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_idk_after_entry",
+  "turns": [
+   {
+    "user": "what are the entry requirements?",
+    "options": true
+   },
+   {
+    "user": "i dont know",
+    "options": true
+   }
+  ]
+ },
+ {
+  "name": "c_gk",
+  "turns": [
+   {
+    "user": "how tall is mount everest?",
+    "expect": [
+     "isn't in the Student Handbook|only answer"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_coordinator",
+  "turns": [
+   {
+    "user": "what is CS3032?",
+    "expect": [
+     "CS3032"
+    ]
+   },
+   {
+    "user": "who is the coordinator of it?",
+    "expect": [
+     "does not say"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "c_weak_count",
+  "turns": [
+   {
+    "user": "how many weak passes are allowed per semester?",
+    "expect": [
+     "one"
+    ]
+   }
+  ]
+ }
+]

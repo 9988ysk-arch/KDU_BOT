@@ -1,0 +1,28 @@
+[
+ {"cat": "yes_no", "q": "Is Machine Learning compulsory for CS students?", "expect": ["re:^Yes"]},
+ {"cat": "yes_no", "q": "Is Bioinformatics compulsory?", "expect": ["re:^No", "elective"]},
+ {"cat": "yes_no", "q": "Is Automata Theory an elective?", "expect": ["depends|SE", "elective"]},
+ {"cat": "yes_no", "q": "Is CS3192 an elective module?", "expect": ["re:^Yes"]},
+ {"cat": "yes_no", "q": "Is Operating Systems optional?", "expect": ["re:^No"]},
+ {"cat": "yes_no", "q": "Is Military Studies I a military module?", "expect": ["re:^Yes"]},
+ {"cat": "yes_no", "q": "Does the computer science department offer the software engineering degree?", "expect": ["re:^Yes"]},
+ {"cat": "yes_no", "q": "Does the IT department offer the computer engineering degree?", "expect": ["re:^No", "Computer Engineering"]},
+ {"cat": "yes_no", "q": "Is the CS degree 4 years for civil students?", "expect": ["re:^Yes"]},
+ {"cat": "yes_no", "q": "Do I pass with 50 marks?", "expect": ["re:^Yes", "C+"]},
+ {"cat": "yes_no", "q": "Do I pass with 40 marks?", "expect": ["re:^No", "C-"]},
+ {"cat": "yes_no", "q": "Is an FGPA of 3.5 enough for first class?", "expect": ["re:^No", "Upper"]},
+ {"cat": "yes_no", "q": "Can I get first class with FGPA 3.8?", "expect": ["re:^Yes|FGPA requirement"]},
+
+ {"cat": "compare", "q": "Compare the computer science and software engineering degrees", "expect": ["128", "127", "Computer Science"]},
+ {"cat": "compare", "q": "difference between IT and IS degrees", "expect": ["Information Technology", "Information Systems"]},
+ {"cat": "compare", "q": "CS vs CE degree", "expect": ["Computer Engineering", "Computer Science"]},
+ {"cat": "compare", "q": "Compare CS2082 and CS4042", "expect": ["Artificial Intelligence", "Machine Learning", "Semester 4", "Semester 7"]},
+ {"cat": "compare", "q": "difference between Data Structures and Algorithms I and Data Structures and Algorithms II", "expect": ["CS2013", "CS2062"]},
+ {"cat": "compare", "q": "compare semester 1 and semester 2 credits", "expect": ["Semester 1", "Semester 2", "17", "18"]},
+ {"cat": "compare", "q": "which has more credits, CS1043 or CS1062?", "expect": ["CS1043"]},
+ {"cat": "compare", "q": "Compare grade A and grade B", "expect": ["4.00", "3.00"]},
+
+ {"cat": "suggest", "q": "What is the dress code?", "expect": ["couldn't find"]},
+ {"cat": "suggest", "q": "tell me the rules about cheating in the exam", "expect": ["offence|couldn't find"]},
+ {"cat": "suggest", "q": "how to get a hostel", "expect": ["couldn't find"]}
+]

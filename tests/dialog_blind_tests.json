@@ -1,0 +1,338 @@
+[
+ {
+  "name": "b_greet_then_module",
+  "turns": [
+   {
+    "user": "good morning",
+    "expect": [
+     "Hello|Good morning"
+    ]
+   },
+   {
+    "user": "what is CS3072",
+    "expect": [
+     "Logic Programming"
+    ]
+   },
+   {
+    "user": "is it an elective?",
+    "expect": [
+     "It depends",
+     "SE, elective"
+    ]
+   },
+   {
+    "user": "cool thanks",
+    "expect": [
+     "welcome|Glad|Okay"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_person_chain",
+  "turns": [
+   {
+    "user": "who is the head of computer engineering?",
+    "expect": [
+     "Hettige"
+    ]
+   },
+   {
+    "user": "what is her email",
+    "expect": [
+     "budditha@kdu.ac.lk"
+    ]
+   },
+   {
+    "user": "what does he research",
+    "expect": [
+     "Machine Translation|research"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_dept_chain",
+  "turns": [
+   {
+    "user": "which department offers computer engineering?",
+    "expect": [
+     "Department of Computer Engineering"
+    ]
+   },
+   {
+    "user": "who is the head of the department?",
+    "expect": [
+     "Hettige"
+    ]
+   },
+   {
+    "user": "how many lecturers are in that department?",
+    "expect": [
+     "Computer Engineering",
+     "lecturers"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_semester_chain",
+  "turns": [
+   {
+    "user": "list modules in semester 7 for software engineering",
+    "expect": [
+     "SE4"
+    ]
+   },
+   {
+    "user": "how about semester 8?",
+    "expect": [
+     "Semester 8",
+     "SE4999"
+    ]
+   },
+   {
+    "user": "and the credits?",
+    "expect": [
+     "Semester 8",
+     "GPA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_ce_out_of_scope",
+  "turns": [
+   {
+    "user": "what are the first year modules for computer engineering?",
+    "expect": [
+     "only"
+    ],
+    "options": true
+   },
+   {
+    "user": "computer science",
+    "expect": [
+     "CS1012"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_is_electives",
+  "turns": [
+   {
+    "user": "IS degree electives in semester 5",
+    "expect": [
+     "only"
+    ],
+    "options": true
+   },
+   {
+    "user": "no thanks",
+    "expect": [
+     "Okay"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_programme_memory",
+  "turns": [
+   {
+    "user": "I am a CS student",
+    "expect": [
+     "Computer Science"
+    ]
+   },
+   {
+    "user": "how many modules in semester 6?",
+    "expect": [
+     "re:CS.*12|12"
+    ]
+   },
+   {
+    "user": "what about industrial training credits?",
+    "expect": [
+     "CS4986"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_fgpa_chain",
+  "turns": [
+   {
+    "user": "my gpa is 3.75",
+    "expect": [
+     "3.75"
+    ]
+   },
+   {
+    "user": "which class do i get",
+    "expect": [
+     "First"
+    ]
+   },
+   {
+    "user": "what about 3.1?",
+    "expect": [
+     "Lower"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_research_project_ambiguous",
+  "turns": [
+   {
+    "user": "how many credits for the individual research project?",
+    "expect": [
+     "Which|which"
+    ],
+    "options": true
+   },
+   {
+    "user": "2",
+    "expect": [
+     "SE4999|CS4999"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_graceful",
+  "turns": [
+   {
+    "user": "can I bring my dog to campus",
+    "expect": [
+     "couldn't find"
+    ]
+   },
+   {
+    "user": "zzzz",
+    "expect": [
+     "didn't understand"
+    ]
+   },
+   {
+    "user": "ok",
+    "expect": [
+     "Okay"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_feedback_recovery",
+  "turns": [
+   {
+    "user": "what is the pass mark",
+    "expect": [
+     "45%"
+    ]
+   },
+   {
+    "user": "not what i asked",
+    "expect": [
+     "Sorry"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_singlish_chat",
+  "turns": [
+   {
+    "user": "kohomada",
+    "expect": [
+     "Hello|doing well"
+    ]
+   },
+   {
+    "user": "dean kauda",
+    "expect": [
+     "Gunasekara"
+    ]
+   },
+   {
+    "user": "eyage email eka",
+    "expect": [
+     "asela@kdu.ac.lk|Gunasekara"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_module_programme_switch",
+  "turns": [
+   {
+    "user": "what is software evolution",
+    "expect": [
+     "SE4022"
+    ]
+   },
+   {
+    "user": "which semester?",
+    "expect": [
+     "Semester 7"
+    ]
+   },
+   {
+    "user": "how long is the IT degree",
+    "expect": [
+     "4 years"
+    ]
+   },
+   {
+    "user": "how many semesters does it have",
+    "expect": [
+     "8 semesters"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_reset",
+  "turns": [
+   {
+    "user": "I'm an SE student",
+    "expect": [
+     "Software Engineering"
+    ]
+   },
+   {
+    "user": "reset",
+    "expect": [
+     "fresh"
+    ]
+   },
+   {
+    "user": "how many GPA credits in semester 5?",
+    "expect": [
+     "CS: 19",
+     "SE: 17"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "b_help",
+  "turns": [
+   {
+    "user": "help",
+    "expect": [
+     "modules"
+    ],
+    "options": true
+   },
+   {
+    "user": "What grade do I get for 72 marks?",
+    "expect": [
+     "A-"
+    ]
+   }
+  ]
+ }
+]

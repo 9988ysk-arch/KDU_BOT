@@ -1,0 +1,17 @@
+[
+ {"prev": "How many modules in semester 4?", "q": "what about semester 5?", "expect": ["Semester 5"]},
+ {"prev": "How many GPA credits in semester 2?", "q": "and semester 7?", "expect": ["Semester 7", "14"]},
+ {"prev": "What is CS2082?", "q": "how many credits is it?", "expect": ["2 GPA"]},
+ {"prev": "What is CS2082?", "q": "which semester is it offered?", "expect": ["Semester 4"]},
+ {"prev": "Tell me about Machine Learning module", "q": "is it compulsory?", "expect": ["compulsory"]},
+ {"prev": "What grade do I get for 72 marks?", "q": "what about 58?", "expect": ["B-"]},
+ {"prev": "What class do I get with FGPA 3.45?", "q": "and 3.85?", "expect": ["First"]},
+ {"prev": "What is the email of Dr. Hettige?", "q": "and his research areas?", "expect": ["Machine Translation"]},
+ {"prev": "Who is the dean?", "q": "what is his email?", "expect": ["asela@kdu.ac.lk"]},
+ {"prev": "What is the duration of the computer science degree?", "q": "what about information systems?", "expect": ["Information Systems"]},
+ {"prev": "List the elective modules in semester 6 for CS", "q": "what about SE?", "expect": ["SE (6)|SE: 6", "CS3142"]},
+ {"prev": "credits for CS1043", "q": "and CS1073?", "expect": ["3 GPA"]},
+ {"prev": "What is the email of Mrs. Pemarathne?", "q": "what are her research areas?", "expect": ["Swarm Robotics"]},
+ {"prev": "Who is the head of computer engineering?", "q": "what is her email?", "expect": ["budditha@kdu.ac.lk"]},
+ {"prev": "What is Operating Systems about?", "q": "how many credits does it carry?", "expect": ["3 GPA|2 GPA"]}
+]

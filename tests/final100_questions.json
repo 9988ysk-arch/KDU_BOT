@@ -1,0 +1,705 @@
+[
+ {
+  "cat": "department",
+  "q": "What degree does the computer engineering department offer?",
+  "expect": [
+   "Computer Engineering"
+  ]
+ },
+ {
+  "cat": "department",
+  "q": "degrees in the department of computer science",
+  "expect": [
+   "Software Engineering"
+  ]
+ },
+ {
+  "cat": "department",
+  "q": "Which department runs the software engineering degree?",
+  "expect": [
+   "Computer Science"
+  ]
+ },
+ {
+  "cat": "department",
+  "q": "Which department handles the IT degree?",
+  "expect": [
+   "Information Technology"
+  ]
+ },
+ {
+  "cat": "department",
+  "q": "how many departments does FOC have",
+  "expect": [
+   "4"
+  ]
+ },
+ {
+  "cat": "department",
+  "q": "What does the department of computer engineering provide students with?",
+  "expect": [
+   "Network|Software"
+  ]
+ },
+ {
+  "cat": "department",
+  "q": "Is the computer engineering department new?",
+  "expect": [
+   "newly established"
+  ]
+ },
+ {
+  "cat": "department",
+  "q": "what type of courses does the IT department offer",
+  "expect": [
+   "applications|practical|management"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "Name all the degree programmes in the faculty",
+  "expect": [
+   "Information Systems",
+   "Computer Engineering"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "Duration of the computer engineering degree",
+  "expect": [
+   "4"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "Which stream is required for Information Technology?",
+  "expect": [
+   "Biology"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "Can students from the technology stream join the faculty?",
+  "expect": [
+   "Technology"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "What English qualification do I need?",
+  "expect": [
+   "Credit"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "What is the age requirement for military students?",
+  "expect": [
+   "22"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "minimum weight for military candidates in lbs",
+  "expect": [
+   "110"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "minimum height for male navy",
+  "expect": [
+   "167.6"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "What is the height requirement for female army candidates?",
+  "expect": [
+   "152.4"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "Tell me about the information technology degree",
+  "expect": [
+   "Information Technology"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "What careers are available for software engineering graduates?",
+  "expect": [
+   "software"
+  ]
+ },
+ {
+  "cat": "programme",
+  "q": "What does a computer science graduate do?",
+  "expect": [
+   "software|research|computer"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "credits for Data Structures and Algorithms II",
+  "expect": [
+   "2"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "What is EE1102?",
+  "expect": [
+   "Electrical Engineering"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "Which semester is Operating Systems taught?",
+  "expect": [
+   "Semester 3"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "Is Computer Music an elective?",
+  "expect": [
+   "elective"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "What is covered in Computer Graphics and Visualization?",
+  "expect": [
+   "Raster|transformations|shading"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "What programming language is used in Object Oriented Programming I?",
+  "expect": [
+   "Java"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "Which Prolog systems can be used in Logic Programming?",
+  "expect": [
+   "SWI|XSB"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "What does Requirements Engineering teach?",
+  "expect": [
+   "requirements"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "How many credits is Fundamentals of Databases?",
+  "expect": [
+   "3"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "What is the code of Research Methodology?",
+  "expect": [
+   "CS3062"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "CS4986 credits",
+  "expect": [
+   "6"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "What is SE3992?",
+  "expect": [
+   "Independent Study"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "Is Human Computer Interaction compulsory?",
+  "expect": [
+   "compulsory"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "Which semester is Software Evolution offered in?",
+  "expect": [
+   "Semester 7"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "What topics does Concurrent Programming cover?",
+  "expect": [
+   "message passing|concurren"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "Engineering Mathematics module credits",
+  "expect": [
+   "2"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "What is the module code of Probability and Statistics?",
+  "expect": [
+   "CM1033"
+  ]
+ },
+ {
+  "cat": "module",
+  "q": "Is Digital Forensics compulsory for CS?",
+  "expect": [
+   "elective"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "List all modules in semester 7 for computer science",
+  "expect": [
+   "CS4042",
+   "CS4999"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "How many military modules are in semester 3?",
+  "expect": [
+   "2"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "How many credits in semester 1?",
+  "expect": [
+   "17"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "NGPA credits in semester 8",
+  "expect": [
+   "6"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "How many modules are offered in semester 1?",
+  "expect": [
+   "11"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "Which modules are elective in semester 6 for computer science?",
+  "expect": [
+   "CS3152",
+   "CS3172"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "second year modules",
+  "expect": [
+   "CS2013"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "How many GPA credits does SE semester 6 have?",
+  "expect": [
+   "18"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "How many compulsory modules are there in semester 4?",
+  "expect": [
+   "9"
+  ]
+ },
+ {
+  "cat": "semester",
+  "q": "What is the total number of GPA credits for software engineering?",
+  "expect": [
+   "127"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What is the weightage of CA?",
+  "expect": [
+   "30%"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What grade is 50 marks?",
+  "expect": [
+   "C+"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "GPV of A grade",
+  "expect": [
+   "4.00"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What is the GPV for an absent student?",
+  "expect": [
+   "0.00"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What does Ex grade mean?",
+  "expect": [
+   "Excused"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "what grade for 90 marks",
+  "expect": [
+   "A+"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "My FGPA is 3.0, what class will I get?",
+  "expect": [
+   "Lower"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "FGPA 3.75 class",
+  "expect": [
+   "First"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What FGPA is needed to pass the degree?",
+  "expect": [
+   "2.00"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "Can I get second class upper with a failure in semester 8?",
+  "expect": [
+   "semesters 7 and 8"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "How do I complete a course with grade Ia?",
+  "expect": [
+   "CA/PBCA"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "Is there a charge for re-sitting?",
+  "expect": [
+   "charge"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "When is a supplementary examination held?",
+  "expect": [
+   "7th and 8th"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What happens if I get an exam offence?",
+  "expect": [
+   "offence|punishment"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What is the minimum attendance?",
+  "expect": [
+   "80%"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "Can a GPA course with grade below C be passed without repeating?",
+  "expect": [
+   "repeated|weak"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "When is a warning issued to students?",
+  "expect": [
+   "2.0"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What is the minimum mark for each assessment component?",
+  "expect": [
+   "35%"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "How many years to get the Hons degree?",
+  "expect": [
+   "four|4 years"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "Who approves merit awards?",
+  "expect": [
+   "Board of Management"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What is the relegation procedure for officer cadets?",
+  "expect": [
+   "FDSS"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What is SGPA?",
+  "expect": [
+   "Semester Grade Point Average"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What does GPV stand for?",
+  "expect": [
+   "Grade Point Value"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "What is the trophy for information systems?",
+  "expect": [
+   "Best Graduant in Information Systems"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "dean phone number",
+  "expect": [
+   "2622995"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "Who is the head of the department of information technology?",
+  "expect": [
+   "Kathriarachchi"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "What is the email of Mrs. Pemarathne?",
+  "expect": [
+   "punsisi@kdu.ac.lk"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "Research areas of Dr. Kalansooriya",
+  "expect": [
+   "Human Computer Interaction"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "Who researches cloud computing?",
+  "expect": [
+   "Gunathilake|Kumara"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "How many staff are in the computer science department?",
+  "expect": [
+   "12"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "Who is the deputy vice chancellor academic?",
+  "expect": [
+   "Dhammika"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "Who is the Dean of the Faculty of Defence and Strategic Studies?",
+  "expect": [
+   "Herath"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "registrar phone number",
+  "expect": [
+   "0710219248"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "What is the designation of Mr. PPNV Kumara?",
+  "expect": [
+   "Senior Lecturer"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "Which university did Dr. Priyadarshani get her PhD from?",
+  "expect": [
+   "La Trobe"
+  ]
+ },
+ {
+  "cat": "people",
+  "q": "Who works in robotics?",
+  "expect": [
+   "Pemarathne|Wijesinghe|Gayamini|Goonatilleke"
+  ]
+ },
+ {
+  "cat": "general",
+  "q": "Where is KDU located?",
+  "expect": [
+   "Kandawala|Ratmalana|Rathmalana"
+  ]
+ },
+ {
+  "cat": "general",
+  "q": "Under which act was KDU established?",
+  "expect": [
+   "68"
+  ]
+ },
+ {
+  "cat": "general",
+  "q": "What is the vision of KDU?",
+  "expect": [
+   "tri-services"
+  ]
+ },
+ {
+  "cat": "general",
+  "q": "How many students are studying in the faculty?",
+  "expect": [
+   "800"
+  ]
+ },
+ {
+  "cat": "general",
+  "q": "university email address",
+  "expect": [
+   "kdudefence@kdu.ac.lk"
+  ]
+ },
+ {
+  "cat": "general",
+  "q": "faculty web page",
+  "expect": [
+   "Faculty-of-Computing"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "What is the bus route to the campus?",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "How much does the hostel cost?",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "What is the dress code for students?",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "When is the convocation?",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "Is there a swimming pool?",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "What is the price of the canteen lunch?",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "paraphrase",
+  "q": "how meny cradits for CS1043",
+  "expect": [
+   "3"
+  ]
+ },
+ {
+  "cat": "paraphrase",
+  "q": "dean kauda",
+  "expect": [
+   "Gunasekara"
+  ]
+ },
+ {
+  "cat": "paraphrase",
+  "q": "semester 2 subjects mokakda",
+  "expect": [
+   "CS1073"
+  ]
+ },
+ {
+  "cat": "paraphrase",
+  "q": "70 marks ganna grade eka",
+  "expect": [
+   "A-"
+  ]
+ }
+]

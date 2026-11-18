@@ -1,0 +1,16 @@
+# Render Blueprint: free web service for the Student Handbook Assistant.
+# Render -> New -> Blueprint -> pick this repository. Everything below is applied automatically.
+services:
+  - type: web
+    name: kdu-handbook-assistant
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.8"
+      - key: ALLOW_UPLOAD        # public site: visitors cannot replace the handbook
+        value: "false"

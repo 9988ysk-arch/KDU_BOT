@@ -1,0 +1,1563 @@
+@prefix hb: <http://kdu.ac.lk/foc/handbook#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hb:Faculty a owl:Class .
+hb:Department a owl:Class .
+hb:Programme a owl:Class .
+hb:Module a owl:Class .
+hb:Staff a owl:Class .
+hb:Grade a owl:Class .
+hb:ClassAward a owl:Class .
+hb:offers a owl:ObjectProperty .
+hb:teaches_for a owl:ObjectProperty .
+hb:head_of a owl:ObjectProperty .
+hb:dean_of a owl:ObjectProperty .
+hb:member_of a owl:ObjectProperty .
+hb:in_programme a owl:ObjectProperty .
+hb:part_of a owl:ObjectProperty .
+
+hb:faculty_of_computing a hb:Faculty .
+hb:faculty_of_computing rdfs:label "Faculty of Computing" .
+hb:dept_cs a hb:Department .
+hb:dept_cs rdfs:label "Department of Computer Science" .
+hb:dept_cs hb:part_of hb:faculty_of_computing .
+hb:dept_cs hb:offers hb:prog_cs .
+hb:dept_cs hb:offers hb:prog_se .
+hb:dept_it a hb:Department .
+hb:dept_it rdfs:label "Department of Information Technology" .
+hb:dept_it hb:part_of hb:faculty_of_computing .
+hb:dept_it hb:offers hb:prog_it .
+hb:dept_it hb:offers hb:prog_is .
+hb:dept_ce a hb:Department .
+hb:dept_ce rdfs:label "Department of Computer Engineering" .
+hb:dept_ce hb:part_of hb:faculty_of_computing .
+hb:dept_ce hb:offers hb:prog_ce .
+hb:dept_cm a hb:Department .
+hb:dept_cm rdfs:label "Department of Computational Mathematics" .
+hb:dept_cm hb:part_of hb:faculty_of_computing .
+hb:dept_cs hb:teaches_for hb:prog_ce .
+hb:dept_cs hb:teaches_for hb:prog_it .
+hb:dept_cs hb:teaches_for hb:prog_is .
+hb:prog_cs a hb:Programme .
+hb:prog_cs rdfs:label "BSc (Hons) in Computer Science" .
+hb:prog_cs hb:short_name "CS" .
+hb:prog_cs hb:max_years "8"^^xsd:decimal .
+hb:prog_se a hb:Programme .
+hb:prog_se rdfs:label "BSc (Hons) in Software Engineering" .
+hb:prog_se hb:short_name "SE" .
+hb:prog_se hb:max_years "8"^^xsd:decimal .
+hb:prog_ce a hb:Programme .
+hb:prog_ce rdfs:label "BSc (Hons) in Computer Engineering" .
+hb:prog_ce hb:short_name "CE" .
+hb:prog_ce hb:max_years "8"^^xsd:decimal .
+hb:prog_it a hb:Programme .
+hb:prog_it rdfs:label "BSc (Hons) in Information Technology" .
+hb:prog_it hb:short_name "IT" .
+hb:prog_it hb:max_years "8"^^xsd:decimal .
+hb:prog_is a hb:Programme .
+hb:prog_is rdfs:label "BSc (Hons) in Information Systems" .
+hb:prog_is hb:short_name "IS" .
+hb:prog_is hb:max_years "8"^^xsd:decimal .
+hb:CS1012 a hb:Module .
+hb:CS1012 rdfs:label "Fundamentals of Programming" .
+hb:CS1012 hb:in_programme hb:prog_cs .
+hb:CS1012 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:CS1012 hb:in_programme hb:prog_se .
+hb:CS1012 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:CS1101 a hb:Module .
+hb:CS1101 rdfs:label "Programming Laboratory*" .
+hb:CS1101 hb:in_programme hb:prog_cs .
+hb:CS1101 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:CS1101 hb:in_programme hb:prog_se .
+hb:CS1101 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:CS1022 a hb:Module .
+hb:CS1022 rdfs:label "Foundation of Computer Science" .
+hb:CS1022 hb:in_programme hb:prog_cs .
+hb:CS1022 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:CS1022 hb:in_programme hb:prog_se .
+hb:CS1022 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:CS1032 a hb:Module .
+hb:CS1032 rdfs:label "Computer Systems Architecture" .
+hb:CS1032 hb:in_programme hb:prog_cs .
+hb:CS1032 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:CS1032 hb:in_programme hb:prog_se .
+hb:CS1032 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:CS1043 a hb:Module .
+hb:CS1043 rdfs:label "Fundamentals of Databases" .
+hb:CS1043 hb:in_programme hb:prog_cs .
+hb:CS1043 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:CS1043 hb:in_programme hb:prog_se .
+hb:CS1043 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:CS1052 a hb:Module .
+hb:CS1052 rdfs:label "Fundamentals of Visual Computing" .
+hb:CS1052 hb:in_programme hb:prog_cs .
+hb:CS1052 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:CS1052 hb:in_programme hb:prog_se .
+hb:CS1052 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:CM1033 a hb:Module .
+hb:CM1033 rdfs:label "Probability and Statistics" .
+hb:CM1033 hb:in_programme hb:prog_cs .
+hb:CM1033 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:CM1033 hb:in_programme hb:prog_se .
+hb:CM1033 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:CM1012 a hb:Module .
+hb:CM1012 rdfs:label "Engineering Mathematics" .
+hb:CM1012 hb:in_programme hb:prog_cs .
+hb:CM1012 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:CM1012 hb:in_programme hb:prog_se .
+hb:CM1012 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:DL1132 a hb:Module .
+hb:DL1132 rdfs:label "English: Basic Study Skills for CS/SE/CE" .
+hb:DL1132 hb:in_programme hb:prog_cs .
+hb:DL1132 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:DL1132 hb:in_programme hb:prog_se .
+hb:DL1132 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:LS1052 a hb:Module .
+hb:LS1052 rdfs:label "Leadership Training" .
+hb:LS1052 hb:in_programme hb:prog_cs .
+hb:LS1052 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:LS1052 hb:in_programme hb:prog_se .
+hb:LS1052 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:MS1014 a hb:Module .
+hb:MS1014 rdfs:label "Military Studies I" .
+hb:MS1014 hb:in_programme hb:prog_cs .
+hb:MS1014 hb:offered_in_prog_cs "1"^^xsd:decimal .
+hb:MS1014 hb:in_programme hb:prog_se .
+hb:MS1014 hb:offered_in_prog_se "1"^^xsd:decimal .
+hb:CS1062 a hb:Module .
+hb:CS1062 rdfs:label "Developments in Mathematics and Sciences" .
+hb:CS1062 hb:in_programme hb:prog_cs .
+hb:CS1062 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:CS1062 hb:in_programme hb:prog_se .
+hb:CS1062 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:CS1073 a hb:Module .
+hb:CS1073 rdfs:label "Object Oriented Programming I" .
+hb:CS1073 hb:in_programme hb:prog_cs .
+hb:CS1073 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:CS1073 hb:in_programme hb:prog_se .
+hb:CS1073 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:CS1082 a hb:Module .
+hb:CS1082 rdfs:label "Web Development" .
+hb:CS1082 hb:in_programme hb:prog_cs .
+hb:CS1082 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:CS1082 hb:in_programme hb:prog_se .
+hb:CS1082 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:CS1092 a hb:Module .
+hb:CS1092 rdfs:label "Computer Networks I" .
+hb:CS1092 hb:in_programme hb:prog_cs .
+hb:CS1092 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:CS1092 hb:in_programme hb:prog_se .
+hb:CS1092 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:CM1052 a hb:Module .
+hb:CM1052 rdfs:label "Discrete Mathematics" .
+hb:CM1052 hb:in_programme hb:prog_cs .
+hb:CM1052 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:CM1052 hb:in_programme hb:prog_se .
+hb:CM1052 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:COE1993 a hb:Module .
+hb:COE1993 rdfs:label "Group Project in Hardware" .
+hb:COE1993 hb:in_programme hb:prog_cs .
+hb:COE1993 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:COE1993 hb:in_programme hb:prog_se .
+hb:COE1993 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:EE1102 a hb:Module .
+hb:EE1102 rdfs:label "Fundamentals of Electrical Engineering" .
+hb:EE1102 hb:in_programme hb:prog_cs .
+hb:EE1102 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:EE1102 hb:in_programme hb:prog_se .
+hb:EE1102 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:ET1102 a hb:Module .
+hb:ET1102 rdfs:label "Basic Electronics" .
+hb:ET1102 hb:in_programme hb:prog_cs .
+hb:ET1102 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:ET1102 hb:in_programme hb:prog_se .
+hb:ET1102 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:DL2142 a hb:Module .
+hb:DL2142 rdfs:label "English: Advance Study Skills for CS/SE/CE" .
+hb:DL2142 hb:in_programme hb:prog_cs .
+hb:DL2142 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:DL2142 hb:in_programme hb:prog_se .
+hb:DL2142 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:MS1024 a hb:Module .
+hb:MS1024 rdfs:label "Military Studies II" .
+hb:MS1024 hb:in_programme hb:prog_cs .
+hb:MS1024 hb:offered_in_prog_cs "2"^^xsd:decimal .
+hb:MS1024 hb:in_programme hb:prog_se .
+hb:MS1024 hb:offered_in_prog_se "2"^^xsd:decimal .
+hb:CS2013 a hb:Module .
+hb:CS2013 rdfs:label "Data Structures and Algorithms I" .
+hb:CS2013 hb:in_programme hb:prog_cs .
+hb:CS2013 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:CS2013 hb:in_programme hb:prog_se .
+hb:CS2013 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:CS2022 a hb:Module .
+hb:CS2022 rdfs:label "Operating Systems" .
+hb:CS2022 hb:in_programme hb:prog_cs .
+hb:CS2022 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:CS2022 hb:in_programme hb:prog_se .
+hb:CS2022 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:CS2032 a hb:Module .
+hb:CS2032 rdfs:label "Object Oriented Programming II" .
+hb:CS2032 hb:in_programme hb:prog_cs .
+hb:CS2032 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:CS2032 hb:in_programme hb:prog_se .
+hb:CS2032 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:CS2042 a hb:Module .
+hb:CS2042 rdfs:label "Computer Networks II" .
+hb:CS2042 hb:in_programme hb:prog_cs .
+hb:CS2042 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:CS2042 hb:in_programme hb:prog_se .
+hb:CS2042 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:CS2052 a hb:Module .
+hb:CS2052 rdfs:label "Requirements Engineering" .
+hb:CS2052 hb:in_programme hb:prog_cs .
+hb:CS2052 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:CS2052 hb:in_programme hb:prog_se .
+hb:CS2052 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:EE2122 a hb:Module .
+hb:EE2122 rdfs:label "Electronics Systems" .
+hb:EE2122 hb:in_programme hb:prog_cs .
+hb:EE2122 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:EE2122 hb:in_programme hb:prog_se .
+hb:EE2122 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:CM2013 a hb:Module .
+hb:CM2013 rdfs:label "Calculus and Numerical Methods" .
+hb:CM2013 hb:in_programme hb:prog_cs .
+hb:CM2013 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:CM2013 hb:in_programme hb:prog_se .
+hb:CM2013 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:MF2113 a hb:Module .
+hb:MF2113 rdfs:label "Principles of Management" .
+hb:MF2113 hb:in_programme hb:prog_cs .
+hb:MF2113 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:MF2113 hb:in_programme hb:prog_se .
+hb:MF2113 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:MS3032 a hb:Module .
+hb:MS3032 rdfs:label "Strategic Defence Studies" .
+hb:MS3032 hb:in_programme hb:prog_cs .
+hb:MS3032 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:MS3032 hb:in_programme hb:prog_se .
+hb:MS3032 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:DL3152 a hb:Module .
+hb:DL3152 rdfs:label "Writing and Speaking Skills" .
+hb:DL3152 hb:in_programme hb:prog_cs .
+hb:DL3152 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:DL3152 hb:in_programme hb:prog_se .
+hb:DL3152 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:MS2044 a hb:Module .
+hb:MS2044 rdfs:label "Military Studies III" .
+hb:MS2044 hb:in_programme hb:prog_cs .
+hb:MS2044 hb:offered_in_prog_cs "3"^^xsd:decimal .
+hb:MS2044 hb:in_programme hb:prog_se .
+hb:MS2044 hb:offered_in_prog_se "3"^^xsd:decimal .
+hb:CS2062 a hb:Module .
+hb:CS2062 rdfs:label "Data Structures and Algorithms II" .
+hb:CS2062 hb:in_programme hb:prog_cs .
+hb:CS2062 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:CS2062 hb:in_programme hb:prog_se .
+hb:CS2062 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:CS2072 a hb:Module .
+hb:CS2072 rdfs:label "Advanced Computer Architecture and Organization" .
+hb:CS2072 hb:in_programme hb:prog_cs .
+hb:CS2072 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:CS2072 hb:in_programme hb:prog_se .
+hb:CS2072 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:CS2082 a hb:Module .
+hb:CS2082 rdfs:label "Artificial Intelligence" .
+hb:CS2082 hb:in_programme hb:prog_cs .
+hb:CS2082 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:CS2082 hb:in_programme hb:prog_se .
+hb:CS2082 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:SE2013 a hb:Module .
+hb:SE2013 rdfs:label "Software Project Management" .
+hb:SE2013 hb:in_programme hb:prog_cs .
+hb:SE2013 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:SE2013 hb:in_programme hb:prog_se .
+hb:SE2013 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:SE2022 a hb:Module .
+hb:SE2022 rdfs:label "Software Process Engineering" .
+hb:SE2022 hb:in_programme hb:prog_cs .
+hb:SE2022 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:SE2022 hb:in_programme hb:prog_se .
+hb:SE2022 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:CM2032 a hb:Module .
+hb:CM2032 rdfs:label "Statistical Distributions and Inference" .
+hb:CM2032 hb:in_programme hb:prog_cs .
+hb:CM2032 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:CM2032 hb:in_programme hb:prog_se .
+hb:CM2032 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:EE2222 a hb:Module .
+hb:EE2222 rdfs:label "Computer Interfacing and Microprocessors" .
+hb:EE2222 hb:in_programme hb:prog_cs .
+hb:EE2222 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:EE2222 hb:in_programme hb:prog_se .
+hb:EE2222 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:CS2993 a hb:Module .
+hb:CS2993 rdfs:label "Group Project in Software Development" .
+hb:CS2993 hb:in_programme hb:prog_cs .
+hb:CS2993 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:CS2993 hb:in_programme hb:prog_se .
+hb:CS2993 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:DL4162 a hb:Module .
+hb:DL4162 rdfs:label "Research Writing Skills" .
+hb:DL4162 hb:in_programme hb:prog_cs .
+hb:DL4162 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:DL4162 hb:in_programme hb:prog_se .
+hb:DL4162 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:MS2024 a hb:Module .
+hb:MS2024 rdfs:label "Military Studies IV" .
+hb:MS2024 hb:in_programme hb:prog_cs .
+hb:MS2024 hb:offered_in_prog_cs "4"^^xsd:decimal .
+hb:MS2024 hb:in_programme hb:prog_se .
+hb:MS2024 hb:offered_in_prog_se "4"^^xsd:decimal .
+hb:CS3202 a hb:Module .
+hb:CS3202 rdfs:label "UX and UI Engineering" .
+hb:CS3202 hb:in_programme hb:prog_cs .
+hb:CS3202 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3023 a hb:Module .
+hb:CS3023 rdfs:label "Advanced Databases and Big Data Analytics" .
+hb:CS3023 hb:in_programme hb:prog_cs .
+hb:CS3023 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3023 hb:in_programme hb:prog_se .
+hb:CS3023 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3032 a hb:Module .
+hb:CS3032 rdfs:label "Concurrent Programming" .
+hb:CS3032 hb:in_programme hb:prog_cs .
+hb:CS3032 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3042 a hb:Module .
+hb:CS3042 rdfs:label "Image Processing and Computer Vision" .
+hb:CS3042 hb:in_programme hb:prog_cs .
+hb:CS3042 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3042 hb:in_programme hb:prog_se .
+hb:CS3042 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3052 a hb:Module .
+hb:CS3052 rdfs:label "Essentials of Computer Law" .
+hb:CS3052 hb:in_programme hb:prog_cs .
+hb:CS3052 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3052 hb:in_programme hb:prog_se .
+hb:CS3052 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3062 a hb:Module .
+hb:CS3062 rdfs:label "Research Methodology" .
+hb:CS3062 hb:in_programme hb:prog_cs .
+hb:CS3062 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3062 hb:in_programme hb:prog_se .
+hb:CS3062 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3072 a hb:Module .
+hb:CS3072 rdfs:label "Logic Programming" .
+hb:CS3072 hb:in_programme hb:prog_cs .
+hb:CS3072 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3072 hb:in_programme hb:prog_se .
+hb:CS3072 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3082 a hb:Module .
+hb:CS3082 rdfs:label "Mobile Computing" .
+hb:CS3082 hb:in_programme hb:prog_cs .
+hb:CS3082 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3082 hb:in_programme hb:prog_se .
+hb:CS3082 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3092 a hb:Module .
+hb:CS3092 rdfs:label "Computer and Network Security" .
+hb:CS3092 hb:in_programme hb:prog_cs .
+hb:CS3092 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:CS3092 hb:in_programme hb:prog_se .
+hb:CS3092 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3102 a hb:Module .
+hb:CS3102 rdfs:label "Bioinformatics" .
+hb:CS3102 hb:in_programme hb:prog_cs .
+hb:CS3102 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:SE3042 a hb:Module .
+hb:SE3042 rdfs:label "Software Architecture and Design" .
+hb:SE3042 hb:in_programme hb:prog_cs .
+hb:SE3042 hb:offered_in_prog_cs "5"^^xsd:decimal .
+hb:SE3042 hb:in_programme hb:prog_se .
+hb:SE3042 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3112 a hb:Module .
+hb:CS3112 rdfs:label "Computer Graphics and Visualization" .
+hb:CS3112 hb:in_programme hb:prog_cs .
+hb:CS3112 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3112 hb:in_programme hb:prog_se .
+hb:CS3112 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:CS3122 a hb:Module .
+hb:CS3122 rdfs:label "Automata Theory" .
+hb:CS3122 hb:in_programme hb:prog_cs .
+hb:CS3122 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3122 hb:in_programme hb:prog_se .
+hb:CS3122 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:CS3132 a hb:Module .
+hb:CS3132 rdfs:label "High Performance Computing" .
+hb:CS3132 hb:in_programme hb:prog_cs .
+hb:CS3132 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3132 hb:in_programme hb:prog_se .
+hb:CS3132 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:CS3142 a hb:Module .
+hb:CS3142 rdfs:label "Complex Systems and Agent Technology" .
+hb:CS3142 hb:in_programme hb:prog_cs .
+hb:CS3142 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3142 hb:in_programme hb:prog_se .
+hb:CS3142 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:CS3152 a hb:Module .
+hb:CS3152 rdfs:label "Information Security" .
+hb:CS3152 hb:in_programme hb:prog_cs .
+hb:CS3152 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3152 hb:in_programme hb:prog_se .
+hb:CS3152 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:CS3162 a hb:Module .
+hb:CS3162 rdfs:label "Social Aspects of Computing" .
+hb:CS3162 hb:in_programme hb:prog_cs .
+hb:CS3162 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3162 hb:in_programme hb:prog_se .
+hb:CS3162 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:CS3172 a hb:Module .
+hb:CS3172 rdfs:label "Digital Forensics" .
+hb:CS3172 hb:in_programme hb:prog_cs .
+hb:CS3172 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3172 hb:in_programme hb:prog_se .
+hb:CS3172 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:CS3182 a hb:Module .
+hb:CS3182 rdfs:label "Modeling and Simulation" .
+hb:CS3182 hb:in_programme hb:prog_cs .
+hb:CS3182 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3192 a hb:Module .
+hb:CS3192 rdfs:label "Nature Inspired Computing" .
+hb:CS3192 hb:in_programme hb:prog_cs .
+hb:CS3192 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS3992 a hb:Module .
+hb:CS3992 rdfs:label "Independent Study" .
+hb:CS3992 hb:in_programme hb:prog_cs .
+hb:CS3992 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CM3013 a hb:Module .
+hb:CM3013 rdfs:label "Operational Research" .
+hb:CM3013 hb:in_programme hb:prog_cs .
+hb:CM3013 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:COE3052 a hb:Module .
+hb:COE3052 rdfs:label "Microcontrollers and Embedded Systems" .
+hb:COE3052 hb:in_programme hb:prog_cs .
+hb:COE3052 hb:offered_in_prog_cs "6"^^xsd:decimal .
+hb:CS4012 a hb:Module .
+hb:CS4012 rdfs:label "Emerging Trends in Computing" .
+hb:CS4012 hb:in_programme hb:prog_cs .
+hb:CS4012 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4012 hb:in_programme hb:prog_se .
+hb:CS4012 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CS4022 a hb:Module .
+hb:CS4022 rdfs:label "Theory of Programing Languages" .
+hb:CS4022 hb:in_programme hb:prog_cs .
+hb:CS4022 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4022 hb:in_programme hb:prog_se .
+hb:CS4022 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CS4032 a hb:Module .
+hb:CS4032 rdfs:label "Natural Language Processing" .
+hb:CS4032 hb:in_programme hb:prog_cs .
+hb:CS4032 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4032 hb:in_programme hb:prog_se .
+hb:CS4032 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CS4042 a hb:Module .
+hb:CS4042 rdfs:label "Machine Learning" .
+hb:CS4042 hb:in_programme hb:prog_cs .
+hb:CS4042 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:SE4042 a hb:Module .
+hb:SE4042 rdfs:label "Software Quality Assurance" .
+hb:SE4042 hb:in_programme hb:prog_cs .
+hb:SE4042 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4062 a hb:Module .
+hb:CS4062 rdfs:label "Artificial Cognitive Systems" .
+hb:CS4062 hb:in_programme hb:prog_cs .
+hb:CS4062 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4062 hb:in_programme hb:prog_se .
+hb:CS4062 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CS4072 a hb:Module .
+hb:CS4072 rdfs:label "Computability and Complexity" .
+hb:CS4072 hb:in_programme hb:prog_cs .
+hb:CS4072 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4082 a hb:Module .
+hb:CS4082 rdfs:label "Semantic Web and Ontology" .
+hb:CS4082 hb:in_programme hb:prog_cs .
+hb:CS4082 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4082 hb:in_programme hb:prog_se .
+hb:CS4082 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CS4092 a hb:Module .
+hb:CS4092 rdfs:label "Distributed Systems" .
+hb:CS4092 hb:in_programme hb:prog_cs .
+hb:CS4092 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4092 hb:in_programme hb:prog_se .
+hb:CS4092 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CS4102 a hb:Module .
+hb:CS4102 rdfs:label "Computer Music" .
+hb:CS4102 hb:in_programme hb:prog_cs .
+hb:CS4102 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:COE4022 a hb:Module .
+hb:COE4022 rdfs:label "Advanced Operating Systems" .
+hb:COE4022 hb:in_programme hb:prog_cs .
+hb:COE4022 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:COE4042 a hb:Module .
+hb:COE4042 rdfs:label "Robotics and Automation" .
+hb:COE4042 hb:in_programme hb:prog_cs .
+hb:COE4042 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:SE4012 a hb:Module .
+hb:SE4012 rdfs:label "Formal Methods and Software Verification" .
+hb:SE4012 hb:in_programme hb:prog_cs .
+hb:SE4012 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:SE4012 hb:in_programme hb:prog_se .
+hb:SE4012 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CM4012 a hb:Module .
+hb:CM4012 rdfs:label "Advanced Topics in Statistics" .
+hb:CM4012 hb:in_programme hb:prog_cs .
+hb:CM4012 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CM4012 hb:in_programme hb:prog_se .
+hb:CM4012 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CS4999 a hb:Module .
+hb:CS4999 rdfs:label "Individual Research Project" .
+hb:CS4999 hb:in_programme hb:prog_cs .
+hb:CS4999 hb:offered_in_prog_cs "7"^^xsd:decimal .
+hb:CS4999 hb:offered_in_prog_cs "8"^^xsd:decimal .
+hb:CS4986 a hb:Module .
+hb:CS4986 rdfs:label "Industrial Training" .
+hb:CS4986 hb:in_programme hb:prog_cs .
+hb:CS4986 hb:offered_in_prog_cs "8"^^xsd:decimal .
+hb:SE3012 a hb:Module .
+hb:SE3012 rdfs:label "Engineering Foundation for Software" .
+hb:SE3012 hb:in_programme hb:prog_se .
+hb:SE3012 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:SE3022 a hb:Module .
+hb:SE3022 rdfs:label "Software Modeling" .
+hb:SE3022 hb:in_programme hb:prog_se .
+hb:SE3022 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:SE3032 a hb:Module .
+hb:SE3032 rdfs:label "Software Construction Technologies and Tools" .
+hb:SE3032 hb:in_programme hb:prog_se .
+hb:SE3032 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:CS3012 a hb:Module .
+hb:CS3012 rdfs:label "Human Computer Interaction" .
+hb:CS3012 hb:in_programme hb:prog_se .
+hb:CS3012 hb:offered_in_prog_se "5"^^xsd:decimal .
+hb:SE3052 a hb:Module .
+hb:SE3052 rdfs:label "Engineering Economics for Software" .
+hb:SE3052 hb:in_programme hb:prog_se .
+hb:SE3052 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:SE3062 a hb:Module .
+hb:SE3062 rdfs:label "Software Verification and Validation" .
+hb:SE3062 hb:in_programme hb:prog_se .
+hb:SE3062 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:SE3072 a hb:Module .
+hb:SE3072 rdfs:label "Software Process" .
+hb:SE3072 hb:in_programme hb:prog_se .
+hb:SE3072 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:SE3992 a hb:Module .
+hb:SE3992 rdfs:label "Independent Study" .
+hb:SE3992 hb:in_programme hb:prog_se .
+hb:SE3992 hb:offered_in_prog_se "6"^^xsd:decimal .
+hb:SE4022 a hb:Module .
+hb:SE4022 rdfs:label "Software Evolution" .
+hb:SE4022 hb:in_programme hb:prog_se .
+hb:SE4022 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:SE4032 a hb:Module .
+hb:SE4032 rdfs:label "Software Quality" .
+hb:SE4032 hb:in_programme hb:prog_se .
+hb:SE4032 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:CS4052 a hb:Module .
+hb:CS4052 rdfs:label "Compilers Design" .
+hb:CS4052 hb:in_programme hb:prog_se .
+hb:CS4052 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:SE4999 a hb:Module .
+hb:SE4999 rdfs:label "Individual Research Project" .
+hb:SE4999 hb:in_programme hb:prog_se .
+hb:SE4999 hb:offered_in_prog_se "7"^^xsd:decimal .
+hb:SE4999 hb:offered_in_prog_se "8"^^xsd:decimal .
+hb:SE4996 a hb:Module .
+hb:SE4996 rdfs:label "Industrial Training" .
+hb:SE4996 hb:in_programme hb:prog_se .
+hb:SE4996 hb:offered_in_prog_se "8"^^xsd:decimal .
+hb:staff_0 a hb:Staff .
+hb:staff_0 rdfs:label "Dr. Asela Gunasekara" .
+hb:staff_0 hb:designation "Senior Lecturer Gr. II" .
+hb:staff_0 hb:member_of hb:dept_cs .
+hb:staff_0 hb:email "asela@kdu.ac.lk" .
+hb:staff_0 hb:dean_of hb:faculty_of_computing .
+hb:staff_0 hb:research_topic "computer" .
+hb:staff_0 hb:research_topic "computer interaction" .
+hb:staff_0 hb:research_topic "computer interaction e-health" .
+hb:staff_0 hb:research_topic "e-government" .
+hb:staff_0 hb:research_topic "e-government information" .
+hb:staff_0 hb:research_topic "e-government information quality" .
+hb:staff_0 hb:research_topic "e-health" .
+hb:staff_0 hb:research_topic "e-health e-government" .
+hb:staff_0 hb:research_topic "e-health e-government information" .
+hb:staff_0 hb:research_topic "engineering" .
+hb:staff_0 hb:research_topic "human" .
+hb:staff_0 hb:research_topic "human computer" .
+hb:staff_0 hb:research_topic "human computer interaction" .
+hb:staff_0 hb:research_topic "information" .
+hb:staff_0 hb:research_topic "information engineering" .
+hb:staff_0 hb:research_topic "information quality" .
+hb:staff_0 hb:research_topic "interaction" .
+hb:staff_0 hb:research_topic "interaction e-health" .
+hb:staff_0 hb:research_topic "interaction e-health e-government" .
+hb:staff_0 hb:research_topic "quality" .
+hb:staff_0 hb:research_topic "quality and information" .
+hb:staff_1 a hb:Staff .
+hb:staff_1 rdfs:label "Mrs. SCM De Silva Sirisuriya" .
+hb:staff_1 hb:designation "Senior Lecturer Gr. II" .
+hb:staff_1 hb:member_of hb:dept_cs .
+hb:staff_1 hb:email "mihiri@kdu.ac.lk" .
+hb:staff_1 hb:head_of hb:dept_cs .
+hb:staff_1 hb:research_topic "course" .
+hb:staff_1 hb:research_topic "course reviewing" .
+hb:staff_1 hb:research_topic "design" .
+hb:staff_1 hb:research_topic "e-learning" .
+hb:staff_1 hb:research_topic "e-learning material" .
+hb:staff_1 hb:research_topic "e-learning material structuring" .
+hb:staff_1 hb:research_topic "e-learning multimedia" .
+hb:staff_1 hb:research_topic "e-learning multimedia integration" .
+hb:staff_1 hb:research_topic "e-learning online" .
+hb:staff_1 hb:research_topic "e-learning online course" .
+hb:staff_1 hb:research_topic "instructional" .
+hb:staff_1 hb:research_topic "instructional design" .
+hb:staff_1 hb:research_topic "integration" .
+hb:staff_1 hb:research_topic "integration and e-learning" .
+hb:staff_1 hb:research_topic "material" .
+hb:staff_1 hb:research_topic "material structuring" .
+hb:staff_1 hb:research_topic "multimedia" .
+hb:staff_1 hb:research_topic "multimedia integration" .
+hb:staff_1 hb:research_topic "online" .
+hb:staff_1 hb:research_topic "online course" .
+hb:staff_1 hb:research_topic "online course reviewing" .
+hb:staff_1 hb:research_topic "pedagogical" .
+hb:staff_1 hb:research_topic "pedagogical strategies" .
+hb:staff_1 hb:research_topic "reviewing" .
+hb:staff_1 hb:research_topic "reviewing process pedagogical" .
+hb:staff_1 hb:research_topic "strategies" .
+hb:staff_1 hb:research_topic "strategies in e-learning" .
+hb:staff_1 hb:research_topic "structuring" .
+hb:staff_2 a hb:Staff .
+hb:staff_2 rdfs:label "Dr. LP Kalansooriya" .
+hb:staff_2 hb:designation "Senior Lecturer Gr. II" .
+hb:staff_2 hb:member_of hb:dept_cs .
+hb:staff_2 hb:email "pradeepkalansooriya@kdu.ac.lk" .
+hb:staff_2 hb:research_topic "affective" .
+hb:staff_2 hb:research_topic "affective computing" .
+hb:staff_2 hb:research_topic "affective computing biomedical" .
+hb:staff_2 hb:research_topic "biomedical" .
+hb:staff_2 hb:research_topic "biomedical engineering" .
+hb:staff_2 hb:research_topic "biomedical engineering hologram" .
+hb:staff_2 hb:research_topic "classroom" .
+hb:staff_2 hb:research_topic "computer" .
+hb:staff_2 hb:research_topic "computer interaction" .
+hb:staff_2 hb:research_topic "computer interaction affective" .
+hb:staff_2 hb:research_topic "computing" .
+hb:staff_2 hb:research_topic "computing biomedical" .
+hb:staff_2 hb:research_topic "computing biomedical engineering" .
+hb:staff_2 hb:research_topic "distance" .
+hb:staff_2 hb:research_topic "distance learning" .
+hb:staff_2 hb:research_topic "distance learning technology" .
+hb:staff_2 hb:research_topic "engineering" .
+hb:staff_2 hb:research_topic "engineering hologram" .
+hb:staff_2 hb:research_topic "engineering hologram technology" .
+hb:staff_2 hb:research_topic "hologram" .
+hb:staff_2 hb:research_topic "hologram technology" .
+hb:staff_2 hb:research_topic "hologram technology distance" .
+hb:staff_2 hb:research_topic "human" .
+hb:staff_2 hb:research_topic "human computer" .
+hb:staff_2 hb:research_topic "human computer interaction" .
+hb:staff_2 hb:research_topic "interaction" .
+hb:staff_2 hb:research_topic "interaction affective" .
+hb:staff_2 hb:research_topic "interaction affective computing" .
+hb:staff_2 hb:research_topic "learning" .
+hb:staff_2 hb:research_topic "learning technology" .
+hb:staff_2 hb:research_topic "technology" .
+hb:staff_2 hb:research_topic "technology distance" .
+hb:staff_2 hb:research_topic "technology distance learning" .
+hb:staff_2 hb:research_topic "technology in classroom" .
+hb:staff_3 a hb:Staff .
+hb:staff_3 rdfs:label "Dr. (Mrs.) W Gunathilake" .
+hb:staff_3 hb:designation "Senior Lecturer Gr. II" .
+hb:staff_3 hb:member_of hb:dept_cs .
+hb:staff_3 hb:email "wijendrapg@kdu.ac.lk" .
+hb:staff_3 hb:research_topic "cloud" .
+hb:staff_3 hb:research_topic "cloud computing" .
+hb:staff_3 hb:research_topic "cloud computing health" .
+hb:staff_3 hb:research_topic "computing" .
+hb:staff_3 hb:research_topic "computing health" .
+hb:staff_3 hb:research_topic "computing health informatics" .
+hb:staff_3 hb:research_topic "e-learning" .
+hb:staff_3 hb:research_topic "e-learning cloud" .
+hb:staff_3 hb:research_topic "e-learning cloud computing" .
+hb:staff_3 hb:research_topic "engineering" .
+hb:staff_3 hb:research_topic "engineering e-learning" .
+hb:staff_3 hb:research_topic "engineering e-learning cloud" .
+hb:staff_3 hb:research_topic "health" .
+hb:staff_3 hb:research_topic "health informatics" .
+hb:staff_3 hb:research_topic "informatics" .
+hb:staff_3 hb:research_topic "informatics it strategy" .
+hb:staff_3 hb:research_topic "knowledge" .
+hb:staff_3 hb:research_topic "knowledge management" .
+hb:staff_3 hb:research_topic "knowledge management software" .
+hb:staff_3 hb:research_topic "management" .
+hb:staff_3 hb:research_topic "management software" .
+hb:staff_3 hb:research_topic "management software engineering" .
+hb:staff_3 hb:research_topic "software" .
+hb:staff_3 hb:research_topic "software engineering" .
+hb:staff_3 hb:research_topic "software engineering e-learning" .
+hb:staff_3 hb:research_topic "strategy" .
+hb:staff_4 a hb:Staff .
+hb:staff_4 rdfs:label "Mr. PPNV Kumara" .
+hb:staff_4 hb:designation "Senior Lecturer Gr. II" .
+hb:staff_4 hb:member_of hb:dept_cs .
+hb:staff_4 hb:email "nandana@kdu.ac.lk" .
+hb:staff_4 hb:research_topic "cloud" .
+hb:staff_4 hb:research_topic "cloud computing" .
+hb:staff_4 hb:research_topic "computing" .
+hb:staff_4 hb:research_topic "computing and virtualization" .
+hb:staff_4 hb:research_topic "data" .
+hb:staff_4 hb:research_topic "data science" .
+hb:staff_4 hb:research_topic "data science cloud" .
+hb:staff_4 hb:research_topic "information" .
+hb:staff_4 hb:research_topic "information systems strategies" .
+hb:staff_4 hb:research_topic "science" .
+hb:staff_4 hb:research_topic "science cloud" .
+hb:staff_4 hb:research_topic "science cloud computing" .
+hb:staff_4 hb:research_topic "strategies" .
+hb:staff_4 hb:research_topic "strategies data" .
+hb:staff_4 hb:research_topic "strategies data science" .
+hb:staff_4 hb:research_topic "virtualization" .
+hb:staff_5 a hb:Staff .
+hb:staff_5 rdfs:label "Mrs. WPJ Pemarathne" .
+hb:staff_5 hb:designation "Senior Lecturer Gr. II" .
+hb:staff_5 hb:member_of hb:dept_cs .
+hb:staff_5 hb:email "punsisi@kdu.ac.lk" .
+hb:staff_5 hb:research_topic "artificial" .
+hb:staff_5 hb:research_topic "artificial intelligence" .
+hb:staff_5 hb:research_topic "communications" .
+hb:staff_5 hb:research_topic "communications network" .
+hb:staff_5 hb:research_topic "communications network security" .
+hb:staff_5 hb:research_topic "computing" .
+hb:staff_5 hb:research_topic "computing internet" .
+hb:staff_5 hb:research_topic "evolutionary" .
+hb:staff_5 hb:research_topic "evolutionary computing" .
+hb:staff_5 hb:research_topic "evolutionary computing internet" .
+hb:staff_5 hb:research_topic "intelligence" .
+hb:staff_5 hb:research_topic "intelligence and robotics" .
+hb:staff_5 hb:research_topic "internet" .
+hb:staff_5 hb:research_topic "internet of things" .
+hb:staff_5 hb:research_topic "mobile" .
+hb:staff_5 hb:research_topic "mobile and wireless" .
+hb:staff_5 hb:research_topic "network" .
+hb:staff_5 hb:research_topic "network security" .
+hb:staff_5 hb:research_topic "network security evolutionary" .
+hb:staff_5 hb:research_topic "robotics" .
+hb:staff_5 hb:research_topic "robotics artificial" .
+hb:staff_5 hb:research_topic "robotics artificial intelligence" .
+hb:staff_5 hb:research_topic "robotics mobile" .
+hb:staff_5 hb:research_topic "security" .
+hb:staff_5 hb:research_topic "security evolutionary" .
+hb:staff_5 hb:research_topic "security evolutionary computing" .
+hb:staff_5 hb:research_topic "swarm" .
+hb:staff_5 hb:research_topic "swarm robotics" .
+hb:staff_5 hb:research_topic "swarm robotics artificial" .
+hb:staff_5 hb:research_topic "things" .
+hb:staff_5 hb:research_topic "wireless" .
+hb:staff_5 hb:research_topic "wireless communications" .
+hb:staff_5 hb:research_topic "wireless communications network" .
+hb:staff_6 a hb:Staff .
+hb:staff_6 rdfs:label "Ms. Kalani Sriya Ilmini" .
+hb:staff_6 hb:designation "Lecturer (Probationary)" .
+hb:staff_6 hb:member_of hb:dept_cs .
+hb:staff_6 hb:email "kalaniilmini@kdu.ac.lk" .
+hb:staff_6 hb:research_topic "affective" .
+hb:staff_6 hb:research_topic "affective computing" .
+hb:staff_6 hb:research_topic "affective computing data" .
+hb:staff_6 hb:research_topic "artificial" .
+hb:staff_6 hb:research_topic "artificial neural" .
+hb:staff_6 hb:research_topic "artificial neural networks" .
+hb:staff_6 hb:research_topic "computing" .
+hb:staff_6 hb:research_topic "computing data" .
+hb:staff_6 hb:research_topic "computing data mining" .
+hb:staff_6 hb:research_topic "data" .
+hb:staff_6 hb:research_topic "data mining" .
+hb:staff_6 hb:research_topic "deep" .
+hb:staff_6 hb:research_topic "deep learning" .
+hb:staff_6 hb:research_topic "deep learning affective" .
+hb:staff_6 hb:research_topic "learning" .
+hb:staff_6 hb:research_topic "learning affective" .
+hb:staff_6 hb:research_topic "learning affective computing" .
+hb:staff_6 hb:research_topic "mining" .
+hb:staff_6 hb:research_topic "networks" .
+hb:staff_6 hb:research_topic "networks deep" .
+hb:staff_6 hb:research_topic "networks deep learning" .
+hb:staff_6 hb:research_topic "neural" .
+hb:staff_6 hb:research_topic "neural networks" .
+hb:staff_6 hb:research_topic "neural networks deep" .
+hb:staff_7 a hb:Staff .
+hb:staff_7 rdfs:label "Mrs. MKP Madushanka" .
+hb:staff_7 hb:designation "Lecturer (Probationary)" .
+hb:staff_7 hb:member_of hb:dept_cs .
+hb:staff_7 hb:email "pavithram@kdu.ac.lk" .
+hb:staff_7 hb:research_topic "cyber" .
+hb:staff_7 hb:research_topic "cyber security" .
+hb:staff_7 hb:research_topic "data" .
+hb:staff_7 hb:research_topic "data science" .
+hb:staff_7 hb:research_topic "data science machine" .
+hb:staff_7 hb:research_topic "learning" .
+hb:staff_7 hb:research_topic "learning cyber" .
+hb:staff_7 hb:research_topic "learning cyber security" .
+hb:staff_7 hb:research_topic "machine" .
+hb:staff_7 hb:research_topic "machine learning" .
+hb:staff_7 hb:research_topic "machine learning cyber" .
+hb:staff_7 hb:research_topic "science" .
+hb:staff_7 hb:research_topic "science machine" .
+hb:staff_7 hb:research_topic "science machine learning" .
+hb:staff_7 hb:research_topic "security" .
+hb:staff_8 a hb:Staff .
+hb:staff_8 rdfs:label "Ms. GAI Uwanthika" .
+hb:staff_8 hb:designation "Lecturer (Probationary)" .
+hb:staff_8 hb:member_of hb:dept_cs .
+hb:staff_8 hb:email "Uwanthika.gai@kdu.ac.lk" .
+hb:staff_8 hb:research_topic "biology" .
+hb:staff_8 hb:research_topic "computational" .
+hb:staff_8 hb:research_topic "computational biology" .
+hb:staff_8 hb:research_topic "computer" .
+hb:staff_8 hb:research_topic "computer vision" .
+hb:staff_8 hb:research_topic "computer vision computational" .
+hb:staff_8 hb:research_topic "deep" .
+hb:staff_8 hb:research_topic "deep learning" .
+hb:staff_8 hb:research_topic "deep learning computer" .
+hb:staff_8 hb:research_topic "learning" .
+hb:staff_8 hb:research_topic "learning computer" .
+hb:staff_8 hb:research_topic "learning computer vision" .
+hb:staff_8 hb:research_topic "vision" .
+hb:staff_8 hb:research_topic "vision computational" .
+hb:staff_8 hb:research_topic "vision computational biology" .
+hb:staff_9 a hb:Staff .
+hb:staff_9 rdfs:label "Ms. JJRS Fernando" .
+hb:staff_9 hb:designation "Instructor Gr.II" .
+hb:staff_9 hb:member_of hb:dept_cs .
+hb:staff_9 hb:email "fernandojjrs@kdu.ac.lk" .
+hb:staff_9 hb:research_topic "artificial" .
+hb:staff_9 hb:research_topic "artificial intelligence" .
+hb:staff_9 hb:research_topic "computer" .
+hb:staff_9 hb:research_topic "computer vision" .
+hb:staff_9 hb:research_topic "computer vision artificial" .
+hb:staff_9 hb:research_topic "intelligence" .
+hb:staff_9 hb:research_topic "vision" .
+hb:staff_9 hb:research_topic "vision artificial" .
+hb:staff_9 hb:research_topic "vision artificial intelligence" .
+hb:staff_10 a hb:Staff .
+hb:staff_10 rdfs:label "Ms. RGC Upeksha" .
+hb:staff_10 hb:designation "Instructor ( Temporary)" .
+hb:staff_10 hb:member_of hb:dept_cs .
+hb:staff_10 hb:email "upekshargc@kdu.ac.lk" .
+hb:staff_10 hb:research_topic "blockchain" .
+hb:staff_10 hb:research_topic "blockchain technology" .
+hb:staff_10 hb:research_topic "blockchain technology digital" .
+hb:staff_10 hb:research_topic "cybersecurity" .
+hb:staff_10 hb:research_topic "cybersecurity blockchain" .
+hb:staff_10 hb:research_topic "cybersecurity blockchain technology" .
+hb:staff_10 hb:research_topic "digital" .
+hb:staff_10 hb:research_topic "digital forensics" .
+hb:staff_10 hb:research_topic "forensics" .
+hb:staff_10 hb:research_topic "technology" .
+hb:staff_10 hb:research_topic "technology digital" .
+hb:staff_10 hb:research_topic "technology digital forensics" .
+hb:staff_11 a hb:Staff .
+hb:staff_11 rdfs:label "Ms. FS Sourjah" .
+hb:staff_11 hb:designation "Instructor ( Temporary)" .
+hb:staff_11 hb:member_of hb:dept_cs .
+hb:staff_11 hb:email "sourjahfs@kdu.ac.lk" .
+hb:staff_11 hb:research_topic "computing" .
+hb:staff_11 hb:research_topic "deep" .
+hb:staff_11 hb:research_topic "deep learning" .
+hb:staff_11 hb:research_topic "deep learning machine" .
+hb:staff_11 hb:research_topic "learning" .
+hb:staff_11 hb:research_topic "learning machine" .
+hb:staff_11 hb:research_topic "learning machine learning" .
+hb:staff_11 hb:research_topic "learning nature-inspired" .
+hb:staff_11 hb:research_topic "learning nature-inspired computing" .
+hb:staff_11 hb:research_topic "machine" .
+hb:staff_11 hb:research_topic "machine learning" .
+hb:staff_11 hb:research_topic "machine learning nature-inspired" .
+hb:staff_11 hb:research_topic "nature-inspired" .
+hb:staff_11 hb:research_topic "nature-inspired computing" .
+hb:staff_12 a hb:Staff .
+hb:staff_12 rdfs:label "Mr. RPS Kathriarachchi" .
+hb:staff_12 hb:designation "Senior Lecturer Gr. II" .
+hb:staff_12 hb:member_of hb:dept_it .
+hb:staff_12 hb:email "pathum@kdu.ac.lk" .
+hb:staff_12 hb:head_of hb:dept_it .
+hb:staff_12 hb:research_topic "cloud" .
+hb:staff_12 hb:research_topic "cloud computing" .
+hb:staff_12 hb:research_topic "computer" .
+hb:staff_12 hb:research_topic "computer networks" .
+hb:staff_12 hb:research_topic "computing" .
+hb:staff_12 hb:research_topic "gps cloud" .
+hb:staff_12 hb:research_topic "gps cloud computing" .
+hb:staff_12 hb:research_topic "internet" .
+hb:staff_12 hb:research_topic "internet of things" .
+hb:staff_12 hb:research_topic "networks" .
+hb:staff_12 hb:research_topic "networks and security" .
+hb:staff_12 hb:research_topic "security" .
+hb:staff_12 hb:research_topic "security gps" .
+hb:staff_12 hb:research_topic "security gps cloud" .
+hb:staff_12 hb:research_topic "things" .
+hb:staff_12 hb:research_topic "things computer" .
+hb:staff_12 hb:research_topic "things computer networks" .
+hb:staff_13 a hb:Staff .
+hb:staff_13 rdfs:label "Mrs. DU Vidanagama" .
+hb:staff_13 hb:designation "Senior Lecturer Gr. II" .
+hb:staff_13 hb:member_of hb:dept_it .
+hb:staff_13 hb:email "udeshika@kdu.ac.lk" .
+hb:staff_13 hb:research_topic "big data" .
+hb:staff_13 hb:research_topic "big data data" .
+hb:staff_13 hb:research_topic "data" .
+hb:staff_13 hb:research_topic "data data" .
+hb:staff_13 hb:research_topic "data data mining" .
+hb:staff_13 hb:research_topic "data mining" .
+hb:staff_13 hb:research_topic "data mining opining" .
+hb:staff_13 hb:research_topic "database" .
+hb:staff_13 hb:research_topic "e-learning" .
+hb:staff_13 hb:research_topic "e-learning big" .
+hb:staff_13 hb:research_topic "e-learning big data" .
+hb:staff_13 hb:research_topic "learning" .
+hb:staff_13 hb:research_topic "learning multi-agent" .
+hb:staff_13 hb:research_topic "learning multi-agent technologies" .
+hb:staff_13 hb:research_topic "machine" .
+hb:staff_13 hb:research_topic "machine learning" .
+hb:staff_13 hb:research_topic "machine learning multi-agent" .
+hb:staff_13 hb:research_topic "mining" .
+hb:staff_13 hb:research_topic "mining machine" .
+hb:staff_13 hb:research_topic "mining machine learning" .
+hb:staff_13 hb:research_topic "mining opining" .
+hb:staff_13 hb:research_topic "mining opining mining" .
+hb:staff_13 hb:research_topic "multi-agent" .
+hb:staff_13 hb:research_topic "multi-agent technologies" .
+hb:staff_13 hb:research_topic "multi-agent technologies xml" .
+hb:staff_13 hb:research_topic "opining" .
+hb:staff_13 hb:research_topic "opining mining" .
+hb:staff_13 hb:research_topic "opining mining machine" .
+hb:staff_13 hb:research_topic "technologies" .
+hb:staff_13 hb:research_topic "technologies xml" .
+hb:staff_13 hb:research_topic "technologies xml database" .
+hb:staff_13 hb:research_topic "xml database" .
+hb:staff_14 a hb:Staff .
+hb:staff_14 rdfs:label "Maj. RMM Pradeep" .
+hb:staff_14 hb:designation "Senior Lecturer Gr. II (Military Academic)" .
+hb:staff_14 hb:member_of hb:dept_it .
+hb:staff_14 hb:email "pradeep@kdu.ac.lk" .
+hb:staff_14 hb:research_topic "engineering" .
+hb:staff_14 hb:research_topic "flood" .
+hb:staff_14 hb:research_topic "flood modeling" .
+hb:staff_14 hb:research_topic "flood modeling engineering" .
+hb:staff_14 hb:research_topic "geo-informatics" .
+hb:staff_14 hb:research_topic "geo-informatics urban" .
+hb:staff_14 hb:research_topic "geo-informatics urban flood" .
+hb:staff_14 hb:research_topic "modeling" .
+hb:staff_14 hb:research_topic "modeling engineering" .
+hb:staff_14 hb:research_topic "urban" .
+hb:staff_14 hb:research_topic "urban flood" .
+hb:staff_14 hb:research_topic "urban flood modeling" .
+hb:staff_15 a hb:Staff .
+hb:staff_15 rdfs:label "Dr. N Wedasinghe" .
+hb:staff_15 hb:designation "Senior Lecturer Grade II" .
+hb:staff_15 hb:member_of hb:dept_it .
+hb:staff_15 hb:email "nirosha@kdu.ac.lk" .
+hb:staff_15 hb:research_topic "aspects" .
+hb:staff_15 hb:research_topic "aspects in computers" .
+hb:staff_15 hb:research_topic "computers" .
+hb:staff_15 hb:research_topic "digital" .
+hb:staff_15 hb:research_topic "digital divide" .
+hb:staff_15 hb:research_topic "digital divide human" .
+hb:staff_15 hb:research_topic "disability" .
+hb:staff_15 hb:research_topic "disability digital" .
+hb:staff_15 hb:research_topic "disability digital divide" .
+hb:staff_15 hb:research_topic "divide" .
+hb:staff_15 hb:research_topic "divide human" .
+hb:staff_15 hb:research_topic "divide human recourses" .
+hb:staff_15 hb:research_topic "human" .
+hb:staff_15 hb:research_topic "human recourses" .
+hb:staff_15 hb:research_topic "human recourses management" .
+hb:staff_15 hb:research_topic "information" .
+hb:staff_15 hb:research_topic "information systems risk" .
+hb:staff_15 hb:research_topic "management" .
+hb:staff_15 hb:research_topic "management disability" .
+hb:staff_15 hb:research_topic "management disability digital" .
+hb:staff_15 hb:research_topic "management information" .
+hb:staff_15 hb:research_topic "management management" .
+hb:staff_15 hb:research_topic "management management information" .
+hb:staff_15 hb:research_topic "management social" .
+hb:staff_15 hb:research_topic "management social aspects" .
+hb:staff_15 hb:research_topic "recourses" .
+hb:staff_15 hb:research_topic "recourses management" .
+hb:staff_15 hb:research_topic "recourses management social" .
+hb:staff_15 hb:research_topic "risk" .
+hb:staff_15 hb:research_topic "risk management" .
+hb:staff_15 hb:research_topic "risk management disability" .
+hb:staff_15 hb:research_topic "social" .
+hb:staff_15 hb:research_topic "social aspects" .
+hb:staff_15 hb:research_topic "strategic" .
+hb:staff_15 hb:research_topic "strategic it management" .
+hb:staff_16 a hb:Staff .
+hb:staff_16 rdfs:label "Mrs. WJ Samaraweera" .
+hb:staff_16 hb:designation "Lecturer" .
+hb:staff_16 hb:member_of hb:dept_it .
+hb:staff_16 hb:email "wishma@kdu.ac.lk" .
+hb:staff_16 hb:research_topic "data" .
+hb:staff_16 hb:research_topic "data science" .
+hb:staff_16 hb:research_topic "data science image" .
+hb:staff_16 hb:research_topic "image" .
+hb:staff_16 hb:research_topic "image processing" .
+hb:staff_16 hb:research_topic "processing" .
+hb:staff_16 hb:research_topic "science" .
+hb:staff_16 hb:research_topic "science image" .
+hb:staff_16 hb:research_topic "science image processing" .
+hb:staff_17 a hb:Staff .
+hb:staff_17 rdfs:label "Mrs. PRD Wijesinghe" .
+hb:staff_17 hb:designation "Lecturer (Unconfirmed)" .
+hb:staff_17 hb:member_of hb:dept_it .
+hb:staff_17 hb:email "deepikaw@kdu.ac.lk" .
+hb:staff_17 hb:research_topic "behaviour" .
+hb:staff_17 hb:research_topic "behaviour organizational" .
+hb:staff_17 hb:research_topic "behaviour organizational psychology" .
+hb:staff_17 hb:research_topic "creativity" .
+hb:staff_17 hb:research_topic "creativity and innovations" .
+hb:staff_17 hb:research_topic "innovations" .
+hb:staff_17 hb:research_topic "organizational" .
+hb:staff_17 hb:research_topic "organizational behaviour" .
+hb:staff_17 hb:research_topic "organizational behaviour organizational" .
+hb:staff_17 hb:research_topic "organizational psychology" .
+hb:staff_17 hb:research_topic "organizational psychology creativity" .
+hb:staff_17 hb:research_topic "psychology" .
+hb:staff_17 hb:research_topic "psychology creativity" .
+hb:staff_18 a hb:Staff .
+hb:staff_18 rdfs:label "Mr. GIF de Silva" .
+hb:staff_18 hb:designation "Lecturer (Probationary)" .
+hb:staff_18 hb:member_of hb:dept_it .
+hb:staff_18 hb:email "indika@kdu.ac.lk" .
+hb:staff_18 hb:research_topic "assurance" .
+hb:staff_18 hb:research_topic "assurance software" .
+hb:staff_18 hb:research_topic "assurance software engineering" .
+hb:staff_18 hb:research_topic "best" .
+hb:staff_18 hb:research_topic "best practices" .
+hb:staff_18 hb:research_topic "best practices computer" .
+hb:staff_18 hb:research_topic "computer" .
+hb:staff_18 hb:research_topic "computer gaming" .
+hb:staff_18 hb:research_topic "engineering" .
+hb:staff_18 hb:research_topic "engineering best" .
+hb:staff_18 hb:research_topic "engineering best practices" .
+hb:staff_18 hb:research_topic "gaming" .
+hb:staff_18 hb:research_topic "gaming and psychology" .
+hb:staff_18 hb:research_topic "management" .
+hb:staff_18 hb:research_topic "practices" .
+hb:staff_18 hb:research_topic "practices computer" .
+hb:staff_18 hb:research_topic "practices computer gaming" .
+hb:staff_18 hb:research_topic "project" .
+hb:staff_18 hb:research_topic "project management" .
+hb:staff_18 hb:research_topic "psychology" .
+hb:staff_18 hb:research_topic "psychology software" .
+hb:staff_18 hb:research_topic "psychology software project" .
+hb:staff_18 hb:research_topic "quality" .
+hb:staff_18 hb:research_topic "quality assurance" .
+hb:staff_18 hb:research_topic "quality assurance software" .
+hb:staff_18 hb:research_topic "software" .
+hb:staff_18 hb:research_topic "software engineering" .
+hb:staff_18 hb:research_topic "software engineering best" .
+hb:staff_18 hb:research_topic "software project" .
+hb:staff_18 hb:research_topic "software project management" .
+hb:staff_18 hb:research_topic "software quality" .
+hb:staff_18 hb:research_topic "software quality assurance" .
+hb:staff_19 a hb:Staff .
+hb:staff_19 rdfs:label "Mr. WAAM Wanniarachchi" .
+hb:staff_19 hb:designation "Lecturer (Probationary)" .
+hb:staff_19 hb:member_of hb:dept_it .
+hb:staff_19 hb:email "ashenw@kdu.ac.lk" .
+hb:staff_19 hb:research_topic "analysis" .
+hb:staff_19 hb:research_topic "analysis education" .
+hb:staff_19 hb:research_topic "data" .
+hb:staff_19 hb:research_topic "data analysis" .
+hb:staff_19 hb:research_topic "data analysis education" .
+hb:staff_19 hb:research_topic "education" .
+hb:staff_20 a hb:Staff .
+hb:staff_20 rdfs:label "Mr. WMSRB Wijayarathna" .
+hb:staff_20 hb:designation "Lecturer (Probationary)" .
+hb:staff_20 hb:member_of hb:dept_it .
+hb:staff_20 hb:email "shashikab@kdu.ac.lk" .
+hb:staff_20 hb:research_topic "entrepreneur" .
+hb:staff_20 hb:research_topic "entrepreneur and information" .
+hb:staff_20 hb:research_topic "information" .
+hb:staff_20 hb:research_topic "information technology" .
+hb:staff_20 hb:research_topic "information technology management" .
+hb:staff_20 hb:research_topic "management" .
+hb:staff_20 hb:research_topic "management information" .
+hb:staff_20 hb:research_topic "technology" .
+hb:staff_20 hb:research_topic "technology management" .
+hb:staff_20 hb:research_topic "technology management information" .
+hb:staff_21 a hb:Staff .
+hb:staff_21 rdfs:label "Eng. DB Wijesinghe" .
+hb:staff_21 hb:designation "Lecturer (Probationary)" .
+hb:staff_21 hb:member_of hb:dept_it .
+hb:staff_21 hb:email "dbuddhika@kdu.ac.lk" .
+hb:staff_21 hb:research_topic "computer" .
+hb:staff_21 hb:research_topic "computer enhanced" .
+hb:staff_21 hb:research_topic "computer enhanced learning" .
+hb:staff_21 hb:research_topic "cyber" .
+hb:staff_21 hb:research_topic "cyber security" .
+hb:staff_21 hb:research_topic "enhanced" .
+hb:staff_21 hb:research_topic "enhanced learning" .
+hb:staff_21 hb:research_topic "enhanced learning cyber" .
+hb:staff_21 hb:research_topic "intelligent" .
+hb:staff_21 hb:research_topic "intelligent systems computer" .
+hb:staff_21 hb:research_topic "iot robotics" .
+hb:staff_21 hb:research_topic "iot robotics intelligent" .
+hb:staff_21 hb:research_topic "learning" .
+hb:staff_21 hb:research_topic "learning cyber" .
+hb:staff_21 hb:research_topic "learning cyber security" .
+hb:staff_21 hb:research_topic "robotics" .
+hb:staff_21 hb:research_topic "robotics intelligent" .
+hb:staff_21 hb:research_topic "security" .
+hb:staff_22 a hb:Staff .
+hb:staff_22 rdfs:label "Ms. I Udayangi" .
+hb:staff_22 hb:designation "Lecturer (Probationary)" .
+hb:staff_22 hb:member_of hb:dept_it .
+hb:staff_22 hb:email "nduniguruge@kdu.ac.lk" .
+hb:staff_22 hb:research_topic "assurance" .
+hb:staff_22 hb:research_topic "assurance management" .
+hb:staff_22 hb:research_topic "assurance management information" .
+hb:staff_22 hb:research_topic "engineering" .
+hb:staff_22 hb:research_topic "engineering software" .
+hb:staff_22 hb:research_topic "engineering software quality" .
+hb:staff_22 hb:research_topic "information" .
+hb:staff_22 hb:research_topic "information systems hci" .
+hb:staff_22 hb:research_topic "management" .
+hb:staff_22 hb:research_topic "management information" .
+hb:staff_22 hb:research_topic "quality" .
+hb:staff_22 hb:research_topic "quality assurance" .
+hb:staff_22 hb:research_topic "quality assurance management" .
+hb:staff_22 hb:research_topic "software" .
+hb:staff_22 hb:research_topic "software engineering" .
+hb:staff_22 hb:research_topic "software engineering software" .
+hb:staff_22 hb:research_topic "software quality" .
+hb:staff_22 hb:research_topic "software quality assurance" .
+hb:staff_23 a hb:Staff .
+hb:staff_23 rdfs:label "Ms. D Gunasekera" .
+hb:staff_23 hb:designation "Lecturer (Probationary)" .
+hb:staff_23 hb:member_of hb:dept_it .
+hb:staff_23 hb:email "dgunasekara@kdu.ac.lk" .
+hb:staff_23 hb:research_topic "computer" .
+hb:staff_23 hb:research_topic "computer science" .
+hb:staff_23 hb:research_topic "computer science software" .
+hb:staff_23 hb:research_topic "engineering" .
+hb:staff_23 hb:research_topic "engineering software" .
+hb:staff_23 hb:research_topic "engineering software testing" .
+hb:staff_23 hb:research_topic "science" .
+hb:staff_23 hb:research_topic "science software" .
+hb:staff_23 hb:research_topic "science software engineering" .
+hb:staff_23 hb:research_topic "software" .
+hb:staff_23 hb:research_topic "software engineering" .
+hb:staff_23 hb:research_topic "software engineering software" .
+hb:staff_23 hb:research_topic "software testing" .
+hb:staff_23 hb:research_topic "testing" .
+hb:staff_24 a hb:Staff .
+hb:staff_24 rdfs:label "Mrs. KBA Madushi" .
+hb:staff_24 hb:designation "Instructor Grade II" .
+hb:staff_24 hb:member_of hb:dept_it .
+hb:staff_24 hb:email "asham@kdu.ac.lk" .
+hb:staff_24 hb:research_topic "computer" .
+hb:staff_24 hb:research_topic "computer networks" .
+hb:staff_24 hb:research_topic "computer networks databases" .
+hb:staff_24 hb:research_topic "databases" .
+hb:staff_24 hb:research_topic "networks" .
+hb:staff_24 hb:research_topic "networks databases" .
+hb:staff_25 a hb:Staff .
+hb:staff_25 rdfs:label "Miss BMTN Rathnayake" .
+hb:staff_25 hb:designation "Instructor Grade II" .
+hb:staff_25 hb:member_of hb:dept_it .
+hb:staff_25 hb:email "thisarun@kdu.ac.lk" .
+hb:staff_25 hb:research_topic "information" .
+hb:staff_26 a hb:Staff .
+hb:staff_26 rdfs:label "Miss GAD Ganepola" .
+hb:staff_26 hb:designation "Instructor Grade II" .
+hb:staff_26 hb:member_of hb:dept_it .
+hb:staff_26 hb:email "dasunig@kdu.ac.lk" .
+hb:staff_26 hb:research_topic "cyber" .
+hb:staff_26 hb:research_topic "cyber security" .
+hb:staff_26 hb:research_topic "security" .
+hb:staff_27 a hb:Staff .
+hb:staff_27 rdfs:label "Mr. DPM LAkshan" .
+hb:staff_27 hb:designation "Instructor (Temporary)" .
+hb:staff_27 hb:member_of hb:dept_it .
+hb:staff_27 hb:email "dpmlakshan@kdu.ac.lk" .
+hb:staff_27 hb:research_topic "computer" .
+hb:staff_27 hb:research_topic "computer networks" .
+hb:staff_27 hb:research_topic "networks" .
+hb:staff_28 a hb:Staff .
+hb:staff_28 rdfs:label "Ms. MVT Kawya" .
+hb:staff_28 hb:designation "Instructor (Temporary)" .
+hb:staff_28 hb:member_of hb:dept_it .
+hb:staff_28 hb:email "mvtkawya@kdu.ac.lk" .
+hb:staff_28 hb:research_topic "analytics" .
+hb:staff_28 hb:research_topic "business" .
+hb:staff_28 hb:research_topic "business analytics" .
+hb:staff_28 hb:research_topic "information" .
+hb:staff_28 hb:research_topic "information systems business" .
+hb:staff_28 hb:research_topic "knowledge" .
+hb:staff_28 hb:research_topic "knowledge management" .
+hb:staff_28 hb:research_topic "knowledge management information" .
+hb:staff_28 hb:research_topic "management" .
+hb:staff_28 hb:research_topic "management information" .
+hb:staff_29 a hb:Staff .
+hb:staff_29 rdfs:label "Ms. K Anuradha" .
+hb:staff_29 hb:designation "Instructor (Temporary)" .
+hb:staff_29 hb:member_of hb:dept_it .
+hb:staff_29 hb:email "kanuradha@kdu.ac.lk" .
+hb:staff_29 hb:research_topic "data" .
+hb:staff_29 hb:research_topic "data mining" .
+hb:staff_29 hb:research_topic "learning" .
+hb:staff_29 hb:research_topic "learning data" .
+hb:staff_29 hb:research_topic "learning data mining" .
+hb:staff_29 hb:research_topic "machine" .
+hb:staff_29 hb:research_topic "machine learning" .
+hb:staff_29 hb:research_topic "machine learning data" .
+hb:staff_29 hb:research_topic "mining" .
+hb:staff_30 a hb:Staff .
+hb:staff_30 rdfs:label "Dr. B Hettige" .
+hb:staff_30 hb:designation "Senior Lecturer (Grade II)" .
+hb:staff_30 hb:member_of hb:dept_ce .
+hb:staff_30 hb:email "budditha@kdu.ac.lk" .
+hb:staff_30 hb:head_of hb:dept_ce .
+hb:staff_30 hb:research_topic "agent" .
+hb:staff_30 hb:research_topic "agent systems sinhala" .
+hb:staff_30 hb:research_topic "computational" .
+hb:staff_30 hb:research_topic "computational grammar" .
+hb:staff_30 hb:research_topic "grammar" .
+hb:staff_30 hb:research_topic "language" .
+hb:staff_30 hb:research_topic "language computational" .
+hb:staff_30 hb:research_topic "language computational grammar" .
+hb:staff_30 hb:research_topic "machine" .
+hb:staff_30 hb:research_topic "machine translation" .
+hb:staff_30 hb:research_topic "machine translation multi" .
+hb:staff_30 hb:research_topic "multi" .
+hb:staff_30 hb:research_topic "multi agent" .
+hb:staff_30 hb:research_topic "sinhala" .
+hb:staff_30 hb:research_topic "sinhala language" .
+hb:staff_30 hb:research_topic "sinhala language computational" .
+hb:staff_30 hb:research_topic "translation" .
+hb:staff_30 hb:research_topic "translation multi" .
+hb:staff_30 hb:research_topic "translation multi agent" .
+hb:staff_31 a hb:Staff .
+hb:staff_31 rdfs:label "Dr. (Eng.) Thushara Weerawardane" .
+hb:staff_31 hb:designation "Senior Lecturer (Grade I)" .
+hb:staff_31 hb:member_of hb:dept_ce .
+hb:staff_31 hb:email "tlw@kdu.ac.lk" .
+hb:staff_31 hb:research_topic "analysis" .
+hb:staff_31 hb:research_topic "analysis machine" .
+hb:staff_31 hb:research_topic "analysis machine learning" .
+hb:staff_31 hb:research_topic "communication" .
+hb:staff_31 hb:research_topic "communication long-term" .
+hb:staff_31 hb:research_topic "communication long-term evolution" .
+hb:staff_31 hb:research_topic "communication networks" .
+hb:staff_31 hb:research_topic "communication networks internet" .
+hb:staff_31 hb:research_topic "communication telecommunication" .
+hb:staff_31 hb:research_topic "data" .
+hb:staff_31 hb:research_topic "data science" .
+hb:staff_31 hb:research_topic "evolution" .
+hb:staff_31 hb:research_topic "evolution mobile" .
+hb:staff_31 hb:research_topic "evolution mobile wireless" .
+hb:staff_31 hb:research_topic "generation" .
+hb:staff_31 hb:research_topic "generation mobile" .
+hb:staff_31 hb:research_topic "generation mobile communication" .
+hb:staff_31 hb:research_topic "internet" .
+hb:staff_31 hb:research_topic "internet of things" .
+hb:staff_31 hb:research_topic "learning" .
+hb:staff_31 hb:research_topic "learning stochastic" .
+hb:staff_31 hb:research_topic "learning stochastic simulations" .
+hb:staff_31 hb:research_topic "long-term" .
+hb:staff_31 hb:research_topic "long-term evolution" .
+hb:staff_31 hb:research_topic "long-term evolution mobile" .
+hb:staff_31 hb:research_topic "machine" .
+hb:staff_31 hb:research_topic "machine learning" .
+hb:staff_31 hb:research_topic "machine learning stochastic" .
+hb:staff_31 hb:research_topic "mobile" .
+hb:staff_31 hb:research_topic "mobile communication" .
+hb:staff_31 hb:research_topic "mobile communication long-term" .
+hb:staff_31 hb:research_topic "mobile wireless" .
+hb:staff_31 hb:research_topic "mobile wireless communication" .
+hb:staff_31 hb:research_topic "networks" .
+hb:staff_31 hb:research_topic "networks internet" .
+hb:staff_31 hb:research_topic "science" .
+hb:staff_31 hb:research_topic "science and analysis" .
+hb:staff_31 hb:research_topic "simulations" .
+hb:staff_31 hb:research_topic "simulations and statistical" .
+hb:staff_31 hb:research_topic "statistical" .
+hb:staff_31 hb:research_topic "statistical analysis" .
+hb:staff_31 hb:research_topic "stochastic" .
+hb:staff_31 hb:research_topic "stochastic simulations" .
+hb:staff_31 hb:research_topic "telecommunication" .
+hb:staff_31 hb:research_topic "telecommunication and communication" .
+hb:staff_31 hb:research_topic "th generation" .
+hb:staff_31 hb:research_topic "th generation mobile" .
+hb:staff_31 hb:research_topic "things" .
+hb:staff_31 hb:research_topic "things data" .
+hb:staff_31 hb:research_topic "things data science" .
+hb:staff_31 hb:research_topic "wireless" .
+hb:staff_31 hb:research_topic "wireless communication" .
+hb:staff_31 hb:research_topic "wireless communication telecommunication" .
+hb:staff_32 a hb:Staff .
+hb:staff_32 rdfs:label "Mr. DMR Kulasekara" .
+hb:staff_32 hb:designation "Senior Lecturer (Grade II)" .
+hb:staff_32 hb:member_of hb:dept_ce .
+hb:staff_32 hb:email "dmrangak@kdu.ac.lk" .
+hb:staff_32 hb:research_topic "computer" .
+hb:staff_32 hb:research_topic "computer graphic" .
+hb:staff_32 hb:research_topic "graphic" .
+hb:staff_32 hb:research_topic "image" .
+hb:staff_32 hb:research_topic "image processing" .
+hb:staff_32 hb:research_topic "image processing computer" .
+hb:staff_32 hb:research_topic "processing" .
+hb:staff_32 hb:research_topic "processing computer" .
+hb:staff_32 hb:research_topic "processing computer graphic" .
+hb:staff_33 a hb:Staff .
+hb:staff_33 rdfs:label "Eng. MWP Maduranga" .
+hb:staff_33 hb:designation "Lecturer (Probationary)" .
+hb:staff_33 hb:member_of hb:dept_ce .
+hb:staff_33 hb:email "pasanwellalage@kdu.ac.lk" .
+hb:staff_33 hb:research_topic "ai in iot" .
+hb:staff_33 hb:research_topic "data" .
+hb:staff_33 hb:research_topic "data engineering" .
+hb:staff_33 hb:research_topic "engineering" .
+hb:staff_33 hb:research_topic "iot applications ml" .
+hb:staff_33 hb:research_topic "iot wireless" .
+hb:staff_33 hb:research_topic "iot wireless sensor" .
+hb:staff_33 hb:research_topic "ml ai" .
+hb:staff_33 hb:research_topic "networks" .
+hb:staff_33 hb:research_topic "networks data" .
+hb:staff_33 hb:research_topic "networks data engineering" .
+hb:staff_33 hb:research_topic "sensor" .
+hb:staff_33 hb:research_topic "sensor networks" .
+hb:staff_33 hb:research_topic "sensor networks data" .
+hb:staff_33 hb:research_topic "wireless" .
+hb:staff_33 hb:research_topic "wireless sensor" .
+hb:staff_33 hb:research_topic "wireless sensor networks" .
+hb:staff_34 a hb:Staff .
+hb:staff_34 rdfs:label "Mrs. G Gayamini" .
+hb:staff_34 hb:designation "Lecturer (Probationary)" .
+hb:staff_34 hb:member_of hb:dept_ce .
+hb:staff_34 hb:email "shanmuganathang@kdu.ac.lk" .
+hb:staff_34 hb:research_topic "artificial" .
+hb:staff_34 hb:research_topic "artificial intelligence" .
+hb:staff_34 hb:research_topic "automation" .
+hb:staff_34 hb:research_topic "intelligence" .
+hb:staff_34 hb:research_topic "intelligence and machine" .
+hb:staff_34 hb:research_topic "iot robotics" .
+hb:staff_34 hb:research_topic "learning" .
+hb:staff_34 hb:research_topic "learning iot" .
+hb:staff_34 hb:research_topic "learning iot robotics" .
+hb:staff_34 hb:research_topic "learning multi-agent" .
+hb:staff_34 hb:research_topic "machine" .
+hb:staff_34 hb:research_topic "machine learning" .
+hb:staff_34 hb:research_topic "machine learning multi-agent" .
+hb:staff_34 hb:research_topic "multi-agent" .
+hb:staff_34 hb:research_topic "multi-agent system reinforcement" .
+hb:staff_34 hb:research_topic "reinforcement" .
+hb:staff_34 hb:research_topic "reinforcement learning" .
+hb:staff_34 hb:research_topic "reinforcement learning iot" .
+hb:staff_34 hb:research_topic "robotics" .
+hb:staff_34 hb:research_topic "robotics and automation" .
+hb:staff_35 a hb:Staff .
+hb:staff_35 rdfs:label "Miss MAST Goonatilleke" .
+hb:staff_35 hb:designation "Lecturer (Probationary)" .
+hb:staff_35 hb:member_of hb:dept_ce .
+hb:staff_35 hb:email "goonatillekemast@kdu.ac.lk" .
+hb:staff_35 hb:research_topic "artificial" .
+hb:staff_35 hb:research_topic "artificial intelligence" .
+hb:staff_35 hb:research_topic "artificial intelligence robotics" .
+hb:staff_35 hb:research_topic "automation" .
+hb:staff_35 hb:research_topic "automation natural" .
+hb:staff_35 hb:research_topic "automation natural language" .
+hb:staff_35 hb:research_topic "intelligence" .
+hb:staff_35 hb:research_topic "intelligence robotics" .
+hb:staff_35 hb:research_topic "language" .
+hb:staff_35 hb:research_topic "language processing" .
+hb:staff_35 hb:research_topic "language processing machine" .
+hb:staff_35 hb:research_topic "learning" .
+hb:staff_35 hb:research_topic "learning multi-agent" .
+hb:staff_35 hb:research_topic "machine" .
+hb:staff_35 hb:research_topic "machine learning" .
+hb:staff_35 hb:research_topic "machine learning multi-agent" .
+hb:staff_35 hb:research_topic "multi-agent" .
+hb:staff_35 hb:research_topic "natural" .
+hb:staff_35 hb:research_topic "natural language" .
+hb:staff_35 hb:research_topic "natural language processing" .
+hb:staff_35 hb:research_topic "processing" .
+hb:staff_35 hb:research_topic "processing machine" .
+hb:staff_35 hb:research_topic "processing machine learning" .
+hb:staff_35 hb:research_topic "robotics" .
+hb:staff_35 hb:research_topic "robotics and automation" .
+hb:staff_36 a hb:Staff .
+hb:staff_36 rdfs:label "Mrs. (Eng.) RHNS Jayathissa" .
+hb:staff_36 hb:designation "Instructor Grade II" .
+hb:staff_36 hb:member_of hb:dept_ce .
+hb:staff_36 hb:email "jayathissarhns@kdu.ac.lk" .
+hb:staff_36 hb:research_topic "circuits" .
+hb:staff_36 hb:research_topic "circuits and iot" .
+hb:staff_36 hb:research_topic "communications" .
+hb:staff_36 hb:research_topic "communications networking" .
+hb:staff_36 hb:research_topic "control" .
+hb:staff_36 hb:research_topic "control and robotics" .
+hb:staff_36 hb:research_topic "electronics" .
+hb:staff_36 hb:research_topic "electronics communications" .
+hb:staff_36 hb:research_topic "electronics communications networking" .
+hb:staff_36 hb:research_topic "energy" .
+hb:staff_36 hb:research_topic "energy systems smart" .
+hb:staff_36 hb:research_topic "grids" .
+hb:staff_36 hb:research_topic "grids and power" .
+hb:staff_36 hb:research_topic "integrated" .
+hb:staff_36 hb:research_topic "integrated circuits" .
+hb:staff_36 hb:research_topic "iot system control" .
+hb:staff_36 hb:research_topic "networking" .
+hb:staff_36 hb:research_topic "networking and signal" .
+hb:staff_36 hb:research_topic "power" .
+hb:staff_36 hb:research_topic "power electronics" .
+hb:staff_36 hb:research_topic "power electronics communications" .
+hb:staff_36 hb:research_topic "processing" .
+hb:staff_36 hb:research_topic "processing integrated" .
+hb:staff_36 hb:research_topic "processing integrated circuits" .
+hb:staff_36 hb:research_topic "robotics" .
+hb:staff_36 hb:research_topic "signal" .
+hb:staff_36 hb:research_topic "signal processing" .
+hb:staff_36 hb:research_topic "signal processing integrated" .
+hb:staff_36 hb:research_topic "smart" .
+hb:staff_36 hb:research_topic "smart grids" .
+hb:staff_37 a hb:Staff .
+hb:staff_37 rdfs:label "Miss NT Jayatilake" .
+hb:staff_37 hb:designation "Instructor (Temporary)" .
+hb:staff_37 hb:member_of hb:dept_ce .
+hb:staff_37 hb:email "jayatilakan@kdu.ac.lk" .
+hb:staff_37 hb:research_topic "artificial" .
+hb:staff_37 hb:research_topic "artificial intelligence" .
+hb:staff_37 hb:research_topic "automation" .
+hb:staff_37 hb:research_topic "automation robotics" .
+hb:staff_37 hb:research_topic "automation robotics iot" .
+hb:staff_37 hb:research_topic "electronics" .
+hb:staff_37 hb:research_topic "electronics and automation" .
+hb:staff_37 hb:research_topic "intelligence" .
+hb:staff_37 hb:research_topic "iot artificial" .
+hb:staff_37 hb:research_topic "iot artificial intelligence" .
+hb:staff_37 hb:research_topic "robotics" .
+hb:staff_37 hb:research_topic "robotics iot" .
+hb:staff_37 hb:research_topic "robotics iot artificial" .
+hb:staff_38 a hb:Staff .
+hb:staff_38 rdfs:label "Dr. K Kottegoda" .
+hb:staff_38 hb:designation "Senior Lecturer" .
+hb:staff_38 hb:member_of hb:dept_cm .
+hb:staff_38 hb:email "kapilak@kdu.ac.lk" .
+hb:staff_38 hb:head_of hb:dept_cm .
+hb:staff_38 hb:research_topic "data" .
+hb:staff_38 hb:research_topic "data science" .
+hb:staff_38 hb:research_topic "data science statistics" .
+hb:staff_38 hb:research_topic "learning" .
+hb:staff_38 hb:research_topic "learning data" .
+hb:staff_38 hb:research_topic "learning data science" .
+hb:staff_38 hb:research_topic "machine" .
+hb:staff_38 hb:research_topic "machine learning" .
+hb:staff_38 hb:research_topic "machine learning data" .
+hb:staff_38 hb:research_topic "network" .
+hb:staff_38 hb:research_topic "network theory" .
+hb:staff_38 hb:research_topic "network theory machine" .
+hb:staff_38 hb:research_topic "science" .
+hb:staff_38 hb:research_topic "science statistics" .
+hb:staff_38 hb:research_topic "statistics" .
+hb:staff_38 hb:research_topic "theory" .
+hb:staff_38 hb:research_topic "theory machine" .
+hb:staff_38 hb:research_topic "theory machine learning" .
+hb:staff_39 a hb:Staff .
+hb:staff_39 rdfs:label "Dr. GA Chandima N. Priyadarshani" .
+hb:staff_39 hb:designation "Senior Lecturer (Grade II)" .
+hb:staff_39 hb:member_of hb:dept_cm .
+hb:staff_39 hb:email "priyadarshanigacn@kdu.ac.lk" .
+hb:staff_39 hb:research_topic "analysis" .
+hb:staff_39 hb:research_topic "inference" .
+hb:staff_39 hb:research_topic "inference time" .
+hb:staff_39 hb:research_topic "inference time series" .
+hb:staff_39 hb:research_topic "non-parametric" .
+hb:staff_39 hb:research_topic "non-parametric statistical" .
+hb:staff_39 hb:research_topic "non-parametric statistical inference" .
+hb:staff_39 hb:research_topic "robust" .
+hb:staff_39 hb:research_topic "robust statistics" .
+hb:staff_39 hb:research_topic "robust statistics non-parametric" .
+hb:staff_39 hb:research_topic "series" .
+hb:staff_39 hb:research_topic "series analysis" .
+hb:staff_39 hb:research_topic "statistical" .
+hb:staff_39 hb:research_topic "statistical inference" .
+hb:staff_39 hb:research_topic "statistical inference time" .
+hb:staff_39 hb:research_topic "statistics" .
+hb:staff_39 hb:research_topic "statistics non-parametric" .
+hb:staff_39 hb:research_topic "statistics non-parametric statistical" .
+hb:staff_39 hb:research_topic "time" .
+hb:staff_39 hb:research_topic "time series" .
+hb:staff_39 hb:research_topic "time series analysis" .
+hb:staff_40 a hb:Staff .
+hb:staff_40 rdfs:label "Mrs. ERC Sandamali" .
+hb:staff_40 hb:designation "Lecturer (Probationary)" .
+hb:staff_40 hb:member_of hb:dept_cm .
+hb:staff_40 hb:email "sandamalierc@kdu.ac.lk" .
+hb:staff_40 hb:research_topic "biology" .
+hb:staff_40 hb:research_topic "mathematical" .
+hb:staff_40 hb:research_topic "mathematical biology" .
+hb:staff_40 hb:research_topic "mathematical modelling" .
+hb:staff_40 hb:research_topic "mathematical modelling mathematical" .
+hb:staff_40 hb:research_topic "modelling" .
+hb:staff_40 hb:research_topic "modelling mathematical" .
+hb:staff_40 hb:research_topic "modelling mathematical biology" .
+hb:staff_41 a hb:Staff .
+hb:staff_41 rdfs:label "Mrs. SMM Lakmali" .
+hb:staff_41 hb:designation "Instructor Grade II" .
+hb:staff_41 hb:member_of hb:dept_cm .
+hb:staff_41 hb:email "lakmalismm@kdu.ac.lk" .
+hb:staff_41 hb:research_topic "models" .
+hb:staff_41 hb:research_topic "models operation" .
+hb:staff_41 hb:research_topic "models operation research" .
+hb:staff_41 hb:research_topic "operation" .
+hb:staff_41 hb:research_topic "operation research" .
+hb:staff_41 hb:research_topic "regression" .
+hb:staff_41 hb:research_topic "regression models" .
+hb:staff_41 hb:research_topic "regression models operation" .
+hb:staff_41 hb:research_topic "research" .
+hb:A_ a hb:Grade .
+hb:A_ hb:grade_status "pass" .
+hb:A a hb:Grade .
+hb:A hb:grade_status "pass" .
+hb:A_ a hb:Grade .
+hb:A_ hb:grade_status "pass" .
+hb:B_ a hb:Grade .
+hb:B_ hb:grade_status "pass" .
+hb:B a hb:Grade .
+hb:B hb:grade_status "pass" .
+hb:B_ a hb:Grade .
+hb:B_ hb:grade_status "pass" .
+hb:C_ a hb:Grade .
+hb:C_ hb:grade_status "pass" .
+hb:C a hb:Grade .
+hb:C hb:grade_status "pass" .
+hb:C_ a hb:Grade .
+hb:C_ hb:grade_status "weak_pass" .
+hb:D_ a hb:Grade .
+hb:D_ hb:grade_status "weak_pass" .
+hb:Ie a hb:Grade .
+hb:Ie hb:grade_status "fail" .
+hb:Ia a hb:Grade .
+hb:Ia hb:grade_status "fail" .
+hb:Ib a hb:Grade .
+hb:Ib hb:grade_status "fail" .
+hb:Ne a hb:Grade .
+hb:Ne hb:grade_status "fail" .
+hb:Ab a hb:Grade .
+hb:Ab hb:grade_status "fail" .
+hb:Ex a hb:Grade .
+hb:Ex hb:grade_status "excused" .
+hb:First_Class a hb:ClassAward .
+hb:First_Class hb:class_min "3.7"^^xsd:decimal .
+hb:Second_Class__Upper_Division_ a hb:ClassAward .
+hb:Second_Class__Upper_Division_ hb:class_min "3.3"^^xsd:decimal .
+hb:Second_Class__Lower_Division_ a hb:ClassAward .
+hb:Second_Class__Lower_Division_ hb:class_min "3.0"^^xsd:decimal .
+hb:Pass a hb:ClassAward .
+hb:Pass hb:class_min "2.0"^^xsd:decimal .

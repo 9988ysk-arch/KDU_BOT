@@ -1,0 +1,277 @@
+[
+ {
+  "name": "v7_list_subjects_screenshot",
+  "turns": [
+   {
+    "user": "list the subjects ?",
+    "expect": [
+     "Which degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "Software Engineering",
+    "expect": [
+     "year|Year"
+    ],
+    "options": true
+   },
+   {
+    "user": "Year 1",
+    "expect": [
+     "CS1012|Fundamentals of Programming"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_subjects_degree_programs",
+  "turns": [
+   {
+    "user": "provide the subjects in the degree programs",
+    "expect": [
+     "Which degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "computer science",
+    "expect": [
+     "year|Year"
+    ],
+    "options": true
+   },
+   {
+    "user": "semester 5",
+    "expect": [
+     "CS3023|Advanced Databases"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_what_modules_do_i_study",
+  "turns": [
+   {
+    "user": "what modules do I have to study?",
+    "expect": [
+     "Which degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "IT",
+    "expect": [
+     "only|Computer Science"
+    ],
+    "not": [
+     "CS2013"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_electives_ask",
+  "turns": [
+   {
+    "user": "which electives can I choose",
+    "expect": [
+     "Which degree|degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "SE",
+    "expect": [
+     "Semester 5|semester"
+    ],
+    "options": true
+   },
+   {
+    "user": "7",
+    "expect": [
+     "CS4032|Natural Language Processing|CS40"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_year_only",
+  "turns": [
+   {
+    "user": "subjects in the 4th year",
+    "expect": [
+     "Which degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "both",
+    "expect": [
+     "CS (",
+     "SE ("
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_whole_degree",
+  "turns": [
+   {
+    "user": "show me all modules of software engineering",
+    "expect": [
+     "Semester 1",
+     "Semester 8"
+    ]
+   },
+   {
+    "user": "Year 4",
+    "expect": [
+     "SE4999|Individual Research Project"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_head",
+  "turns": [
+   {
+    "user": "who is the HOD?",
+    "expect": [
+     "Which one|department"
+    ],
+    "options": true
+   },
+   {
+    "user": "computational mathematics",
+    "expect": [
+     "Kottegoda"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_entry",
+  "turns": [
+   {
+    "user": "what are the admission requirements",
+    "expect": [
+     "civil",
+     "military"
+    ],
+    "options": true
+   },
+   {
+    "user": "military",
+    "expect": [
+     "18|unmarried|citizen"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_teacher",
+  "turns": [
+   {
+    "user": "who teaches database systems",
+    "expect": [
+     "does not say|doesn't say|not say"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_module_singular",
+  "turns": [
+   {
+    "user": "tell me about the subject",
+    "expect": [
+     "Which module"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_greeting_question",
+  "turns": [
+   {
+    "user": "good morning! list the subjects",
+    "expect": [
+     "Good morning",
+     "Which degree"
+    ],
+    "options": true
+   }
+  ]
+ },
+ {
+  "name": "v7_context_programme",
+  "turns": [
+   {
+    "user": "i am a computer science student",
+    "expect": [
+     "Computer Science"
+    ]
+   },
+   {
+    "user": "what are my subjects",
+    "expect": [
+     "year|Year"
+    ],
+    "options": true
+   },
+   {
+    "user": "second year",
+    "expect": [
+     "CS2013|Data Structures"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_specific_ok",
+  "turns": [
+   {
+    "user": "modules in semester 2 for SE",
+    "expect": [
+     "CM1052|Discrete Mathematics"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_credits_vague",
+  "turns": [
+   {
+    "user": "credits?",
+    "options": true,
+    "expect": [
+     "module|semester|degree"
+    ]
+   },
+   {
+    "user": "Total credits of a degree",
+    "expect": [
+     "128|127"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7_thanks_end",
+  "turns": [
+   {
+    "user": "what is the pass mark?",
+    "expect": [
+     "45%"
+    ]
+   },
+   {
+    "user": "thanks machan",
+    "expect": [
+     "welcome|Welcome|pleasure|glad|Glad|Happy"
+    ]
+   }
+  ]
+ }
+]

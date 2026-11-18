@@ -1,0 +1,430 @@
+[
+ {
+  "cat": "natural",
+  "q": "hey what modules do i have in my first semester",
+  "expect": [
+   "CS1012"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "im in SE, how many credits in semester 7",
+  "expect": [
+   "re:\\b1[0-9] GPA"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "whats the code for the AI module",
+  "expect": [
+   "CS2082"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "who teaches in the computer engineering department",
+  "expect": [
+   "Hettige"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "I want to email the head of IT",
+  "expect": [
+   "@kdu.ac.lk"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "how do they calculate my GPA",
+  "expect": [
+   "formula|credit|GPV|Credit"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "what happens if I miss the exam because I'm sick",
+  "expect": [
+   "Excus|medical"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "i got 44 in a subject, did i fail?",
+  "expect": [
+   "C-"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "how many years is the IT degree",
+  "expect": [
+   "4"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "is there an industrial training in computer science?",
+  "expect": [
+   "Industrial Training|CS4986"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "which semester do we do the research project",
+  "expect": [
+   "Semester 7|Semester 8"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "what are the electives in semester 7 for CS",
+  "expect": [
+   "CS4"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "how many students are in FOC",
+  "expect": [
+   "800"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "where can I find the faculty online",
+  "expect": [
+   "Faculty-of-Computing|kdu.ac.lk"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "who is the boss of the university",
+  "expect": [
+   "Vice Chancellor|Chancellor|Peiris|de Silva"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "is attendance compulsory",
+  "expect": [
+   "80%"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "can i resit an exam",
+  "expect": [
+   "re-sit|resit|re-sitting"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "what does PBCA stand for",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "is HCI a compulsory module",
+  "expect": [
+   "re:^Yes|compulsory"
+  ]
+ },
+ {
+  "cat": "natural",
+  "q": "which lecturers do research on e-learning",
+  "expect": [
+   "Sirisuriya|Vidanagama|Wijendra"
+  ]
+ },
+ {
+  "cat": "singlish",
+  "q": "first class ganna fgpa eka keeyada",
+  "expect": [
+   "3.70"
+  ]
+ },
+ {
+  "cat": "singlish",
+  "q": "IT department eke head kauda",
+  "expect": [
+   "Kathriarachchi"
+  ]
+ },
+ {
+  "cat": "singlish",
+  "q": "semester 5 CS electives mokakda",
+  "expect": [
+   "CS3082|CS3092|CS3102"
+  ]
+ },
+ {
+  "cat": "singlish",
+  "q": "attendance keeyak one exam liyanna",
+  "expect": [
+   "80%"
+  ]
+ },
+ {
+  "cat": "singlish",
+  "q": "CS4042 credits keeyada",
+  "expect": [
+   "re:\\b2 GPA credits"
+  ]
+ },
+ {
+  "cat": "singlish",
+  "q": "68 marks walata grade eka mokakda",
+  "expect": [
+   "B+"
+  ]
+ },
+ {
+  "cat": "singlish",
+  "q": "faculty eka koheda thiyenne",
+  "expect": [
+   "Sooriyawewa"
+  ]
+ },
+ {
+  "cat": "singlish",
+  "q": "dean ge email eka",
+  "expect": [
+   "asela@kdu.ac.lk"
+  ]
+ },
+ {
+  "cat": "compare",
+  "q": "compare software engineering and information systems degrees",
+  "expect": [
+   "Software Engineering",
+   "Information Systems"
+  ]
+ },
+ {
+  "cat": "compare",
+  "q": "CS1012 vs CS1073",
+  "expect": [
+   "Fundamentals of Programming",
+   "Object Oriented Programming"
+  ]
+ },
+ {
+  "cat": "compare",
+  "q": "which has more credits, Operating Systems or Computer Networks I?",
+  "expect": [
+   "more credits|Both carry"
+  ]
+ },
+ {
+  "cat": "compare",
+  "q": "difference between grade C and grade C-",
+  "expect": [
+   "2.00",
+   "1.70"
+  ]
+ },
+ {
+  "cat": "yesno",
+  "q": "Is Digital Forensics compulsory?",
+  "expect": [
+   "re:^No"
+  ]
+ },
+ {
+  "cat": "yesno",
+  "q": "Is Software Evolution an elective for SE?",
+  "expect": [
+   "re:^No",
+   "compulsory"
+  ]
+ },
+ {
+  "cat": "yesno",
+  "q": "Do I pass with 45 marks?",
+  "expect": [
+   "re:^Yes"
+  ]
+ },
+ {
+  "cat": "yesno",
+  "q": "Does the computer engineering department offer the IT degree?",
+  "expect": [
+   "re:^No"
+  ]
+ },
+ {
+  "cat": "yesno",
+  "q": "Is an FGPA of 3.2 enough for second class upper?",
+  "expect": [
+   "re:^No"
+  ]
+ },
+ {
+  "cat": "yesno",
+  "q": "Is the SE degree 5 years?",
+  "expect": [
+   "re:^No"
+  ]
+ },
+ {
+  "cat": "followup",
+  "prev": "Who is the head of the IT department?",
+  "q": "what is his email?",
+  "expect": [
+   "@kdu.ac.lk"
+  ]
+ },
+ {
+  "cat": "followup",
+  "prev": "What is CS3072?",
+  "q": "which semester is it?",
+  "expect": [
+   "Semester 5"
+  ]
+ },
+ {
+  "cat": "followup",
+  "prev": "How many elective modules in semester 5 for CS?",
+  "q": "what about semester 6?",
+  "expect": [
+   "Semester 6"
+  ]
+ },
+ {
+  "cat": "followup",
+  "prev": "What grade do I get for 80 marks?",
+  "q": "and 47?",
+  "expect": [
+   "C"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "what is the punishment for an exam offence",
+  "expect": [
+   "offence|punishment|discontinu"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "how many semesters is the max",
+  "expect": [
+   "16|sixteen"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "what if my SGPA is below 2",
+  "expect": [
+   "warning"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "can NGPA grades affect my GPA",
+  "expect": [
+   "GPA|not"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "what is a weak pass",
+  "expect": [
+   "C-|D+|weak"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "how many trophies are there",
+  "expect": [
+   "re:\\b[5-9]\\b|Trophy"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "what is the minimum FGPA for a pass degree",
+  "expect": [
+   "2.00"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "when is the CA mark carried over",
+  "expect": [
+   "carried over"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "what is the maximum grade after a resit",
+  "expect": [
+   "C"
+  ]
+ },
+ {
+  "cat": "rules",
+  "q": "who is eligible for supplementary exams",
+  "expect": [
+   "supplementary|Supplementary"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "how much is the bus fare",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "is there free wifi",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "what is the best restaurant near campus",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "can I do a part time job",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "who is the cricket captain",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "when are the holidays",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "how to get a student visa",
+  "expect": [
+   "couldn't find"
+  ]
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "what laptop should I buy",
+  "expect": [
+   "couldn't find"
+  ]
+ }
+]

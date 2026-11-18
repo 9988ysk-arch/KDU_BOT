@@ -1,0 +1,4162 @@
+[
+ {
+  "cat": "module_credits",
+  "q": "how many credits does CS4052 carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of Compilers Design?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "tell me the title of CS4052",
+  "expect": [
+   "Compilers",
+   "Design"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Compilers Design module code",
+  "expect": [
+   "CS4052"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Compilers Design is in which semester",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Compilers Design compulsory?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credtis is EE1102?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of Fundamentals of Electrical Engineering?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "EE1102 module name",
+  "expect": [
+   "Fundamentals",
+   "Electrical"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Fundamentals of Electrical Engineering module code",
+  "expect": [
+   "EE1102"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Fundamentals of Electrical Engineering is in which semester",
+  "expect": [
+   "Semester 2"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Fundamentals of Electrical Engineering compulsory or elective?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of SE3062?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is Software Verification and Validation?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "tell me the title of SE3062",
+  "expect": [
+   "Software",
+   "Verification"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the code of the Software Verification and Validation module?",
+  "expect": [
+   "SE3062"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "In which semester do we study Software Verification and Validation?",
+  "expect": [
+   "Semester 6"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Software Verification and Validation optional?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of CS1101",
+  "expect": [
+   "1 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Programming Laboratory* credits",
+  "expect": [
+   "1 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is the name of module CS1101?",
+  "expect": [
+   "Programming",
+   "Laboratory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Programming Laboratory* mdoule code",
+  "expect": [
+   "CS1101"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Programming Laboratory* offered?",
+  "expect": [
+   "Semester 1"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Programming Laboratory* compulsory or elective?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for CS4092",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many creidts does Distributed Systems carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is the name of modlue CS4092?",
+  "expect": [
+   "Distributed",
+   "Systems"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Distributed Systems",
+  "expect": [
+   "CS4092"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Distributed Systems is in which semester",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Distributed Systems copmulsory?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does MS3032 carry",
+  "expect": [
+   "2 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Strategic Defence Studies credits",
+  "expect": [
+   "2 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is the name of module MS3032?",
+  "expect": [
+   "Strategic",
+   "Defence"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Strategic Defence Studies",
+  "expect": [
+   "MS3032"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Strategic Defence Studies offered?",
+  "expect": [
+   "Semester 3"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many creidts is CS3082?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many creidts is Mobile Computing?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "tell me the title of CS3082",
+  "expect": [
+   "Mobile",
+   "Computing"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the code of the Mobile Computing module?",
+  "expect": [
+   "CS3082"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Mobile Computing is in which semester",
+  "expect": [
+   "Semester 5"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Mobile Computing an elective module?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does CS1073 carry",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does Object Oriented Programming I carry",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "what does CS1073 stand for",
+  "expect": [
+   "Object",
+   "Oriented"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the module code of Object Oriented Programming I?",
+  "expect": [
+   "CS1073"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Object Oriented Programming I offered?",
+  "expect": [
+   "Semester 2"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Object Oriented Programming I an elecitve module?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of CS4986",
+  "expect": [
+   "6 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "tell me the title of CS4986",
+  "expect": [
+   "Industrial",
+   "Training"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many crdeits is MS1024?",
+  "expect": [
+   "4 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for Military Studies II",
+  "expect": [
+   "4 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is the name of module MS1024?",
+  "expect": [
+   "Military",
+   "Studies"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Military Studies II module code",
+  "expect": [
+   "MS1024"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Military Studies II offered?",
+  "expect": [
+   "Semester 2"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for CM1052",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of Discrete Mathematics?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "Which course has the code CM1052?",
+  "expect": [
+   "Discrete",
+   "Mathematics"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Discrete Mathematics",
+  "expect": [
+   "CM1052"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Discrete Mathematics is in which semester",
+  "expect": [
+   "Semester 2"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Discrete Mathematics compulsory?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for CS3142",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is Complex Systems and Agent Technology?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "tell me the title of CS3142",
+  "expect": [
+   "Complex",
+   "Systems"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Complex Systems and Agent Technology",
+  "expect": [
+   "CS3142"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "When is Complex Systems and Agent Technology taught?",
+  "expect": [
+   "Semester 6"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of CM4012?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does Advanced Topics in Statistics carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is the name of modlue CM4012?",
+  "expect": [
+   "Advanced",
+   "Topics"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Advanced Topics in Statistics",
+  "expect": [
+   "CM4012"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "When is Advanced Topics in Statistics taught?",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Advanced Topics in Statistics an elective mdoule?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "CS3192 credits",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit ratnig of Nature Inspired Computing",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is the name of module CS3192?",
+  "expect": [
+   "Nature",
+   "Inspired"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the module code of Nature Inspired Computing?",
+  "expect": [
+   "CS3192"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "When is Nature Inspired Computing taught?",
+  "expect": [
+   "Semester 6"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Nature Inspired Computing compulsory or elective?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of CS1012?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the crdeit value of Fundamentals of Programming?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "Which course has the code CS1012?",
+  "expect": [
+   "Fundamentals",
+   "Programming"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the moudle code of Fundamentals of Programming?",
+  "expect": [
+   "CS1012"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Fundamentals of Programming offreed?",
+  "expect": [
+   "Semester 1"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Fundamentals of Programming optional?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of CM2013",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is Calculus and Numerical Methods?",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "CM2013 module name",
+  "expect": [
+   "Calculus",
+   "Numerical"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Calculus and Numerical Methods module code",
+  "expect": [
+   "CM2013"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Calculus and Numerical Methods offered?",
+  "expect": [
+   "Semester 3"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Calculus and Numerical Methods compulsory?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the cerdit value of CS2022?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of Operating Systems?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "CS2022 module name",
+  "expect": [
+   "Operating",
+   "Systems"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the module code of Operating Systems?",
+  "expect": [
+   "CS2022"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Operating Systems is in which semester",
+  "expect": [
+   "Semester 3"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Operating Systems compulsory or elective?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of CS3132?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is High Performance Computing?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is CS3132?",
+  "expect": [
+   "High",
+   "Performance"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the modlue code of High Performance Computing?",
+  "expect": [
+   "CS3132"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "When is High Performance Computing taught?",
+  "expect": [
+   "Semester 6"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of SE3052",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Engineering Economics for Software credits",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "SE3052 module name",
+  "expect": [
+   "Engineering",
+   "Economics"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Engineering Economics for Software module code",
+  "expect": [
+   "SE3052"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Engineering Economics for Software is in which semester",
+  "expect": [
+   "Semester 6"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Engineering Economics for Software an elective module?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is CS3042?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does Image Processing and Computer Vision carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "Which course has the code CS3042?",
+  "expect": [
+   "Image",
+   "Processing"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Image Processing and Computer Vision",
+  "expect": [
+   "CS3042"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Image Processing and Computer Vision offered?",
+  "expect": [
+   "Semester 5"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "SE4042 credits",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the cerdit value of Software Quality Assurance?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "what does SE4042 stand for",
+  "expect": [
+   "Software",
+   "Quality"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the code of the Software Quality Assurance module?",
+  "expect": [
+   "SE4042"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "When is Software Quality Assurance tauhgt?",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Software Quality Assurance an elective module?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for SE3072",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for Software Process",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "Which course has the code SE3072?",
+  "expect": [
+   "Software",
+   "Process"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the code of the Software Process module?",
+  "expect": [
+   "SE3072"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "In which semester do we study Software Process?",
+  "expect": [
+   "Semester 6"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Software Process compulsory?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for CS4082",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Semantic Web and Ontology credits",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "what does CS4082 stand for",
+  "expect": [
+   "Semantic",
+   "Ontology"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the code of the Semantic Web and Ontology module?",
+  "expect": [
+   "CS4082"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Semantic Web and Ontology is in which semester",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Semantic Web and Ontology compulsory or elective?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does SE3992 carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is SE3992?",
+  "expect": [
+   "Independent",
+   "Study"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is SE4999?",
+  "expect": [
+   "9 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "what does SE4999 stand for",
+  "expect": [
+   "Individual",
+   "Research"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is the name of module DL4162?",
+  "expect": [
+   "Research",
+   "Writing"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the module code of Research Writing Skills?",
+  "expect": [
+   "DL4162"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Research Writing Skills offered?",
+  "expect": [
+   "Semester 4"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of SE4012",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credtis does Formal Methods and Software Verification carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "what does SE4012 stand for",
+  "expect": [
+   "Formal",
+   "Methods"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Formal Methods and Software Verification",
+  "expect": [
+   "SE4012"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Formal Methods and Software Verification offreed?",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does COE3052 carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is Microcontrollers and Embedded Systems?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "tell me the title of COE3052",
+  "expect": [
+   "Microcontrollers",
+   "Embedded"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Microcontrollers and Embedded Systems",
+  "expect": [
+   "COE3052"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "When is Microcontrollers and Embedded Systems taught?",
+  "expect": [
+   "Semester 6"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Microcontrollers and Embedded Systems copmulsory?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of CS1062",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does Developments in Mathematics and Sciences carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "Which course has the code CS1062?",
+  "expect": [
+   "Developments",
+   "Mathematics"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "course code for Developments in Mathematics and Sciences",
+  "expect": [
+   "CS1062"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Which semester is Developments in Mathematics and Sciences offered?",
+  "expect": [
+   "Semester 2"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Developments in Mathematics and Sciences an elective module?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is CS3102?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of Bioinformatics",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is CS3102?",
+  "expect": [
+   "Bioinformatics"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the module code of Bioinformatics?",
+  "expect": [
+   "CS3102"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "In which semester do we study Bioinformatics?",
+  "expect": [
+   "Semester 5"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Bioinformatics an elective moudle?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is MF2113?",
+  "expect": [
+   "3 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit ratnig of Principles of Management",
+  "expect": [
+   "3 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "MF2113 module name",
+  "expect": [
+   "Principles",
+   "Management"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the code of the Principles of Management module?",
+  "expect": [
+   "MF2113"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "Principles of Management is in which semseter",
+  "expect": [
+   "Semester 3"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Principles of Management optional?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the crdeit value of CS4022?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of Theory of Programing Languages?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "tell me the title of CS4022",
+  "expect": [
+   "Theory",
+   "Programing"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "What is the code of the Theory of Programing Languages module?",
+  "expect": [
+   "CS4022"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "When is Theory of Programing Languages taught?",
+  "expect": [
+   "Semester 7"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of CS3092",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "Computer and Network Security credits",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is the name of module CS3092?",
+  "expect": [
+   "Computer",
+   "Network"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_code",
+  "q": "Computer and Network Security module code",
+  "expect": [
+   "CS3092"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_semester",
+  "q": "When is Computer and Network Security taught?",
+  "expect": [
+   "Semester 5"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Computer and Network Security compulsory?",
+  "expect": [
+   "elective"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does COE1993 carry",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for Group Project in Hardware",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "what does COE1993 stand for",
+  "expect": [
+   "Group",
+   "Project"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Group Project in Hardware an elective module?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of CS3023?",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of Advanced Databases and Big Data Analytics?",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "Which course has the code CS3023?",
+  "expect": [
+   "Advanced",
+   "Databases"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Advanced Databases and Big Data Analytics compulsory?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for SE3042",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is Software Architecture and Design?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "what does SE3042 stand for",
+  "expect": [
+   "Software",
+   "Architecture"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_category",
+  "q": "Is Software Architecture and Design optional?",
+  "expect": [
+   "compulsory"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does CS2052 carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of Requirements Engineering",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is CS2052?",
+  "expect": [
+   "Requirements",
+   "Engineering"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "CS4042 credits",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of Machine Learning",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "tell me the title of CS4042",
+  "expect": [
+   "Machine",
+   "Learning"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does CS2072 carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of Advanced Computer Architecture and Organization?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "What is CS2072?",
+  "expect": [
+   "Advanced",
+   "Computer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of CS3202",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of UX and UI Engineering?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_name",
+  "q": "CS3202 moudle name",
+  "expect": [
+   "Engineering"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "CS4102 credits",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is Computer Music?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit raitng of CS2032",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is Object Oriented Programming II?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "SE3022 credits",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does Software Modeling carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is CS1092?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for Computer Networks I",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is SE4022?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for SE2013",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for DL1132",
+  "expect": [
+   "2 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for CS3122",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for COE4022",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is CS2993?",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credit rating of EE2222",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does CS1082 carry",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many cerdits is CS3052?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "credits for CS3062",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "how many credits does CM3013 carry",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "CS2013 credits",
+  "expect": [
+   "3 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of CS3172?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of CM2032?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of EE2122?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "What is the credit value of SE4032?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "module_credits",
+  "q": "How many credits is CS3182?",
+  "expect": [
+   "2 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many modules are in semseter 1?",
+  "expect": [
+   "11 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "What modules are in semester 1?",
+  "expect": [
+   "CS1043",
+   "DL1132",
+   "CM1033"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "GPA credits for semester 1",
+  "expect": [
+   "17 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many NGPA credits in semester 1?",
+  "expect": [
+   "4 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total MGPA credits in semester 1",
+  "expect": [
+   "4 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many courses do students take in semester 2?",
+  "expect": [
+   "10 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "semester 2 subjects",
+  "expect": [
+   "CM1052",
+   "ET1102",
+   "CS1073"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total GPA credits in semester 2",
+  "expect": [
+   "18 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total NGPA credits in semester 2",
+  "expect": [
+   "2 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "number of modules in semester 3",
+  "expect": [
+   "11 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "List the modules in semester 3",
+  "expect": [
+   "CS2032",
+   "CS2052",
+   "MS3032"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total GPA credits in semester 3",
+  "expect": [
+   "16 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total NGPA cerdits in semester 3",
+  "expect": [
+   "3 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many modules are in semester 4?",
+  "expect": [
+   "10 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "semseter 4 subjects",
+  "expect": [
+   "CS2993",
+   "CS2082",
+   "CM2032"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "GPA credits for semester 4",
+  "expect": [
+   "18 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "NGPA credits for semester 4",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many MGPA credits in semester 4?",
+  "expect": [
+   "4 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many courses do students take in semesetr 5 for CS?",
+  "expect": [
+   "11 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "List the modules in semester 5 for CS",
+  "expect": [
+   "CS3202",
+   "CS3052",
+   "CS3102"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many GPA credits in seemster 5 for CS?",
+  "expect": [
+   "19 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "NGPA credits for semester 5 for CS",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many MGPA credits in semester 5 for CS?",
+  "expect": [
+   "0 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many courses do students take in semester 6 for computer science?",
+  "expect": [
+   "12 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "semester 6 subjects for computer science",
+  "expect": [
+   "CS3152",
+   "CS3142",
+   "CS3192"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "GPA credits for semester 6 for computer science",
+  "expect": [
+   "17 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many NGPA credits in semester 6 for computer science?",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many MGPA credits in semester 6 for computer science?",
+  "expect": [
+   "0 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many courses do students take in semester 7 for CS?",
+  "expect": [
+   "15 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "What modlues are in semester 7 for CS?",
+  "expect": [
+   "CS4102",
+   "CM4012",
+   "COE4042"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total GPA credits in semester 7 for CS",
+  "expect": [
+   "14 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "NGPA credits for semester 7 for CS",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many modules are in semester 8 for CS?",
+  "expect": [
+   "2 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "What modules are in semester 8 for CS?",
+  "expect": [
+   "CS4999",
+   "CS4986"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many GPA credits in semester 8 for CS?",
+  "expect": [
+   "9 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "NGPA credits for semester 8 for CS",
+  "expect": [
+   "6 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many courses do students take in semester 5 for software engineering?",
+  "expect": [
+   "12 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "What modules are in semester 5 for software engineering?",
+  "expect": [
+   "CS3012",
+   "CS3072",
+   "CS3092"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total GPA credits in semester 5 for software engineering",
+  "expect": [
+   "17 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many NGPA credits in semester 5 for software engineering?",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many modules are in semester 6 for SE?",
+  "expect": [
+   "11 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "What modules are in semester 6 for SE?",
+  "expect": [
+   "CS3132",
+   "SE3072",
+   "SE3062"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many GPA credits in semester 6 for SE?",
+  "expect": [
+   "18 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "NGPA credits for semester 6 for SE",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "MGPA creidts for semester 6 for SE",
+  "expect": [
+   "0 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many courses do students take in semester 7 for software engineering?",
+  "expect": [
+   "12 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "List the modules in semester 7 for software engineering",
+  "expect": [
+   "CS4052",
+   "CS4022",
+   "CS4032"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "GPA credits for semester 7 for software engineering",
+  "expect": [
+   "14 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "How many NGPA credits in semester 7 for software engineering?",
+  "expect": [
+   "0 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "MGPA credits for semester 7 for software engineering",
+  "expect": [
+   "0 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_count",
+  "q": "How many courses do students take in semester 8 for SE?",
+  "expect": [
+   "2 "
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_list",
+  "q": "What modules are in semester 8 for SE?",
+  "expect": [
+   "SE4999",
+   "SE4996"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "GPA credits for semester 8 for SE",
+  "expect": [
+   "9 GPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "total NGPA credits in semester 8 for SE",
+  "expect": [
+   "6 NGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "semester_credits",
+  "q": "MGPA credits for semester 8 for SE",
+  "expect": [
+   "0 MGPA"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "if I get 45 marks what grade",
+  "expect": [
+   "grade C",
+   "2.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "What grade do I get for 40 marks?",
+  "expect": [
+   "grade C-",
+   "1.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "What grade do I get for 43 marks?",
+  "expect": [
+   "grade C-",
+   "1.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "if I get 68 marks what grade",
+  "expect": [
+   "grade B+",
+   "3.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "I scored 94, what is my grade?",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "I scored 63, what is my grade?",
+  "expect": [
+   "grade B",
+   "3.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "71 marks grade",
+  "expect": [
+   "grade A-",
+   "3.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "what grade is 41 marks",
+  "expect": [
+   "grade C-",
+   "1.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "what grade is 59 marks",
+  "expect": [
+   "grade B-",
+   "2.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "I scored 86, what is my grade?",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "what grade is 76 marks",
+  "expect": [
+   "grade A",
+   "4.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "91 marks grade",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "What grade do I get for 96 marks?",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "if I get 64 marks what grade",
+  "expect": [
+   "grade B",
+   "3.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "if I get 74 marks what grade",
+  "expect": [
+   "grade A-",
+   "3.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "65 marks grade",
+  "expect": [
+   "grade B+",
+   "3.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "What grade do I get for 69 marks?",
+  "expect": [
+   "grade B+",
+   "3.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "36 marks grade",
+  "expect": [
+   "grade D+",
+   "1.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "if I get 44 marks what grade",
+  "expect": [
+   "grade C-",
+   "1.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "what grade is 55 marks",
+  "expect": [
+   "grade B-",
+   "2.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "if I get 98 marks what grade",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "if I get 83 marks what grade",
+  "expect": [
+   "grade A",
+   "4.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "93 marks grade",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "What grade do I get for 60 marks?",
+  "expect": [
+   "grade B",
+   "3.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "99 marks grade",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_marks",
+  "q": "if I get 100 marks what grade",
+  "expect": [
+   "grade A+",
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "GPV for grade A+",
+  "expect": [
+   "4.20"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade A+?",
+  "expect": [
+   "85"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "What is the GPV of A?",
+  "expect": [
+   "4.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "marks range for grade A",
+  "expect": [
+   "75"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "GPV for grade A-",
+  "expect": [
+   "3.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade A-?",
+  "expect": [
+   "70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "What is the GPV of B+?",
+  "expect": [
+   "3.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade B+?",
+  "expect": [
+   "65"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "What is the GPV of B?",
+  "expect": [
+   "3.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "marks range for grade B",
+  "expect": [
+   "60"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "What is the GPV of B-?",
+  "expect": [
+   "2.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "marks range for grade B-",
+  "expect": [
+   "55"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "GPV for grade C+",
+  "expect": [
+   "2.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade C+?",
+  "expect": [
+   "50"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "GPV for grade C",
+  "expect": [
+   "2.00"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade C?",
+  "expect": [
+   "45"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "What is the GPV of C-?",
+  "expect": [
+   "1.70"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade C-?",
+  "expect": [
+   "40"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_gpv",
+  "q": "grade point value of D+",
+  "expect": [
+   "1.30"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "grade_range",
+  "q": "What marks are needed for grade D+?",
+  "expect": [
+   "35"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "Which class is awarded for an FGPA of 2.0?",
+  "expect": [
+   "Pass"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "What class do I get with FGPA 2.15?",
+  "expect": [
+   "Pass"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "Which class is awarded for an FGPA of 2.5?",
+  "expect": [
+   "Pass"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "What class do I get with FGPA 2.99?",
+  "expect": [
+   "Pass"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "FGPA 3.0 class",
+  "expect": [
+   "Lower"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "Which class is awarded for an FGPA of 3.10?",
+  "expect": [
+   "Lower"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "What class do I get with FGPA 3.29?",
+  "expect": [
+   "Lower"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "What class do I get with FGPA 3.30?",
+  "expect": [
+   "Upper"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "What class do I get with FGPA 3.45?",
+  "expect": [
+   "Upper"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "What class do I get with FGPA 3.55?",
+  "expect": [
+   "Upper"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "my FGPA is 3.69, which class?",
+  "expect": [
+   "Upper"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "FGPA 3.7 class",
+  "expect": [
+   "First"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "FGPA 3.80 class",
+  "expect": [
+   "First"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "What class do I get with FGPA 3.95?",
+  "expect": [
+   "First"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "fgpa_class",
+  "q": "FGPA 4.0 class",
+  "expect": [
+   "First"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "height",
+  "q": "What is the height requirement for a male applicant to the army?",
+  "expect": [
+   "165.1 cm (5’5”)"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "height",
+  "q": "minimum height for male navy",
+  "expect": [
+   "167.6 cm (5’.6”)"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "height",
+  "q": "minimum height for male air force",
+  "expect": [
+   "167.6 cm (5’.6”)"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "height",
+  "q": "minimum height for female army",
+  "expect": [
+   "152.4 cm (5’3”)"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "height",
+  "q": "minimum height for female navy",
+  "expect": [
+   "160.0 cm (5’.3”)"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "height",
+  "q": "What is the height requirement for a female applicant to the air force?",
+  "expect": [
+   "162.5 cm (5’4”)"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Dr. Asela Gunasekara",
+  "expect": [
+   "asela@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Mrs. SCM De Silva Sirisuriya?",
+  "expect": [
+   "mihiri@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Dr. LP Kalansooriya",
+  "expect": [
+   "pradeepkalansooriya@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Dr. W Gunathilake email address",
+  "expect": [
+   "wijendrapg@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Mr. PPNV Kumara email address",
+  "expect": [
+   "nandana@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Mrs. WPJ Pemarathne email address",
+  "expect": [
+   "punsisi@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Ms. Kalani Sriya Ilmini email address",
+  "expect": [
+   "kalaniilmini@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Mrs.MKP Madushanka email address",
+  "expect": [
+   "pavithram@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "how can I email Ms. GAI Uwanthika",
+  "expect": [
+   "Uwanthika.gai@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Ms. JJRS Fernando",
+  "expect": [
+   "fernandojjrs@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "how can I email Ms. RGC Upeksha",
+  "expect": [
+   "upekshargc@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Ms. FS Sourjah email address",
+  "expect": [
+   "sourjahfs@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Mr. RPS Kathriarachchi",
+  "expect": [
+   "pathum@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Mrs. DU Vidanagama?",
+  "expect": [
+   "udeshika@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Maj. RMM Pradeep?",
+  "expect": [
+   "pradeep@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "how can I email Dr. N Wedasinghe",
+  "expect": [
+   "nirosha@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Mrs. WJ Samaraweera?",
+  "expect": [
+   "wishma@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Mrs. PRD Wijesinghe email address",
+  "expect": [
+   "deepikaw@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Mr. GIF de Silva email address",
+  "expect": [
+   "indika@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Mr. WAAM Wanniarachchi",
+  "expect": [
+   "ashenw@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Mr. WMSRB Wijayarathna email address",
+  "expect": [
+   "shashikab@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "how can I email Eng. DB Wijesinghe",
+  "expect": [
+   "dbuddhika@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Ms. I Udayangi email address",
+  "expect": [
+   "nduniguruge@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Ms. D Gunasekera",
+  "expect": [
+   "dgunasekara@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Mrs. KBA Madushi?",
+  "expect": [
+   "asham@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Miss BMTN Rathnayake email address",
+  "expect": [
+   "thisarun@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Miss GAD Ganepola?",
+  "expect": [
+   "dasunig@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Mr. DPM LAkshan",
+  "expect": [
+   "dpmlakshan@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Ms. MVT Kawya?",
+  "expect": [
+   "mvtkawya@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Ms. K Anuradha",
+  "expect": [
+   "kanuradha@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Dr. B Hettige",
+  "expect": [
+   "budditha@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "how can I email Dr. Thushara Weerawardane",
+  "expect": [
+   "tlw@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "how can I email Mr. DMR Kulasekara",
+  "expect": [
+   "dmrangak@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Eng. MWP Maduranga?",
+  "expect": [
+   "pasanwellalage@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Mrs. G Gayamini?",
+  "expect": [
+   "shanmuganathang@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "how can I email Miss MAST Goonatilleke",
+  "expect": [
+   "goonatillekemast@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Mrs. RHNS Jayathissa email address",
+  "expect": [
+   "jayathissarhns@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "What is the email of Miss NT Jayatilake?",
+  "expect": [
+   "jayatilakan@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "contact email of Dr. K Kottegoda",
+  "expect": [
+   "kapilak@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Dr. GA Chandima N. Priyadarshani email address",
+  "expect": [
+   "priyadarshanigacn@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "how can I email Mrs. ERC Sandamali",
+  "expect": [
+   "sandamalierc@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_email",
+  "q": "Mrs. SMM Lakmali email address",
+  "expect": [
+   "lakmalismm@kdu.ac.lk"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Mr. WAAM Wanniarachchi's position?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Mrs. G Gayamini designation",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Dr. Asela Gunasekara designation",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is the designation of Mrs. SCM De Silva Sirisuriya?",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Eng. DB Wijesinghe's position?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Ms. FS Sourjah designation",
+  "expect": [
+   "Instructor"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is the designation of Ms. K Anuradha?",
+  "expect": [
+   "Instructor"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is the designation of Ms. Kalani Sriya Ilmini?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is the designation of Dr. N Wedasinghe?",
+  "expect": [
+   "Senior Lecturer Grade II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Dr. B Hettige's position?",
+  "expect": [
+   "Senior Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Ms. RGC Upeksha's position?",
+  "expect": [
+   "Instructor"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is the designation of Mrs. SMM Lakmali?",
+  "expect": [
+   "Instructor Grade II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Mrs. WJ Samaraweera's position?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Miss NT Jayatilake's position?",
+  "expect": [
+   "Instructor"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Eng. MWP Maduranga's position?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Dr. W Gunathilake's position?",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Dr. LP Kalansooriya designation",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Mr. PPNV Kumara's position?",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Dr. GA Chandima N. Priyadarshani's position?",
+  "expect": [
+   "Senior Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Mr. DMR Kulasekara's position?",
+  "expect": [
+   "Senior Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Miss MAST Goonatilleke designation",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Ms. JJRS Fernando designation",
+  "expect": [
+   "Instructor Gr.II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Mrs. KBA Madushi's position?",
+  "expect": [
+   "Instructor Grade II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Mrs. DU Vidanagama's position?",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Ms. GAI Uwanthika's position?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is Ms. D Gunasekera's position?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is the designation of Maj. RMM Pradeep?",
+  "expect": [
+   "Senior Lecturer Gr. II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "What is the designation of Mr. WMSRB Wijayarathna?",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Ms. I Udayangi designation",
+  "expect": [
+   "Lecturer"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "staff_designation",
+  "q": "Miss BMTN Rathnayake designation",
+  "expect": [
+   "Instructor Grade II"
+  ],
+  "src": "template"
+ },
+ {
+  "cat": "rules",
+  "q": "How is each course assessed?",
+  "expect": [
+   "Continuous Assessment|CA"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What is the written exam percentage?",
+  "expect": [
+   "70%"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Can the CA weightage change?",
+  "expect": [
+   "nature of the course|might change"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What is the minimum percentage for each component to complete a course?",
+  "expect": [
+   "35%"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What total mark is needed to pass a course?",
+  "expect": [
+   "45%"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Are mid semester exams part of CA?",
+  "expect": [
+   "mid semester"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Who can extend the maximum period of study?",
+  "expect": [
+   "BoS|Senate|BOM"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Can the study period be extended for exceptional circumstances?",
+  "expect": [
+   "exceptional"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What attendance do first-time candidates need?",
+  "expect": [
+   "80%"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Who considers the 70% attendance for medical reasons?",
+  "expect": [
+   "Faculty Board"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What are the two categories of academic credits?",
+  "expect": [
+   "GPA",
+   "NGPA"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Are NGPA credits counted in the SGPA?",
+  "expect": [
+   "Only the GPA credits|GPA credits"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What does YGPA stand for?",
+  "expect": [
+   "Year Grade Point Average"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What does MGPA stand for?",
+  "expect": [
+   "Military Grade Point Average"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Are MGPA credits used for military students' FGPA?",
+  "expect": [
+   "MGPA"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Must military students earn MGPA credits to graduate?",
+  "expect": [
+   "MGPA"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What does Ab mean in grades?",
+  "expect": [
+   "Absent"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What is the GPV of A+?",
+  "expect": [
+   "4.20"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Who decides the grades of military courses?",
+  "expect": [
+   "senate"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Where can I find more information about YGPA and FGPA?",
+  "expect": [
+   "By-Laws"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What is needed to successfully complete a semester?",
+  "expect": [
+   "C"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Can I pass a semester with an Ex grade?",
+  "expect": [
+   "Ex"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "How is an excused course re-sat?",
+  "expect": [
+   "first attempt"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Who approves the re-sit charge?",
+  "expect": [
+   "BOM"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "How do I complete a course with grade Ie?",
+  "expect": [
+   "ES component"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What happens to my CA mark when I re-sit the ES?",
+  "expect": [
+   "carried over"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What must be done for NGPA courses below C?",
+  "expect": [
+   "repeated"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Can I repeat an NGPA course with a C or higher?",
+  "expect": [
+   "upgrading"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Up to what grade can a weak pass be upgraded?",
+  "expect": [
+   "C"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Are supplementary exams held after semester 2?",
+  "expect": [
+   "not be held"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Why are supplementary exams held in semesters 7 and 8?",
+  "expect": [
+   "graduate without delay|without delay"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What is the maximum number of semesters before discontinuation?",
+  "expect": [
+   "sixteen|16"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Can a student be discontinued for an examination offence?",
+  "expect": [
+   "examination offence"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Who decides if a student is medically unfit to continue?",
+  "expect": [
+   "medical board"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Can weak students continue with their original batch?",
+  "expect": [
+   "original batch"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What is the minimum SGPA to avoid a warning?",
+  "expect": [
+   "2.0"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Which by-law covers relegation of officer cadets?",
+  "expect": [
+   "FDSS"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What are the criteria for awarding degrees?",
+  "expect": [
+   "minimum stipulated period|GPA"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What overall GPA is needed for the degree?",
+  "expect": [
+   "2.00"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "How many D+ or C- grades are allowed in the entire programme per semester?",
+  "expect": [
+   "1|one"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "When are classes awarded?",
+  "expect": [
+   "completion of all requirements|minimum time period"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What FGPA range gives second class lower division?",
+  "expect": [
+   "3.00"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Can I get a first class with weak passes carried over?",
+  "expect": [
+   "weak passes"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "How many failure grades are allowed for second class upper?",
+  "expect": [
+   "one"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Who gets the merit awards?",
+  "expect": [
+   "highest GPA"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "Is there a trophy for the best software engineering graduate?",
+  "expect": [
+   "Software Engineering"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "How many trophies are there?",
+  "expect": [
+   "Computer Science",
+   "Overall Performance"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "rules",
+  "q": "What is the pass FGPA range?",
+  "expect": [
+   "2.00"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "Who is the vice chancellor of KDU?",
+  "expect": [
+   "Milinda Peiris"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "chancellor name",
+  "expect": [
+   "Gerard Hector de Silva"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "Who is the DVC academic?",
+  "expect": [
+   "Dhammika"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "deputy vice chancellor defence",
+  "expect": [
+   "Chandrasiri"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "Who is the rector?",
+  "expect": [
+   "Edirisinghe"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "registrar name",
+  "expect": [
+   "Kithsiri"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "Who is the dean of graduate studies?",
+  "expect": [
+   "Rajapakshe"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "Who is the head of the computer science department?",
+  "expect": [
+   "Sirisuriya"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "Who is the dean of FOC?",
+  "expect": [
+   "Gunasekara"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "What is the email of the dean?",
+  "expect": [
+   "asela@kdu.ac.lk"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "Who works on natural language processing?",
+  "expect": [
+   "Hettige|Staff"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "Who researches cyber security?",
+  "expect": [
+   "Staff"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "How many staff in the computer engineering department?",
+  "expect": [
+   "8"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "people",
+  "q": "List the staff of the department of computational mathematics",
+  "expect": [
+   "Kottegoda"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "department",
+  "q": "How many degrees does the computer science department offer?",
+  "expect": [
+   "2"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "department",
+  "q": "Which department offers the computer science degree?",
+  "expect": [
+   "Department of Computer Science"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "department",
+  "q": "Degrees offered by department of computer engineering",
+  "expect": [
+   "Computer Engineering"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "department",
+  "q": "What subjects does the computational mathematics department cover?",
+  "expect": [
+   "Mathematics"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "department",
+  "q": "list the departments in the faculty of computing",
+  "expect": [
+   "Computational Mathematics"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "programme",
+  "q": "How many degree programmes are offered?",
+  "expect": [
+   "5"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "programme",
+  "q": "Which A/L stream is needed for the IS degree?",
+  "expect": [
+   "Biology|Commerce|Arts"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "programme",
+  "q": "What is the civil duration of the computer science degree?",
+  "expect": [
+   "4 years"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "programme",
+  "q": "What is the maximum duration for software engineering?",
+  "expect": [
+   "8"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "programme",
+  "q": "total GPA credits for computer science degree",
+  "expect": [
+   "128"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "programme",
+  "q": "How many NGPA credits does the SE degree have?",
+  "expect": [
+   "15"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "general",
+  "q": "When was the university elevated to university status?",
+  "expect": [
+   "1988"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "general",
+  "q": "What was KDU initially called?",
+  "expect": [
+   "Defence Academy"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "general",
+  "q": "What is the KDU mission?",
+  "expect": [
+   "learner-centered"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "general",
+  "q": "Where is the southern campus?",
+  "expect": [
+   "Sooriyawewa"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "general",
+  "q": "faculty email",
+  "expect": [
+   "hoditm@kdu.ac.lk"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "What is the Wi-Fi speed in the hostel?",
+  "expect": [
+   "couldn't find"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "How much does a semester cost?",
+  "expect": [
+   "couldn't find"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "Is there a cricket team?",
+  "expect": [
+   "couldn't find"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "What are the canteen opening hours?",
+  "expect": [
+   "couldn't find"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "Who won the last election?",
+  "expect": [
+   "couldn't find"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "How do I reset my LMS password?",
+  "expect": [
+   "couldn't find"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "When does the next semester start?",
+  "expect": [
+   "couldn't find"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "out_of_scope",
+  "q": "Is parking free for students?",
+  "expect": [
+   "couldn't find"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "paraphrase",
+  "q": "attendence wenna one kiyada",
+  "expect": [
+   "80%"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "paraphrase",
+  "q": "first class ganna fgpa eka",
+  "expect": [
+   "3.70"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "paraphrase",
+  "q": "HOD of CS dept?",
+  "expect": [
+   "Sirisuriya"
+  ],
+  "src": "handwritten"
+ },
+ {
+  "cat": "paraphrase",
+  "q": "how many credits sem 3",
+  "expect": [
+   "16"
+  ],
+  "src": "handwritten"
+ }
+]

@@ -1,0 +1,29 @@
+{
+ "facts": 2013,
+ "confirmed_by_two_sources": 5,
+ "by_relation": {
+  "type": 166,
+  "title": 146,
+  "part_of": 4,
+  "offers": 5,
+  "teaches_for": 3,
+  "short_name": 5,
+  "max_years": 5,
+  "in_programme": 159,
+  "offered": 161,
+  "module_level": 159,
+  "category": 157,
+  "gpa_credits": 135,
+  "ngpa_credits": 10,
+  "mgpa_credits": 10,
+  "designation": 42,
+  "member_of": 42,
+  "email": 42,
+  "dean_of": 1,
+  "research_topic": 737,
+  "head_of": 4,
+  "grade_status": 16,
+  "class_min": 4
+ },
+ "issues": []
+}

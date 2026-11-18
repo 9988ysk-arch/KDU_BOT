@@ -1,0 +1,60 @@
+[
+ {"name": "b10_name", "turns": [
+   {"user": "hi my name is Tharindu", "expect": ["Tharindu"]},
+   {"user": "good morning", "expect": ["Tharindu"]},
+   {"user": "what's my name?", "expect": ["Tharindu"]}]},
+ {"name": "b10_grade_chain", "turns": [
+   {"user": "what happens if I get C- in a module?", "expect": ["weak pass", "C-"]},
+   {"user": "can I redo it?", "expect": ["maximum|up to", "C"]},
+   {"user": "what about D+?", "expect": ["D+", "weak pass"]},
+   {"user": "and Ia?", "expect": ["continuous assessment|CA"]}]},
+ {"name": "b10_no_E", "turns": [
+   {"user": "i got an E for maths, what now?", "expect": ["no grade", "E"]}]},
+ {"name": "b10_class_chain", "turns": [
+   {"user": "requirements for second class lower", "expect": ["3.00"]},
+   {"user": "what about first?", "expect": ["3.70"]},
+   {"user": "and upper division?", "expect": ["3.30"]}]},
+ {"name": "b10_gender_pronoun", "turns": [
+   {"user": "who is the head of the IT department?", "expect": ["Kathriarachchi"]},
+   {"user": "who is the head of the department of computer science?", "expect": ["Sirisuriya"]},
+   {"user": "what is his email?", "expect": ["re:@kdu"], "not": ["mihiri"]}]},
+ {"name": "b10_head_is", "turns": [
+   {"user": "who heads information systems?", "expect": ["Information Technology", "Kathriarachchi"]},
+   {"user": "his email please", "expect": ["re:@kdu"]}]},
+ {"name": "b10_prereq_pronoun", "turns": [
+   {"user": "tell me about CS2082", "expect": ["Artificial Intelligence"]},
+   {"user": "does it have any prerequisites?", "expect": ["does not list prerequisites"]}]},
+ {"name": "b10_pass_module", "turns": [
+   {"user": "what is CS2062?", "expect": ["Data Structures"]},
+   {"user": "how many marks do I need to pass it?", "expect": ["45%", "CS2062"]}]},
+ {"name": "b10_not_covered", "turns": [
+   {"user": "where can I find accommodation near campus?", "expect": ["couldn't find|doesn't cover"], "not": ["Error"]},
+   {"user": "when do exams start this semester?", "expect": ["couldn't find|doesn't cover"]},
+   {"user": "is there wifi on campus?", "expect": ["couldn't find|doesn't cover"]}]},
+ {"name": "b10_out_of_domain", "turns": [
+   {"user": "who discovered penicillin?", "expect": ["isn't in the Student Handbook|only answer"]},
+   {"user": "ok what is the attendance rule then?", "expect": ["80%"]}]},
+ {"name": "b10_uncertain_slot", "turns": [
+   {"user": "what are the electives in semester 6?", "options": true},
+   {"user": "not sure", "expect": ["CS|Computer Science", "SE|Software Engineering"]}]},
+ {"name": "b10_confused", "turns": [
+   {"user": "what is a weak pass?", "expect": ["D+"]},
+   {"user": "i dont get it", "expect": ["simply|key point"]}]},
+ {"name": "b10_smalltalk_mix", "turns": [
+   {"user": "hold on a second", "kind": "small_talk_wait"},
+   {"user": "is gemini better than you?", "kind": "small_talk_compare_ai"},
+   {"user": "dunno", "kind": "small_talk_uncertain"}]},
+ {"name": "b10_stale_pronoun", "turns": [
+   {"user": "who is the dean?", "expect": ["Gunasekara"]},
+   {"user": "who is the head of the music department?", "expect": ["couldn't|not"]},
+   {"user": "what is her email?", "options": true, "expect": ["Do you mean|re:@kdu"]}]},
+ {"name": "b10_repeat_limit", "turns": [
+   {"user": "is there a limit on how many times I can resit an exam?", "expect": ["fixed number|sixteen"]}]},
+ {"name": "b10_pass_degree", "turns": [
+   {"user": "what's the min gpa to just pass the degree?", "expect": ["2.00"]}]},
+ {"name": "b10_error_text", "turns": [
+   {"user": "which GPA course units must be repeated?", "not": ["Error! Reference"]}]},
+ {"name": "b10_hardest", "turns": [
+   {"user": "modules in semester 1?", "options": false},
+   {"user": "which one is the easiest?", "expect": ["does not rate"]}]}
+]

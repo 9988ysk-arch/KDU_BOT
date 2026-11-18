@@ -1,0 +1,19 @@
+[
+ {"name": "u_typo_email", "turns": [{"user": "what is the emial of the dean?", "expect": ["asela@kdu.ac.lk"]}]},
+ {"name": "u_typo_credits", "turns": [{"user": "how many credts is CS2082", "expect": ["2"]}]},
+ {"name": "u_typo_head_ce", "turns": [{"user": "who is the head of computr engineering?", "expect": ["Hettige"]}]},
+ {"name": "u_typo_electives", "turns": [{"user": "electivs in semster 6 for SE", "expect": ["Semester 6"]}]},
+ {"name": "u_vague_safe_first", "turns": [{"user": "my gpa is 3.72, am I safely in first class?", "expect": ["First Class", "already"]}]},
+ {"name": "u_vague_low_grad", "turns": [{"user": "is an FGPA of 2.05 too low to graduate?", "expect": ["Pass"]}]},
+ {"name": "u_vague_nearly", "turns": [{"user": "I got 36 marks, is that nearly a pass?", "expect": ["D+", "9 marks"]}]},
+ {"name": "u_vague_close_upper", "turns": [{"user": "is 3.29 close to upper division?", "expect": ["0.01"]}]},
+ {"name": "u_hop_dept_cs3023", "turns": [{"user": "which department offers CS3023?", "expect": ["Department of Computer Science"]}]},
+ {"name": "u_hop_head_is", "turns": [{"user": "who heads the department that offers information systems?", "expect": ["Kathriarachchi"]}]},
+ {"name": "u_hop_only_cs5", "turns": [{"user": "which semester 5 modules are only in CS?", "expect": ["CS3032", "CS3102", "CS3202"]}]},
+ {"name": "u_hop_se4022", "turns": [{"user": "is SE4022 in CS?", "expect": ["re:^No"]}]},
+ {"name": "u_hop_include", "turns": [{"user": "which degrees include CS4052?", "expect": ["Software Engineering"], "not": ["Computer Science (Semester"]}]},
+ {"name": "u_hop_it_se", "turns": [{"user": "does the IT department offer software engineering?", "expect": ["re:^No", "Computer Science"]}]},
+ {"name": "u_hop_deep", "turns": [{"user": "who researches deep learning in the department that offers computer science?", "expect": ["Ilmini", "Uwanthika", "Sourjah"]}]},
+ {"name": "u_hop_hettige_degrees", "turns": [{"user": "which degrees belong to the department headed by Dr. B Hettige?", "expect": ["Computer Engineering"]}]},
+ {"name": "u_hop_shared7", "turns": [{"user": "how many modules do CS and SE share in semester 7?", "expect": ["8"]}]}
+]

@@ -1,0 +1,27 @@
+[
+ {"name": "t_typo_module", "turns": [{"user": "how many credits is machin lerning?", "expect": ["CS4042", "2"]}]},
+ {"name": "t_typo_head", "turns": [{"user": "who is the hed of the IT departmnt?", "expect": ["Kathriarachchi"]}]},
+ {"name": "t_typo_title", "turns": [{"user": "which semester is artifical inteligence in?", "expect": ["CS2082", "4"]}]},
+ {"name": "t_typo_staff", "turns": [{"user": "what is Kathriarachi's email?", "expect": ["re:@kdu"]}]},
+ {"name": "t_typo_prog", "turns": [{"user": "how long is the sofware enginering degree?", "expect": ["4 years"]}]},
+ {"name": "t_typo_attend", "turns": [{"user": "atendance requirment for exams?", "expect": ["80%"]}]},
+ {"name": "t_typo_supp", "turns": [{"user": "when are suplementary exams held?", "expect": ["7"]}]},
+ {"name": "t_typo_hettige", "turns": [{"user": "research areas of Dr Hetige", "expect": ["Machine Translation"]}]},
+ {"name": "t_vague_close_first", "turns": [{"user": "my FGPA is 3.65, am I close to first class?", "expect": ["3.70", "0.05"]}]},
+ {"name": "t_vague_good", "turns": [{"user": "is a GPA of 3.1 good?", "expect": ["Lower Division"]}]},
+ {"name": "t_vague_far", "turns": [{"user": "I have 3.28, how far am I from second upper?", "expect": ["0.02"]}]},
+ {"name": "t_vague_almost_pass", "turns": [{"user": "is 44 marks almost a pass?", "expect": ["C-", "1 mark"]}]},
+ {"name": "t_vague_barely", "turns": [{"user": "I barely scored 46 marks, is that ok?", "expect": ["C"]}]},
+ {"name": "t_hop_dept_of_module", "turns": [{"user": "which department offers machine learning?", "expect": ["Department of Computer Science"]}]},
+ {"name": "t_hop_head_of_module", "turns": [{"user": "who heads the department that offers CS4042?", "expect": ["Sirisuriya"]}]},
+ {"name": "t_hop_degrees_of_dept", "turns": [{"user": "which degrees does the IT department offer?", "expect": ["Information Technology", "Information Systems"]}]},
+ {"name": "t_hop_only_se", "turns": [{"user": "which semester 7 modules are only in SE?", "expect": ["SE4022", "SE4032", "SE4999", "CS4052"], "not": ["CS4042"]}]},
+ {"name": "t_hop_both", "turns": [{"user": "is CS4042 in both CS and SE?", "expect": ["re:only|not .*SE|Computer Science only"]}]},
+ {"name": "t_hop_shared_count", "turns": [{"user": "how many modules do CS and SE share in semester 5?", "expect": ["8"]}]},
+ {"name": "t_hop_staff_dept_chain", "turns": [
+   {"user": "which department is Dr. B Hettige in?", "expect": ["Computer Engineering"]},
+   {"user": "which degree does that department offer?", "expect": ["Computer Engineering"]}]},
+ {"name": "t_hop_head_name_degrees", "turns": [{"user": "which degrees belong to the department headed by Mr. RPS Kathriarachchi?", "expect": ["Information Technology", "Information Systems"]}]},
+ {"name": "t_hop_research_se", "turns": [{"user": "who researches machine learning in the department that offers software engineering?", "expect": ["Madushanka", "Sourjah"], "not": ["Anuradha", "Kottegoda"]}]},
+ {"name": "t_hop_cm_degree", "turns": [{"user": "does the computational mathematics department offer a degree?", "expect": ["re:no degree|does not offer|doesn't offer"]}]}
+]

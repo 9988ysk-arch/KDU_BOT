@@ -1,0 +1,502 @@
+[
+ {
+  "name": "image_issue_1_semesters_in_it",
+  "turns": [
+   {
+    "user": "how long is the software engineering degree?",
+    "expect": [
+     "4 years"
+    ]
+   },
+   {
+    "user": "then how many semesters are there in it ?",
+    "expect": [
+     "8 semesters"
+    ],
+    "not": [
+     "Table 40"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "image_issue_2_it_modules_out_of_scope",
+  "turns": [
+   {
+    "user": "list me all the subjects in the second year of the BSc IT program ?",
+    "expect": [
+     "only",
+     "Computer Science|CS",
+     "Software Engineering|SE"
+    ],
+    "options": true,
+    "not": [
+     "CS2013 Data Structures"
+    ]
+   },
+   {
+    "user": "yes",
+    "expect": [
+     "CS2013"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "out_of_scope_programme_credits",
+  "turns": [
+   {
+    "user": "how many credits in semester 3 for information systems?",
+    "expect": [
+     "only"
+    ],
+    "options": true
+   },
+   {
+    "user": "SE",
+    "expect": [
+     "Semester 3",
+     "SE"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "small_talk_basic",
+  "turns": [
+   {
+    "user": "hi",
+    "expect": [
+     "Hello|Hi"
+    ]
+   },
+   {
+    "user": "how are you?",
+    "expect": [
+     "doing well|good|fine"
+    ]
+   },
+   {
+    "user": "who are you?",
+    "expect": [
+     "Student Handbook assistant|handbook assistant"
+    ]
+   },
+   {
+    "user": "what can you do",
+    "expect": [
+     "modules",
+     "grades"
+    ]
+   },
+   {
+    "user": "thanks!",
+    "expect": [
+     "welcome"
+    ]
+   },
+   {
+    "user": "bye",
+    "expect": [
+     "Goodbye|Bye"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "small_talk_with_question",
+  "turns": [
+   {
+    "user": "hello, who is the dean?",
+    "expect": [
+     "Gunasekara"
+    ]
+   },
+   {
+    "user": "thank you so much, what is his email?",
+    "expect": [
+     "asela@kdu.ac.lk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "small_talk_singlish",
+  "turns": [
+   {
+    "user": "ayubowan",
+    "expect": [
+     "Hello|Ayubowan"
+    ]
+   },
+   {
+    "user": "isthuthi",
+    "expect": [
+     "welcome"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "pronoun_module",
+  "turns": [
+   {
+    "user": "What is CS2082?",
+    "expect": [
+     "Artificial Intelligence"
+    ]
+   },
+   {
+    "user": "how many credits does it have?",
+    "expect": [
+     "re:\\b2 GPA credits"
+    ]
+   },
+   {
+    "user": "which semester is it in?",
+    "expect": [
+     "Semester 4"
+    ]
+   },
+   {
+    "user": "is it compulsory?",
+    "expect": [
+     "re:^Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "pronoun_person",
+  "turns": [
+   {
+    "user": "Who is the head of the IT department?",
+    "expect": [
+     "Kathriarachchi"
+    ]
+   },
+   {
+    "user": "what is his email?",
+    "expect": [
+     "@kdu.ac.lk"
+    ]
+   },
+   {
+    "user": "what are his research areas?",
+    "expect": [
+     "Kathriarachchi",
+     "research"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "pronoun_programme",
+  "turns": [
+   {
+    "user": "Tell me about the software engineering degree",
+    "expect": [
+     "Software Engineering"
+    ]
+   },
+   {
+    "user": "how long is it?",
+    "expect": [
+     "4 years"
+    ]
+   },
+   {
+    "user": "which department offers it?",
+    "expect": [
+     "Department of Computer Science"
+    ]
+   },
+   {
+    "user": "what A/L stream do I need for it?",
+    "expect": [
+     "Maths"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "pronoun_department",
+  "turns": [
+   {
+    "user": "Which department offers the IT degree?",
+    "expect": [
+     "Department of Information Technology"
+    ]
+   },
+   {
+    "user": "who is the head of that department?",
+    "expect": [
+     "Kathriarachchi"
+    ]
+   },
+   {
+    "user": "how many staff are there?",
+    "expect": [
+     "Information Technology",
+     "staff"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "pronoun_they_staff_list",
+  "turns": [
+   {
+    "user": "who researches machine learning?",
+    "expect": [
+     "Staff"
+    ]
+   },
+   {
+    "user": "which department is the first one in?",
+    "expect": [
+     "Department"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "context_programme_memory",
+  "turns": [
+   {
+    "user": "I'm a software engineering student",
+    "expect": [
+     "Software Engineering"
+    ]
+   },
+   {
+    "user": "what are the electives in semester 6?",
+    "expect": [
+     "SE (",
+     "CS3112"
+    ],
+    "not": [
+     "CS ("
+    ]
+   },
+   {
+    "user": "how many GPA credits in semester 7?",
+    "expect": [
+     "SE: 14"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "context_fgpa_memory",
+  "turns": [
+   {
+    "user": "my FGPA is 3.4",
+    "expect": [
+     "3.4"
+    ]
+   },
+   {
+    "user": "what class will I get?",
+    "expect": [
+     "Upper"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "context_slot_followup",
+  "turns": [
+   {
+    "user": "how many modules in semester 3?",
+    "expect": [
+     "11"
+    ]
+   },
+   {
+    "user": "and semester 4?",
+    "expect": [
+     "Semester 4",
+     "10"
+    ]
+   },
+   {
+    "user": "what about the credits?",
+    "expect": [
+     "Semester 4",
+     "GPA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "context_topic_switch",
+  "turns": [
+   {
+    "user": "What is CS2082?",
+    "expect": [
+     "Artificial Intelligence"
+    ]
+   },
+   {
+    "user": "who is the vice chancellor?",
+    "expect": [
+     "Milinda Peiris"
+    ]
+   },
+   {
+    "user": "what is the attendance requirement?",
+    "expect": [
+     "80%"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "clarify_ambiguous_module",
+  "turns": [
+   {
+    "user": "how many credits is industrial training?",
+    "expect": [
+     "Computer Science|CS",
+     "Software Engineering|SE"
+    ],
+    "options": true
+   },
+   {
+    "user": "software engineering",
+    "expect": [
+     "SE4996",
+     "6"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "clarify_ambiguous_person",
+  "turns": [
+   {
+    "user": "what is the email of Wijesinghe?",
+    "expect": [
+     "Which"
+    ],
+    "options": true
+   },
+   {
+    "user": "the second one",
+    "expect": [
+     "@kdu.ac.lk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "clarify_ignored_new_question",
+  "turns": [
+   {
+    "user": "credits of independent study",
+    "expect": [
+     "Computer Science|CS"
+    ],
+    "options": true
+   },
+   {
+    "user": "who is the registrar?",
+    "expect": [
+     "Kithsiri"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "graceful_not_found",
+  "turns": [
+   {
+    "user": "what is the hostel fee?",
+    "expect": [
+     "couldn't find"
+    ],
+    "not": [
+     "Traceback"
+    ]
+   },
+   {
+    "user": "asdfgh qwerty",
+    "expect": [
+     "didn't understand|not sure what you mean|couldn't understand"
+    ]
+   },
+   {
+    "user": "?",
+    "expect": [
+     "question"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "graceful_feedback",
+  "turns": [
+   {
+    "user": "what is the minimum attendance?",
+    "expect": [
+     "80%"
+    ]
+   },
+   {
+    "user": "that's wrong",
+    "expect": [
+     "sorry|Sorry"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "verify_low_confidence",
+  "turns": [
+   {
+    "user": "tell me about the rules for exams",
+    "expect": [
+     "exam|Exam"
+    ]
+   },
+   {
+    "user": "no",
+    "expect": [
+     "Exam|exam|topic|rephrase"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "reset_context",
+  "turns": [
+   {
+    "user": "I'm a software engineering student",
+    "expect": [
+     "Software Engineering"
+    ]
+   },
+   {
+    "user": "start over",
+    "expect": [
+     "fresh|new|cleared|reset"
+    ]
+   },
+   {
+    "user": "what are the electives in semester 6?",
+    "expect": [
+     "Which degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "both",
+    "expect": [
+     "CS (",
+     "SE ("
+    ]
+   }
+  ]
+ }
+]

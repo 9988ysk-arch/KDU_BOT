@@ -1,0 +1,312 @@
+[
+ {
+  "name": "v7r_list_subjects",
+  "turns": [
+   {
+    "user": "list the subjects ?",
+    "expect": [
+     "Which degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "SE",
+    "expect": [
+     "Which year"
+    ],
+    "options": true
+   },
+   {
+    "user": "year 2",
+    "expect": [
+     "Level 2 modules - SE"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_overview",
+  "turns": [
+   {
+    "user": "provide the subjects in the degree programs",
+    "expect": [
+     "Which degree"
+    ],
+    "options": true
+   },
+   {
+    "user": "Computer Science",
+    "expect": [
+     "Which year"
+    ]
+   },
+   {
+    "user": "Whole degree overview",
+    "expect": [
+     "Semester 1",
+     "Semester 8"
+    ],
+    "options": true
+   },
+   {
+    "user": "Show all module names",
+    "expect": [
+     "CS4999|Individual Research"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_it_scope",
+  "turns": [
+   {
+    "user": "what are the modules?",
+    "expect": [
+     "Which degree"
+    ]
+   },
+   {
+    "user": "Information Technology",
+    "expect": [
+     "only"
+    ],
+    "options": true
+   }
+  ]
+ },
+ {
+  "name": "v7r_electives",
+  "turns": [
+   {
+    "user": "what are the electives?",
+    "expect": [
+     "Which degree"
+    ]
+   },
+   {
+    "user": "software engineering",
+    "expect": [
+     "Semesters 5, 6 and 7"
+    ]
+   },
+   {
+    "user": "semester 6",
+    "expect": [
+     "Semester 6 elective modules - SE"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_all_electives",
+  "turns": [
+   {
+    "user": "electives for CS",
+    "expect": [
+     "Which semester"
+    ]
+   },
+   {
+    "user": "All electives",
+    "expect": [
+     "Semester 5 elective",
+     "Semester 7 elective"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_sem5_both",
+  "turns": [
+   {
+    "user": "modules in semester 5",
+    "expect": [
+     "different"
+    ],
+    "options": true
+   },
+   {
+    "user": "Both",
+    "expect": [
+     "- CS (",
+     "- SE ("
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_shared_semester",
+  "turns": [
+   {
+    "user": "subjects in semester 3",
+    "expect": [
+     "CS/SE"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_head",
+  "turns": [
+   {
+    "user": "who is the head?",
+    "expect": [
+     "Which one"
+    ],
+    "options": true
+   },
+   {
+    "user": "IT",
+    "expect": [
+     "Kathriarachchi"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_entry",
+  "turns": [
+   {
+    "user": "what are the entry requirements?",
+    "expect": [
+     "civil and military"
+    ]
+   },
+   {
+    "user": "civil",
+    "expect": [
+     "Maths stream"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_teacher",
+  "turns": [
+   {
+    "user": "who teaches machine learning",
+    "expect": [
+     "does not say who teaches CS4042"
+    ],
+    "options": true
+   }
+  ]
+ },
+ {
+  "name": "v7r_lecturers",
+  "turns": [
+   {
+    "user": "who are the lecturers",
+    "expect": [
+     "Which department"
+    ]
+   },
+   {
+    "user": "IT",
+    "expect": [
+     "Kathriarachchi"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_fail",
+  "turns": [
+   {
+    "user": "what happens if I fail",
+    "expect": [
+     "depends"
+    ],
+    "options": true
+   },
+   {
+    "user": "A module (re-sit)",
+    "expect": [
+     "Ie",
+     "Ib"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_duration",
+  "turns": [
+   {
+    "user": "what is the duration",
+    "expect": [
+     "4 years",
+     "8 years"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_module_singular",
+  "turns": [
+   {
+    "user": "tell me about the module",
+    "expect": [
+     "Which module"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_awkward_guard",
+  "turns": [
+   {
+    "user": "what is the vision",
+    "expect": [
+     "KDU's vision"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_user_prog",
+  "turns": [
+   {
+    "user": "I'm a software engineering student",
+    "expect": [
+     "Software Engineering"
+    ]
+   },
+   {
+    "user": "what are the modules",
+    "expect": [
+     "Which year"
+    ]
+   },
+   {
+    "user": "semester 7",
+    "expect": [
+     "Semester 7 modules - SE"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "v7r_good_morning_list",
+  "turns": [
+   {
+    "user": "good morning! list the subjects",
+    "expect": [
+     "Good morning",
+     "Which degree"
+    ],
+    "options": true
+   }
+  ]
+ },
+ {
+  "name": "v7r_library",
+  "turns": [
+   {
+    "user": "library hours",
+    "expect": [
+     "couldn't find"
+    ]
+   }
+  ]
+ }
+]

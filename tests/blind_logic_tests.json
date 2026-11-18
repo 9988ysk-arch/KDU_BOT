@@ -1,0 +1,346 @@
+[
+ {
+  "name": "logic_0",
+  "turns": [
+   {
+    "user": "what's my sgpa if I got A+ in CS3023 and B in CS3032?",
+    "expect": [
+     "3.72"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_1",
+  "turns": [
+   {
+    "user": "gpa for B+ (3 credits) and C+ (2 credits)",
+    "expect": [
+     "2.90"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_2",
+  "turns": [
+   {
+    "user": "compute my GPA: CS2082 A- and CS3052 C",
+    "expect": [
+     "2.85"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_3",
+  "turns": [
+   {
+    "user": "I have B, B+, A and C+ in this semester. Did I clear it?",
+    "expect": [
+     "re:^Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_4",
+  "turns": [
+   {
+    "user": "results this semester: A, Ab, B. is the semester completed?",
+    "expect": [
+     "re:^No",
+     "Ab"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_5",
+  "turns": [
+   {
+    "user": "semester 4 grades C-, B, B, C- — passed?",
+    "expect": [
+     "re:^No",
+     "weak"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_6",
+  "turns": [
+   {
+    "user": "will I get a first class with fgpa 3.72 and no failures",
+    "expect": [
+     "First Class"
+    ],
+    "not": [
+     "not First"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_7",
+  "turns": [
+   {
+    "user": "fgpa 3.9 but I have a weak pass carried over, can I still get first class?",
+    "expect": [
+     "Lower Division"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_8",
+  "turns": [
+   {
+    "user": "fgpa of 3.35 and 1 failure grade, which class",
+    "expect": [
+     "Upper Division"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_9",
+  "turns": [
+   {
+    "user": "3.1 fgpa with three failures what class?",
+    "expect": [
+     "Pass"
+    ],
+    "not": [
+     "Lower Division)."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_10",
+  "turns": [
+   {
+    "user": "Can someone with GPA 2.05 graduate?",
+    "expect": [
+     "re:^Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_11",
+  "turns": [
+   {
+    "user": "graduate with gpa 1.75?",
+    "expect": [
+     "re:^No",
+     "2.00"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_12",
+  "turns": [
+   {
+    "user": "I'm 17, can I apply as a military cadet?",
+    "expect": [
+     "re:^No",
+     "age"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_13",
+  "turns": [
+   {
+    "user": "I'm 21, male, 170 cm, want to join the army, am I eligible?",
+    "expect": [
+     "re:^Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_14",
+  "turns": [
+   {
+    "user": "female, 158cm, air force cadet, am I eligible?",
+    "expect": [
+     "re:^No",
+     "162.5"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_15",
+  "turns": [
+   {
+    "user": "I weigh 45 kg, can I apply as a military student?",
+    "expect": [
+     "re:^No",
+     "weight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_16",
+  "turns": [
+   {
+    "user": "I'm married, can I apply for the military intake?",
+    "expect": [
+     "re:^No",
+     "married|unmarried"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_17",
+  "turns": [
+   {
+    "user": "I studied arts stream, can I do information systems?",
+    "expect": [
+     "Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_18",
+  "turns": [
+   {
+    "user": "physical science stream, can I join computer engineering?",
+    "expect": [
+     "Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_19",
+  "turns": [
+   {
+    "user": "can a technology stream student do IT?",
+    "expect": [
+     "No|not accepted"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_20",
+  "turns": [
+   {
+    "user": "my coursework mark is 40 and exam mark 30, what grade?",
+    "expect": [
+     "Ie"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_21",
+  "turns": [
+   {
+    "user": "CA 80, ES 80 what is my grade",
+    "expect": [
+     "grade A "
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_22",
+  "turns": [
+   {
+    "user": "should I repeat a module where I got C-?",
+    "expect": [
+     "weak pass",
+     "C"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_23",
+  "turns": [
+   {
+    "user": "I got Ab in a module, must I repeat it?",
+    "expect": [
+     "must be repeated|must repeat"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_24",
+  "turns": [
+   {
+    "user": "total credits for CS3023, CS3032 and CS3052?",
+    "expect": [
+     "7"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_25",
+  "turns": [
+   {
+    "user": "what grade is 44 marks",
+    "expect": [
+     "C-"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_26",
+  "turns": [
+   {
+    "user": "can I get second upper with 3.3 fgpa and a failure in semester 8?",
+    "expect": [
+     "Pass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_27",
+  "turns": [
+   {
+    "user": "I failed 2 modules, fgpa 3.5, which class?",
+    "expect": [
+     "Lower Division"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_28",
+  "turns": [
+   {
+    "user": "my grades: A, A, D+ — have I completed the semester?",
+    "expect": [
+     "re:^Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "logic_29",
+  "turns": [
+   {
+    "user": "with an FGPA of 3.6 and one failure in semester 3, what class can I expect?",
+    "expect": [
+     "Upper Division"
+    ]
+   }
+  ]
+ }
+]
